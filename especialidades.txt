@@ -1,0 +1,863 @@
+
+Especialidades
+
+CECATI 31
+Administración
+Artes Gráficas
+Asistencia Ejecutiva
+Elaboración de Dibujos Arquitectónico e Industrial
+Electricidad
+Informática
+Inglés
+Máquinas-Herramienta
+Refrigeración y Aire Acondicionado
+Soldadura y Pailería
+Soporte Técnico a Equipos y Sistemas Computacionales
+----------------------------------------------------------------
+
+CECATI 33
+Administración
+Artes Gráficas
+Cosmetología Integral
+Elaboración de Dibujos Arquitectónico e Industrial
+Electricidad
+Estilismo y Diseño de Imagen
+Informática
+Inglés
+Mantenimiento al Sistema Eléctrico Automotriz
+Mantenimiento al Sistema Electrónico Automotriz
+Mantenimiento Electromecánico del Automóvil
+Máquinas-Herramienta
+Soporte Técnico a Equipos y Sistemas Computacionales
+----------------------------------------------------------------
+
+CECATI 42
+Administración
+Alimentos y Bebidas
+Aplicación de Normas y Procedimientos Contables y Fiscales
+Artes Gráficas
+Artesanías con Fibras Textiles
+Artesanías con Pastas, Pinturas y Acabados
+Asistencia Ejecutiva
+Atención Integral a Personas con Discapacidad
+Confección de Prendas de Vestir
+Cosmetología Integral
+Cuidados a Personas Adultas Mayores
+Electricidad
+Estilismo y Diseño de Imagen
+Expresión Gráfica Digital
+Gestión y Venta de Servicios Turísticos
+Hotelería
+Informática
+Inglés
+Mantenimiento al Sistema Eléctrico Automotriz
+Mantenimiento al Sistema Electrónico Automotriz
+Mantenimiento Electromecánico del Automóvil
+Máquinas-Herramienta
+Refrigeración y Aire Acondicionado
+Sastrería
+Soldadura y Pailería
+Soporte Técnico a Equipos y Sistemas Computacionales
+----------------------------------------------------------------
+
+CECATI 49
+Administración
+Asistencia Ejecutiva
+Confección de Prendas de Vestir
+Cosmetología Integral
+Diseño y Fabricación de Muebles de Madera
+Electricidad
+Electrónica
+Estilismo y Diseño de Imagen
+Informática
+Inglés
+Mantenimiento al Sistema Eléctrico Automotriz
+Mantenimiento al Sistema Electrónico Automotriz
+Mantenimiento Electromecánico del Automóvil
+Máquinas-Herramienta
+Mecánica Diésel
+Sastrería
+----------------------------------------------------------------
+
+CECATI 72
+Administración
+Aplicación de Normas y Procedimientos Contables y Fiscales
+Artes Gráficas
+Asistencia Ejecutiva
+Elaboración de Dibujos Arquitectónico e Industrial
+Electricidad
+Electrónica
+Informática
+Inglés
+Mantenimiento al Sistema Eléctrico Automotriz
+Mantenimiento al Sistema Electrónico Automotriz
+Mantenimiento Electromecánico del Automóvil
+Refrigeración y Aire Acondicionado
+----------------------------------------------------------------
+
+CECATI 103
+Administración
+Alimentos y Bebidas
+Aplicación de Normas y Procedimientos Contables y Fiscales
+Artesanías con Fibras Textiles
+Artesanías con Pastas, Pinturas y Acabados
+Asistencia Ejecutiva
+Confección de Prendas de Vestir
+Cosmetología Integral
+Diseño e Imagen de la Carrocería
+Diseño y Fabricación de Muebles de Madera
+Elaboración de Dibujos Arquitectónico e Industrial
+Electricidad
+Estilismo y Diseño de Imagen
+Informática
+Inglés
+Mantenimiento al Sistema Eléctrico Automotriz
+Mantenimiento al Sistema Electrónico Automotriz
+Mantenimiento Electromecánico del Automóvil
+Máquinas-Herramientas
+Mecánica Diésel
+Refrigeración y Aire Acondicionado
+Soldadura y Pailería
+Soporte Técnico a Equipos y Sistemas Computacionales
+----------------------------------------------------------------
+
+CECATI 151
+Administración
+Alimentos y Bebidas
+Aplicación de Normas y Procedimientos Contables y Fiscales
+Artesanías con Pastas, Pinturas y Acabados
+Artesanías de Madera
+Artesanías Metálicas
+Asistencia Educativa Inicial y Preescolar
+Asistencia Ejecutiva
+Atención Integral a Personas con Discapacidad
+Confección de Prendas de Vestir
+Cuidados a Personas Adultas Mayores
+Diseño y Fabricación de Muebles de Madera
+Electricidad
+Electrónica
+Informática
+Inglés
+Mantenimiento al Sistema Eléctrico Automotriz
+Mantenimiento al Sistema Electrónico Automotriz
+Mantenimiento Electromecánico del Automóvil
+Soldadura y Pailería
+Soporte Técnico a Equipos y Sistemas Computacionales
+----------------------------------------------------------------
+
+CECATI 159
+Administración
+Alimentos y Bebidas
+Artes Gráficas
+Artesanías con Fibras Textiles
+Artesanías con Pastas, Pinturas y Acabados
+Asistencia Ejecutiva
+Confección de Prendas de Vestir
+Cosmetología Integral
+Diseño y Fabricación de Muebles de Madera
+Estilismo y Diseño de Imagen
+Informática
+Inglés
+----------------------------------------------------------------
+
+CECATI 168
+Administración
+Alimentos y Bebidas
+Aplicación de Normas y Procedimientos Contables y Fiscales
+Artes Gráficas
+Asistencia Ejecutiva
+Auxiliar de Enfermería
+Confección de Prendas de Vestir
+Cosmetología Integral
+Diseño y Fabricación de Muebles de Madera
+Electrónica
+Estilismo y Diseño de Imagen
+Gestión y Venta de Servicios Turísticos
+Hotelería
+Informática
+Inglés
+Soporte Técnico a Equipos y Sistemas Computacionales
+----------------------------------------------------------------
+
+CECATI 170
+Administración
+Alimentos y Bebidas
+Asistencia Ejecutiva
+Confección de Prendas de Vestir
+Cosmetología Integral
+Diseño de Moda
+Elaboración de Dibujos Arquitectónico e Industrial
+Estilismo y Diseño de Imagen
+Gestión y Venta de Servicios Turísticos
+Hotelería
+Informática
+Inglés
+Soldadura y Pailería
+Soporte Técnico a Equipos y Sistemas Computacionales
+
+****************************************************************************************************************
+
+
+-Administración:
+Objetivo:
+Establecer procesos de administración en micro y pequeña empresa, asesoría sobre mercadotecnia y establecer comunicación con el cliente, conforme a las especificaciones técnicas y procedimientos establecidos para proporcionar un servicio de calidad.
+
+Enfoque educativo
+Modelo educativo basado en competencias 	
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares, módulos del componente de formación laboral, así como oferta en escuelas particulares
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral 
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: empresas que cuentan con el área de administración y servicio al cliente, así como formas de trabajo independiente.
+
+
+-Alimentos y bebidas
+Objetivo:
+Preparar alimentos, postres y bebidas; cumpliendo con los procedimientos del recetario base, así como servirlos con vino en tiempo y forma según preferencias del cliente, de acuerdo a la operación y servicio de calidad total al comensal.
+
+Enfoque educativo 
+Modelo educativo basado en competencias
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares, paquete polifuncional y módulos del componente de formación profesional
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar 
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencia Laboral (CONOCER)
+
+Sitios de inserción
+Cadenas hoteleras, cadenas restauranteras, bares, cruceros, autoempleo, entre otros 
+ 
+
+-Aplicación de Normas y Procedimientos Contables y Fiscales 
+Objetivo:
+Realizar el registro mecánico y electrónico de las operaciones financieras de una entidad, conforme a las especificaciones técnicas y procedimientos establecidos, para proporcionar un servicio de calidad.
+
+Enfoque educativo
+Modelo educativo basado en competencias.
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares y módulos del componente de formación para el trabajo.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: despachos de contadores públicos o privados, empresas pequeñas, medianas o grandes en el área de recursos financieros, almacenes, área de auditoría, en general toda empresa o entidad que este obligada a llevar registros contables, también puede recurrirse al autoempleo ofreciendo sus servicios a pequeños negocios para realizar los trámites necesarios ante la Secretaría de Hacienda y Crédito Público que no requieran de cédula profesional.
+
+
+-Artes Gráficas
+Objetivo:
+Aplicar los procesos de Artes Gráficas, con el fin de elevar la calidad de los servicios públicos  de educación.
+
+Enfoque educativo 	
+Modelo educativo basado en criterios de competencia ocupacional y modelo educativo basado  en competencias.
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares y módulos del componente de formación para el trabajo.
+
+Certificación académica 	
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos y/o  subobjetivos que integran los cursos de la especialidad, ya sea por formación presencial o  Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los  lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: empresas que cuentan con el área de artes gráficas,  talleres de impresión, editoriales, periódicos, revistas, así como formas de trabajo independiente.
+
+
+-Artesanías con fibras textiles
+Objetivo:
+Elaborar diferentes objetos a través de técnicas, símbolos y formas, conforme a los procesos de las  artes manuales como: bordado en tela, chaquira, macramé y tejido a mano, considerando las  prácticas de trabajo seguras.
+
+Enfoque educativo
+Modelo educativo basado en criterios de competencia ocupacional.
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los subobjetivos que integran los  cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la  Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de  Procedimientos de Control Escolar.
+
+Sitios de inserción
+Las principales fuentes de empleo son: tiendas de decoración, comercios artesanales, plazas,  tianguis, mercados, ciudadelas, ferias de exposición, museos, escuelas de artesanías,  microempresas e instalaciones públicas de fomento a las artesanías y el folklore.
+
+
+-Artesanías con pastas, pinturas y acabados
+Objetivo:
+Elaborar diferentes objetos a través de técnicas, símbolos y formas, conforme a los procesos de las  artes manuales como: pintura textil, migajón, pintura en cerámica, poliéster, cerámica artificial,  trabajos en papel y cartón
+
+Enfoque educativo
+Modelo educativo basado en criterios de competencia ocupacional.
+	
+Especificación de cursos
+Modelo educativo basado en criterios de competencia ocupacional.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los subobjetivos que integran los  cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la  Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de  Procedimientos de Control Escolar.
+	
+Sitios de inserción
+Las principales fuentes de empleo son: tiendas de decoración, comercios artesanales, galerías de  arte, plazas, tianguis, mercados, ciudadelas, ferias de exposición, museos, escuelas de artesanías,  microempresas e instalaciones públicas de fomento a las artesanías y el folklore.
+
+
+-Artesanías de madera
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo de las Artesanías de Madera, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación para elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de Competencias Integrales
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado.
+
+Certificación académica
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: industrias manufactureras, talleres comunitarios o en grupos familiares, fábricas de materiales trensables, de productos y utensilios para el hogar y de otros productos de madera, locales comerciales, ferias, mercados y exposiciones artesanales, entre otros.
+
+
+-Artesanías metálicas
+Objetivo
+Utilizar las herramientas y equipo necesario en cada una de las artes manuales que componen las  artesanías metálicas como: Repujado en metal, vidrio artístico, esmalte a fuego y herrería artística;  así como las técnicas de selección y transformación de materiales con diseño, decorados y  ornamentación de buen gusto.
+
+Enfoque educativo
+Modelo educativo basado en criterios de competencia ocupacional.
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los subobjetivos que integran los  cursos de la especialidad ya sea por formación presencial, en línea o Reconocimiento Oficial de la  Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de  Procedimientos de Control Escolar.
+ 
+Sitios de inserción
+Las principales fuentes de empleo son: comercios artesanales (plazas tianguis, tiendas propias),  mercados artesanales (ciudadela, ferias de exposición como World Trade Center México), talleres  artesanales, microempresas, museo de artesanías, internet y autoempleo.
+
+-Asistencia educativa inicial y preescolar
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo de la Asistencia Educativa Inicial y Preescolar, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación o elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de Competencias Integrales
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado, así como módulos del componente de formación para el trabajo.
+
+Certificación académica
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: guarderías públicas y privadas, instituciones de educación inicial y preescolar públicas y privadas, centros de atención infantil, estancias infantiles, albergues y establecimientos de asistencia social.
+
+-Asistencia Ejecutiva
+Objetivo
+Aplicar la taquigrafía, mecanografía y las relaciones personales, con el fin de establecer comunicación con el cliente, conforme a las especificaciones técnicas y procedimientos establecidos para proporcionar un servicio de calidad.
+
+Enfoque educativo 	
+Modelo educativo basado en criterios de competencia ocupacional y modelo educativo basado en competencias.
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares y módulos del componente de formación profesional.
+
+Certificación académica 	
+El diploma se obtiene cuando el alumno acredita en su totalidad los subobjetivos y/o submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo nacional de Normalización y Certificación de Competencia Laboral (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: oficinas gubernamentales, despachos de una gran gama de servicios de oficina.
+
+
+-Atención integral a personas con discapacidad
+Objetivo
+Aplicar los procesos de asistencia familiar y de salud, con el fin de atender a personas con discapacidad auditiva, visual, habilitación física funcional y cuidados básicos de la salud para personas con discapacidad.
+
+Enfoque educativo
+Modelo educativo basado en competencias.
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares, paquete polifuncional y módulos del componente de formación profesional.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencia Laboral (CONOCER).
+
+Sitios de inserción
+La demanda y localización de empleo en esta área se encuentra en todo el país, especialmente en instituciones públicas y privadas como: estancias infantiles, asilos, centros de salud y centros de rehabilitación.
+
+
+-Auxiliar de enfermería
+Objetivo
+Realizar los servicios de cuidado al paciente y dar orientación a la familia en unidades de atención médica, conforme a los procedimientos de seguridad e higiene establecidos, para proporcionar un servicio de calidad.
+
+Enfoque educativo
+Modelo educativo basado en competencias
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares y módulos del componente de formación para el trabajo.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Proporcionar servicios de enfermería en centros hospitalarios que cuentan con las instalaciones para la hospitalización de pacientes, como hospitales generales, pediátricos geriátricos, de enfermedades de la mujer. También el autoempleo es muy frecuente en esta área, proporcionando servicios calificados de enfermería en el domicilio del paciente.
+
+
+-Confección de prendas de vestir
+Objetivo:
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo de la Confección de Prendas de Vestir, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación o elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de competencias integrales.
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado, así como módulos del componente de formación laboral.
+
+Certificación académica
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo con los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son en talleres, maquiladoras, empresas de sastrería y confección de ropa, grandes almacenes departamentales de ropa, empresas de vestuario para espectáculos, cine y televisión, también se puede recurrir al autoempleo mediante la apertura de un negocio propio.
+
+
+-Cosmetología Integral
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo de Cosmetología Integral, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación o elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de Competencias Integrales
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado, así como módulos del componente de formación laboral.
+
+Certificación académica
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: salones de belleza, SPA, clínicas de belleza y estéticas, también se puede recurrir al autoempleo mediante la apertura de un negocio propio.
+
+
+-Diseño e imagen de la carrocería
+Objetivo:
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo de la Diseño e Imagen de la Carrocería, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación o elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de competencias integrales.
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad de los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencia Laboral (CONOCER).
+
+Sitios de inserción
+Agencia de servicio automotriz, talleres mecánicos de servicio y reparaciones menores, ensambladoras automotrices, empresas que presentan servicios de mecánica de emergencia, empresas que disponen de flotillas de vehículos, boutiques para automóviles, talleres de transmisiones, talleres de suspensiones y talleres electromotrices
+
+
+-Diseño de moda
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo del Vestido y Textil, en Diseño de Moda, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación o elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de Competencias Integrales
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado, así como módulos del componente de formación para el trabajo.
+
+Certificación académica
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER)
+
+Sitios de inserción
+Las principales fuentes de empleo son: Casa de moda de vestidos de noche y alta costura, talleres de costura dedicados a la creación de diseño y estilos de moda, patronaje, graduación y fabricación de ropa, en general, tiendas departamentales de alto prestigio, para realizar ajustes a la medida, fábricas de confección y maquila de camisas y pantalones y talleres de diseño de moda y confección de ropa deportiva, casual y accesorios
+
+
+-Diseño y fabricación de muebles de madera
+Objetivo
+Realizar los procesos de diseño y fabricación de muebles de madera, conforme a las especificaciones técnicas y procedimientos de seguridad e higiene establecidos, para proporcionar un servicio de calidad.
+
+Enfoque educativo
+Modelo educativo basado en competencias
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares, paquete polifuncional y módulos del componente de formación para el trabajo.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos que integran los cursos de la especialidad ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las fábricas de muebles en general, fábricas y talleres de puertas, ventanas y armarios, talleres de reparación y mantenimiento de productos de madera, talleres de ebanistería fina, laqueados y barnices, madererías, tiendas de puertas, ventanas y armarios, constructoras en donde se realizan trabajos de carpintería, compañías de mantenimiento, fábricas de construcción e instalación de cocinas integrales, también el autoempleo es muy frecuente en esta área, sobre todo en su forma familiar.
+
+
+-Elaboración de Dibujos Arquitectónico e Industrial
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo en la especialidad de Elaboración de Dibujos Arquitectónico e Industrial, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación para elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona estudiante en dicho contexto.
+
+Enfoque educativo 	
+Enfoque de competencias integrales
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado.
+
+Certificación académica 	
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: empresas constructoras y despachos particulares, servicios en examinar y estudiar croquis, bocetos y notas para verificar dimensiones y especificaciones de proyectos, integrar paquetes con planos e informes de la obra, calcular dimensiones y superficies para trazar planos y dibujos industriales y arquitectónicos.
+
+
+-Estilismo y diseño de imagen
+Objetivo:
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo del Estilismo y Diseño de Imagen, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación o elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de Competencias Integrales
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado, así como módulos del componente de formación para el trabajo.
+
+Certificación académica
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: salones de belleza, barberías, SPA, clínicas de belleza, peluquerías y estéticas, también se puede recurrir al autoempleo mediante la apertura de un negocio propio.
+
+
+-Expresión gráfica digital
+Objetivo
+Aplicar los procesos de presentaciones electrónicas, presentaciones gráficas y presentaciones fotográficas, respetando las normas y procedimientos de seguridad e higiene establecidos a fin de otorgar un servicio de calidad.
+
+Enfoque educativo
+Modelo educativo basado en criterios de competencia ocupacional.
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares y módulos del componente de formación profesional.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los subobjetivos que integran los cursos de la especialidad ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Sitios de inserción
+Las principales fuentes de empleo son: empresas públicas y privadas relacionadas con medios de comunicación y de publicidad, instituciones bancarias y comerciales, agencia de viajes, hospitales, escuelas, etc., en donde se utilice sistema de cómputo.
+
+
+-Electricidad
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo de la Electricidad, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación o elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto
+
+Enfoque educativo 	
+Enfoque de competencias integrales
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado, así como módulos del componente de formación laboral.
+
+Certificación académica 	
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencia Laboral (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: instalaciones eléctricas en construcción, edificación de viviendas unifamiliares, multifamiliares, naves y plantas industriales; edificación de inmuebles comerciales y de servicios y talleres de reparación de motores eléctricos.
+
+
+-Gestión y venta de servicios turísticos
+Objetivo
+Ofrecer bienes, servicios y productos, a través de las diferentes empresas y/u organizaciones públicas o privadas, de acuerdo a las preferencias del cliente.
+
+Enfoque educativo
+Modelo educativo basado en competencias.
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares, paquete polifuncional y módulos del componente de formación para el trabajo.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Agencias de viaje, Líneas aéreas, Cadenas hoteleras, Cruceros, Dependencias oficiales del sector turístico, Módulos de información turística, Gestoría turística independiente, entre otros.
+
+-Hotelería
+Objetivo
+Ofrecer servicios hoteleros antes, durante y al término de la estancia del huésped, de acuerdo a los procedimientos de operación y servicio de calidad total al huésped.
+
+Enfoque educativo
+Modelo educativo basado en criterios de competencias ocupacional y modelo educativo basado en competencias.
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares, paquete polifuncional, módulos de componente de formación para el trabajo y formación de aprendices calificados.
+
+Certificación académica
+El diploma o constancia se obtiene cuando el alumno acredita en su totalidad los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Cadenas hoteleras, moteles, cruceros, casa de huéspedes, cabañas, bungalows, residencias, entre otros.
+
+
+-Informática
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo de la Informática, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación o elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo 	
+Enfoque de Competencias Integrales
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado.
+
+Certificación académica 	
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: Instituciones de bienes y servicios públicos y privados y autoempleo.
+
+
+-Inglés
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo del Inglés, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación o elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo 	
+Enfoque de Competencias Integrales
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado, así como módulos del componente de formación laboral.
+
+Certificación académica 	
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo para los egresados de esta especialidad son: áreas turísticas, embajadas, institución o empresas que requiera de esta lengua.
+
+
+-Mantenimiento al sistema eléctrico automotriz
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo de la Mantenimiento al Sistema Eléctrico Automotriz, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación para elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello la inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de Competencias Integrales
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares
+
+Certificación académica
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo con los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Agencias de servicio automotriz, talleres mecánicos de servicio y reparaciones menores, ensambladoras automotrices, empresas que presentan servicios de mecánica de emergencia, empresas que disponen de flotillas de vehículos, boutiques para automóviles y talleres electromotrices
+
+
+-Mantenimiento al sistema electrónico automotriz
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo del Mantenimiento al Sistema Electrónico Automotriz, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación para elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de Competencias Integrales
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares.
+
+Certificación académica
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo con los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Agencias de servicio automotriz, talleres mecánicos de servicio y reparaciones menores, ensambladoras automotrices, empresas que presentan servicios de mecánica de emergencia, empresas que disponen de flotillas de vehículos, boutiques para automóviles y talleres electromotrices.
+
+
+-Mantenimiento electromecánico del automóvil
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo del Mantenimiento Electromecánico del Automóvil, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación para elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo
+Enfoque de Competencias Integrales
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado, así como módulos del componente de formación para el trabajo.
+
+Certificación académica
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: Empresas dedicadas a la rama automotriz, empresas públicas y privadas dedicadas a la producción y comercialización de bienes o de servicios de reparación automotriz, su propia empresa, concesionarios automotrices, talleres de reparación de vehículos, talleres de mantenimiento a flotas de diversas empresas, estaciones de servicio automotriz, empresas de transporte, concesionarios de marca, talleres de servicio técnico automotriz y plantas de revisión técnica automotriz.
+
+
+-Máquinas-Herramientas
+Objetivo
+Desarrollar las competencias para la fabricación de piezas conforme a las especificaciones de  máquinas-herramienta.
+
+Enfoque educativo 	
+Modelo educativo basado en  competencias.
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares, paquete polifuncional y módulos del componente de formación para el trabajo.
+
+Certificación académica 	
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos  que integran los cursos de la especialidad, ya sea por formación presencial, en línea o  Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos  establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+El egresado de esta especialidad podrá desempeñarse en la fabricación, reparación y  mantenimiento de maquinaria, en la manufactura de productos metálicos y el corte de metales.
+
+
+-Mecánica Diésel
+Objetivo
+Reparar motores a Diesel con sistema de inyección de rango medio y pesado, de acuerdo a especificaciones técnicas del fabricante y procedimientos del servicio.
+
+Enfoque educativo
+Modelo educativo basado en competencias
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad de los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Talleres mecánicos de servicio y reparaciones de rango medio y pesado; y agencias de servicio con laboratorio diesel de rango medio y pesado.
+
+
+-Refrigeración y Aire Acondicionado
+Objetivo
+Ofertar un trayecto de formación dirigido al desarrollo de competencias en el campo de la Refrigeración y Aire Acondicionado, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación con base en especificaciones técnicas aplicables, la prestación de servicios con amabilidad y honestidad así como el compromiso a la preservación del medio ambiente y la aplicación de las normas de seguridad e higiene con la finalidad de atender con altos niveles de calidad las demandas del sector productivo.
+
+Enfoque educativo 	
+Enfoque de Competencias Integrales
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado.
+
+Certificación académica 	
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Unidades económicas dedicadas principalmente a la instalación, mantenimiento y reparación de equipos de refrigeración y aire acondicionado de tipo doméstico, comercial, industrial, automotriz y de transporte, así como el autoempleo.
+
+
+-Sastrería
+Objetivo
+Realizar los procesos de Confección de saco, chaleco, falda y pantalón sastre, conforme a las especificaciones técnicas y procedimientos de seguridad e higiene establecidas, para proporcionar un servicio de calidad.
+
+Enfoque educativo
+Modelo educativo basado en competencias.
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares.
+
+Certificación académica
+El diploma se obtiene cuando el alumno acredita en su totalidad los submódulos que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencia Laboral (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: Industrias, talleres de sastrería, fabricación de ropa sastre, tiendas departamentales de ropa sastre y talleres propios de Confección de ropa sastre hechas a la medida del cliente.
+
+
+-Soldadura y Pailería
+Objetivo
+Desarrollar y reconocer los conocimientos, habilidades y destrezas para llevar a cabo diferentes  posiciones y procesos de la soldadura.
+
+Enfoque educativo 	
+Modelo educativo basado en criterios de competencia ocupacional y modelo educativo basado en  competencias.
+
+Especificación de cursos
+Esta especialidad oferta cursos regulares, paquete polifuncional y módulos del componente de  formación profesional.
+
+Certificación académica 	
+El diploma se obtiene cuando el alumno acredita en su totalidad los subobjetivos y/o submódulos  que integran los cursos de la especialidad, ya sea por formación presencial, en línea o  Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos  establecidos en el Manual de Procedimientos de Control Escolar.
+
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Industria dedicada a la fabricación de maquinaria y equipo. Las principales fuentes de empleo son:  talleres de herrería, soldadura y mantenimiento, talleres de procesos metálicos especiales y  establecimientos de elaboración y reparación de artículos de láminas y hojalatería.
+
+
+-Soporte Técnico a Equipos y Sistemas Computacionales
+Objetivo
+Ofrecer una red amplia y estructurada de servicios de formación para el trabajo en el campo del Soporte Técnico a Equipos y Sistemas Computacionales, para atender flexiblemente los intereses de la persona/estudiante, quien podrá estructurar rutas personales de formación para elegir uno o más trayectos formativos, diseñados con la finalidad de responder a las demandas del contexto económico, productivo, social y educativo, optimizando con ello las posibilidades diferenciales de inserción de la persona/estudiante en dicho contexto.
+
+Enfoque educativo 	
+Enfoque de Competencias Integrales
+	
+Especificación de cursos
+Esta especialidad oferta cursos regulares en los niveles básico, medio y avanzado, así como módulos del componente de formación para el trabajo.
+
+Certificación académica 	
+El diploma se obtiene cuando el estudiante acredita en su totalidad las competencias que integran los cursos de la especialidad, ya sea por formación presencial, en línea o Reconocimiento Oficial de la Competencia Ocupacional (ROCO) y de acuerdo a los lineamientos establecidos en el Manual de Procedimientos de Control Escolar.
+	
+Certificación laboral
+El certificado de competencia laboral se obtiene cuando el candidato acredita un estándar de competencias, a través de un proceso de evaluación con fines de certificación ante un Organismo Certificador, reconocido por el Consejo Nacional de Normalización y Certificación de Competencias Laborales (CONOCER).
+
+Sitios de inserción
+Las principales fuentes de empleo son: Instituciones de bienes y/o servicios públicos y privados
