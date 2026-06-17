@@ -2,6 +2,127 @@
 //  site.js  –  lógica compartida entre TODAS las páginas
 // ============================================================
 
+// ============================================================
+//  Fuente única de datos para los menús compartidos
+//  (OFERTA EDUCATIVA, PLANTELES y CONTACTO)
+// ============================================================
+//
+// Estos datos se editan SOLO AQUÍ. Al cargar cualquier página
+// (index.html, boletines.html, historico.html), sincronizarMenusCompartidos()
+// reconstruye esos tres menús del nav usando esta información, así que
+// un cambio aquí se refleja automáticamente en todas las páginas sin
+// tener que editar cada HTML por separado.
+
+var PLANTELES_SCEO = [
+    { texto: 'SCEO Veracruz' },
+    { texto: 'CECATI 31 Coatzacoalcos' },
+    { texto: 'CECATI 33 Río Blanco' },
+    { texto: 'CECATI 42 Veracruz' },
+    { texto: 'CECATI 49 Córdoba' },
+    { texto: 'CECATI 72 Cosoleacaque' },
+    { texto: 'CECATI 103 Poza Rica' },
+    { texto: 'CECATI 151 Xalapa' },
+    { texto: 'CECATI 159 Tlacotalpan' },
+    { texto: 'CECATI 168 Cd. Mendoza' },
+    { texto: 'CECATI 170 Orizaba' }
+];
+
+var CONTACTOS_SCEO = [
+    {
+        correo: 'ver.sceo@dgcft.sems.gob.mx',
+        cargo: 'Subdirector de la Coordinación de Enlace Operativo',
+        titular: 'Sergio López Hernández'
+    },
+    {
+        correo: 'ver.acade@dgcft.sems.gob.mx',
+        cargo: 'Auxiliar del Área del Apoyo Técnico Académico',
+        titular: 'José Luis Silva Romero'
+    },
+    {
+        correo: 'ver.admvo@dgcft.sems.gob.mx',
+        cargo: 'Auxiliar del Área de Apoyo Administrativo',
+        titular: 'Juan Carlos González Domínguez'
+    },
+    {
+        correo: 'ver.plan@dgcft.sems.gob.mx',
+        cargo: 'Auxiliar del Área de Planeación y Evaluación',
+        titular: 'Irene Margarita Vargas Camarillo'
+    },
+    {
+        correo: 'ver.vinc@dgcft.sems.gob.mx',
+        cargo: 'Auxiliar del Área de Vinculación con el Sector Productivo',
+        titular: 'Esmeralda Zarate Chávez'
+    }
+];
+
+// Datos de Oferta Educativa. El PDF y los textos de los links son fijos;
+// solo el comportamiento de ESPECIALIDADES/REQUISITOS cambia según la página.
+var OFERTA_EDUCATIVA_PDF = 'Calendario Escolar 2025-2026.pdf';
+
+function _escaparHTML(texto) {
+    var div = document.createElement('div');
+    div.textContent = texto;
+    return div.innerHTML;
+}
+
+// Encuentra el <ul class="dropdown-menu"> de una sección del nav buscando
+// el <img alt="..."> de su ícono (estable en todas las páginas), sin
+// depender de IDs que no existen en el HTML.
+function _buscarMenuPorIcono(altTexto) {
+    var icono = document.querySelector('.nav-main img.nav-icon[alt="' + altTexto + '"]');
+    if (!icono) return null;
+    var toggle = icono.closest('a.dropdown-toggle');
+    if (!toggle) return null;
+    return toggle.parentElement.querySelector('ul.dropdown-menu');
+}
+
+function sincronizarMenusCompartidos() {
+    var enIndex = !!document.getElementById('contenido-principal');
+
+    // ---------- PLANTELES ----------
+    var menuPlanteles = _buscarMenuPorIcono('PLANTELES');
+    if (menuPlanteles) {
+        menuPlanteles.innerHTML = PLANTELES_SCEO.map(function (p) {
+            return '<li><a href="javascript:void(0)">' + _escaparHTML(p.texto) + '</a></li>';
+        }).join('');
+        // NOTA: el comportamiento real de estos links (navegar al plantel)
+        // lo añade fixes.js -> configurarPlanteles(), que detecta "CECATI N"
+        // por texto y se ejecuta en su propio DOMContentLoaded. site.js se
+        // carga antes que fixes.js en las 3 páginas, así que para cuando
+        // fixes.js corre, este menú ya tiene su HTML final y se enlaza
+        // exactamente igual que si hubiera sido estático.
+    }
+
+    // ---------- CONTACTO ----------
+    var menuContacto = _buscarMenuPorIcono('CONTACTO');
+    if (menuContacto) {
+        menuContacto.innerHTML = CONTACTOS_SCEO.map(function (c) {
+            return '<li><a href="mailto:' + c.correo + '">' +
+                '<strong>' + _escaparHTML(c.cargo) + '</strong><br>' +
+                'Titular: ' + _escaparHTML(c.titular) + '<br>' +
+                'Correo electrónico: ' + c.correo +
+                '</a></li>';
+        }).join('');
+    }
+
+    // ---------- OFERTA EDUCATIVA ----------
+    var menuOferta = _buscarMenuPorIcono('OFERTA EDUCATIVA');
+    if (menuOferta) {
+        var liEspecialidades, liRequisitos;
+        if (enIndex) {
+            liEspecialidades = '<li><a href="#" onclick="mostrarEspecialidades(); return false;">ESPECIALIDADES</a></li>';
+            liRequisitos = '<li><a href="#" onclick="mostrarRequisitos(); return false;">REQUISITOS DE INSCRIPCIÓN</a></li>';
+        } else {
+            liEspecialidades = '<li><a href="index.html" onclick="sessionStorage.setItem(\'mostrarSeccion\', \'especialidades\');">ESPECIALIDADES</a></li>';
+            liRequisitos = '<li><a href="index.html" onclick="sessionStorage.setItem(\'mostrarSeccion\', \'requisitos\');">REQUISITOS DE INSCRIPCIÓN</a></li>';
+        }
+        menuOferta.innerHTML =
+            '<li><a href="' + OFERTA_EDUCATIVA_PDF + '" target="_blank">CALENDARIO ESCOLAR</a></li>' +
+            liEspecialidades +
+            liRequisitos;
+    }
+}
+
 // ---------- Navegación entre secciones (index.html) ----------
 
 function mostrarSeccionLocal(id) {
@@ -99,6 +220,7 @@ function setupMobileDropdowns() {
 // ---------- Inicialización ----------
 
 document.addEventListener('DOMContentLoaded', function () {
+    sincronizarMenusCompartidos();
     setupMobileDropdowns();
 
     if (document.getElementById('contenido-principal')) {
