@@ -1,6 +1,23 @@
 // Base de datos de noticias
         const noticias = [
             {
+                id: 12,
+                titulo: "“Macha Gourmet”, el emprendimiento que lleva el talento de Telebachillerato Cosamaloapan a la etapa estatal",
+                textoPrevio: "​​Estudiantes del Telebachillerato Cosamaloapan representaron con orgullo a su institución en el encuentro estatal “TEBAEV Conecta”, celebrado en Coatzacoalcos, donde presentaron una innovadora línea de salsas artesanales desarrollada con el acompañamiento del CECATI No. 159.",
+                textoCompleto: "Con creatividad, innovación y espíritu emprendedor, estudiantes de cuarto semestre del Telebachillerato Cosamaloapan (clave 30ETH0427Z) participaron en el encuentro estatal “TEBAEV Conecta”, realizado en la ciudad de Coatzacoalcos, Veracruz, donde presentaron su proyecto gastronómico denominado “Macha Gourmet”, una línea de salsas machas artesanales elaboradas con ingredientes naturales y procesos de producción orientados a su comercialización.<br><br>El proyecto fue desarrollado en el marco del taller de Alimentos y Bebidas que se imparte en el plantel, gracias al trabajo coordinado entre el Telebachillerato Cosamaloapan y el CECATI No. 159, a través de las Acciones Móviles, estrategia mediante la cual personal especializado se traslada al municipio para fortalecer las competencias técnicas y prácticas de los estudiantes.<br><br>En este proceso destacó la participación del Lic. Irving Obed Delcompare Garnica, instructor de la especialidad de Alimentos y Bebidas del CECATI No. 159, quien brindó capacitación, asesoría y acompañamiento a los alumnos para la consolidación de este emprendimiento escolar.<br><br>Durante la demostración, los jóvenes presentaron cuatro variedades de salsa macha: ajo con ajonjolí, cacahuate, arándano y pepita de calabaza, productos que despertaron el interés de asistentes, docentes y autoridades educativas por su calidad, sabor e innovación.<br><br>La exhibición reunió a representantes de diversas zonas escolares del subsistema de Telebachillerato de la región sur del estado, convirtiéndose en un espacio para impulsar el emprendimiento juvenil, el intercambio de experiencias y la aplicación práctica de los conocimientos adquiridos en el aula.<br><br>El stand de “Macha Gourmet” recibió la visita de autoridades del Telebachillerato de Veracruz, encabezadas por el Oscar Guzmán de Paz, quien reconoció el talento, la iniciativa y el compromiso de los estudiantes participantes.<br><br>Asimismo, la comunidad educativa expresó su agradecimiento al profesor Honorato Alfonsín Salinas por el respaldo brindado para impulsar este proyecto y favorecer la participación de los estudiantes en espacios de proyección estatal.<br><br>Bajo la coordinación del director del plantel, profesor Pablo Muñoz Leyva, y con el apoyo de los docentes Roberto Carlos Azamar Delgado, Elodia Martínez Vicencio, Abraham Xalate Chagala, Israel Espinoza Moreno e Irving Obed Delcompare Garnica, el Telebachillerato Cosamaloapan continúa fortaleciendo la formación integral de sus estudiantes mediante proyectos que promueven la innovación, el trabajo colaborativo y el desarrollo de habilidades para la vida y el trabajo.<br><br>Con acciones como esta, el Telebachillerato Cosamaloapan reafirma su compromiso con la educación de calidad y la generación de oportunidades que permitan a las y los jóvenes transformar sus conocimientos en proyectos con impacto social y productivo.",
+                imagen: "imagenes/noticias/noticia12.jpg",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia12-1.jpg",
+                    "imagenes/noticias/noticia12-2.jpg",
+                    "imagenes/noticias/noticia12-3.jpg",
+                    "imagenes/noticias/noticia12-4.jpg",
+                    "imagenes/noticias/noticia12-5.jpg",
+                ],
+                fecha: "17-06-2026",
+                mes: "Junio",
+                anio: "2026"
+            },
+            {
                 id: 11,
                 titulo: "Sumando esfuerzos por la capacitación y el bienestar en la Gustavo A. Madero",
                 textoPrevio: "​​El día de hoy, el Director General de la DGCFT, el Dr. Francisco Garduño Yáñez, sostuvo una exitosa y productiva reunión de trabajo con la Diputada Local por la Alcaldía Gustavo A. Madero, Yuriri Ayala Zúñiga.",
