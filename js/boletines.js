@@ -294,6 +294,7 @@
         window.regresarBoletines = regresarBoletines;
         window.abrirImagenEnGrande = abrirImagenEnGrande;
         window.abrirNoticiaEnNuevaVentana = abrirNoticiaEnNuevaVentana;
+        window.irABoletinesConNoticia = irABoletinesConNoticia;
 
         // Función para generar boletines dinámicamente
         function generarBoletines() {
@@ -314,8 +315,11 @@
             `).join('');
         }
 
-        // Generar boletines al cargar la página
-        document.addEventListener('DOMContentLoaded', generarBoletines);
+        // Generar boletines al cargar la página.
+        // NOTA: ya no se llama aquí directamente con un addEventListener propio;
+        // se invoca desde el bloque de inicialización único más abajo, para
+        // poder decidir primero si hay que abrir una noticia en lugar de
+        // pintar el grid (ver explicación junto al bloque de localStorage).
 
 
 
@@ -328,7 +332,7 @@
             const noticiasRecientes = noticias.slice(0, 2);
 
             contenedor.innerHTML = noticiasRecientes.map(noticia => `
-                <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-bottom: 30px; max-width: 1200px; margin-left: auto; margin-right: auto; cursor: pointer; display: flex; gap: 30px;" onclick="mostrarDetalleNoticia(${noticia.id})">
+                <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-bottom: 30px; max-width: 1200px; margin-left: auto; margin-right: auto; cursor: pointer; display: flex; gap: 30px;" onclick="irABoletinesConNoticia(${noticia.id})">
                     <div style="flex: 0 0 50%;">
                         <img src="${noticia.imagen}" alt="${noticia.titulo}" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
                     </div>
@@ -347,17 +351,57 @@
             window.open('boletines.html', '_blank');
         }
 
+        // Función para ir a boletines.html con una noticia específica
+        function irABoletinesConNoticia(id) {
+            localStorage.setItem('mostrarNoticia', id);
+            window.location.href = 'boletines.html';
+        }
+
         // Generar noticias en index.html al cargar la página
         document.addEventListener('DOMContentLoaded', generarNoticiasIndex);
 
-        // Verificar localStorage para mostrar noticia específica al cargar boletines.html
-        document.addEventListener('DOMContentLoaded', function() {
+        // ------------------------------------------------------------------
+        // Inicialización de boletines.html
+        // ------------------------------------------------------------------
+        // Antes este flujo eran dos listeners separados: uno que SIEMPRE
+        // generaba el grid de boletines, y otro que después comprobaba si
+        // había que abrir una noticia y, de ser así, la mostraba encima.
+        // Eso causaba un "flash" visible de la sección Boletines justo antes
+        // de mostrar la nota (porque el grid ya se había pintado y se veía
+        // un instante antes de que el detalle lo tapara).
+        //
+        // Ahora se decide PRIMERO si hay una noticia pendiente por abrir
+        // (vía localStorage). El grid de boletines se genera siempre (lo
+        // necesitamos listo por si el usuario luego da "Regresar a
+        // Boletines"), pero si hay una noticia pendiente, el contenedor del
+        // grid se mantiene oculto desde el principio y se muestra
+        // directamente el detalle, sin que el grid llegue a verse.
+        document.addEventListener('DOMContentLoaded', function () {
+            const esPaginaBoletines = !!document.getElementById('contenedor-boletines');
             const noticiaId = localStorage.getItem('mostrarNoticia');
+            const abrirNotaDirecta = esPaginaBoletines && !!noticiaId;
+
+            // Siempre limpiamos el flag para que no quede "pegado" y afecte
+            // a una visita posterior a cualquier otra página (index, histórico).
             if (noticiaId) {
                 localStorage.removeItem('mostrarNoticia');
-                setTimeout(function() {
-                    mostrarDetalleNoticia(parseInt(noticiaId));
-                }, 100);
+            }
+
+            if (abrirNotaDirecta) {
+                // Ocultamos el contenedor del grid ANTES de generarlo, para
+                // que nunca llegue a pintarse visible en pantalla.
+                const contenedor = document.getElementById('contenedor-boletines');
+                if (contenedor && contenedor.parentElement) {
+                    contenedor.parentElement.style.display = 'none';
+                }
+            }
+
+            // Generamos el grid igualmente (oculto o no) para que esté listo
+            // si el usuario presiona "Regresar a Boletines" desde la nota.
+            generarBoletines();
+
+            if (abrirNotaDirecta) {
+                mostrarDetalleNoticia(parseInt(noticiaId, 10));
             }
         });
 
