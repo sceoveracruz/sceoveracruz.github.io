@@ -120,6 +120,14 @@ document.addEventListener('DOMContentLoaded', function () {
         el.addEventListener('click', function (e) {
             e.preventDefault();
             e.stopImmediatePropagation();
+
+            // Cerrar el dropdown móvil: como stopImmediatePropagation()
+            // impide que el listener de cierre de site.js se ejecute,
+            // lo replicamos aquí para que el menú no quede abierto
+            // tapando la vista al navegar a un plantel.
+            var dd = el.closest('.dropdown');
+            if (dd) dd.classList.remove('is-open');
+
             if (typeof window.mostrarInfoPlantel === 'function') {
                 window.mostrarInfoPlantel(plantel);
             } else {
