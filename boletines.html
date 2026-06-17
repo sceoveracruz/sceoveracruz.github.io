@@ -29,7 +29,7 @@
     <nav class="nav-main">
         <ul>
             <li>
-                <a href="index.html">
+                <a href="index.html" id="nav-inicio">
                     <div class="nav-item-with-icon">
                         <span>INICIO</span>
                         <img src="imagenes/inicio.png" alt="DGCFT" class="nav-icon">
@@ -168,5 +168,17 @@
     <script src="js/boletines.js"></script>
     <script src="js/boletines-events.js"></script>
     <script src="js/fixes.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function() {
+            const navInicio = document.getElementById('nav-inicio');
+            if (navInicio) {
+                navInicio.addEventListener('click', function(e) {
+                    e.preventDefault();
+                    localStorage.removeItem('mostrarNoticia');
+                    window.location.href = 'index.html';
+                });
+            }
+        });
+    </script>
 </body>
 </html>
