@@ -1596,6 +1596,12 @@
             document.getElementById("especialidad-info").style.display = "none";
             document.getElementById("requisitos-inscripcion").style.display = "block";
             
+            // Ocultar detalle de noticia
+            const noticiaDetalle = document.getElementById("noticia-detalle");
+            if (noticiaDetalle) {
+                noticiaDetalle.style.display = "none";
+            }
+            
             // Limpiar selección de especialidad previa
             document.getElementById("especialidad-detalle").innerHTML = '';
             
@@ -1616,6 +1622,12 @@
             document.getElementById("plantel-info").style.display = "none";
             document.getElementById("especialidad-info").style.display = "none";
             document.getElementById("especialidades-contenido").style.display = "block";
+            
+            // Ocultar detalle de noticia
+            const noticiaDetalle = document.getElementById("noticia-detalle");
+            if (noticiaDetalle) {
+                noticiaDetalle.style.display = "none";
+            }
             
             // Limpiar selección de especialidad previa
             document.getElementById("especialidad-detalle").innerHTML = '';
