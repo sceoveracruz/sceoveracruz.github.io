@@ -76,7 +76,133 @@ function _buscarMenuPorIcono(altTexto) {
     return toggle.parentElement.querySelector('ul.dropdown-menu');
 }
 
-function sincronizarMenusCompartidos() {
+function _buscarMenuPorIconoEnDocumento(doc, altTexto) {
+    var icono = doc.querySelector('.nav-main img.nav-icon[alt="' + altTexto + '"]');
+    if (!icono) return null;
+    var toggle = icono.closest('a.dropdown-toggle');
+    if (!toggle) return null;
+    return toggle.parentElement.querySelector('ul.dropdown-menu');
+}
+
+function _prepararMenuCopiado(menu, altTexto) {
+    menu.querySelectorAll('[data-event-click], [data-event-mouseover], [data-event-mouseout]').forEach(function (el) {
+        el.removeAttribute('data-event-click');
+        el.removeAttribute('data-event-mouseover');
+        el.removeAttribute('data-event-mouseout');
+    });
+
+    if (altTexto === 'OFERTA EDUCATIVA') {
+        menu.querySelectorAll('a').forEach(function (link) {
+            var texto = link.textContent.trim().toUpperCase();
+            if (texto === 'ESPECIALIDADES') {
+                link.href = 'index.html';
+                link.setAttribute('onclick', "sessionStorage.setItem('mostrarSeccion', 'especialidades');");
+            }
+            if (texto.indexOf('REQUISITOS') !== -1) {
+                link.href = 'index.html';
+                link.setAttribute('onclick', "sessionStorage.setItem('mostrarSeccion', 'requisitos');");
+            }
+        });
+    }
+}
+
+function _notificarMenusActualizados() {
+    document.dispatchEvent(new CustomEvent('menusCompartidosActualizados'));
+}
+
+function _leerMenusCompartidosActuales(doc) {
+    var menus = {};
+    ['OFERTA EDUCATIVA', 'PLANTELES', 'CONTACTO'].forEach(function (altTexto) {
+        var menu = _buscarMenuPorIconoEnDocumento(doc, altTexto);
+        if (menu) menus[altTexto] = menu.innerHTML;
+    });
+    return menus;
+}
+
+function _guardarMenusCompartidosLocales() {
+    try {
+        localStorage.setItem('menusCompartidosSCEO', JSON.stringify(_leerMenusCompartidosActuales(document)));
+    } catch (error) {}
+}
+
+function _sincronizarMenusDesdeCacheLocal() {
+    try {
+        var menus = JSON.parse(localStorage.getItem('menusCompartidosSCEO') || '{}');
+        var secciones = ['OFERTA EDUCATIVA', 'PLANTELES', 'CONTACTO'];
+        var copiados = 0;
+
+        secciones.forEach(function (altTexto) {
+            var destino = _buscarMenuPorIcono(altTexto);
+            if (!destino || !menus[altTexto]) return;
+
+            destino.innerHTML = menus[altTexto];
+            _prepararMenuCopiado(destino, altTexto);
+            copiados++;
+        });
+
+        return copiados === secciones.length;
+    } catch (error) {
+        return false;
+    }
+}
+
+function _aplicarMenusCompartidosDesdeDocumento(doc) {
+    var secciones = ['OFERTA EDUCATIVA', 'PLANTELES', 'CONTACTO'];
+    var copiados = 0;
+
+    secciones.forEach(function (altTexto) {
+        var origen = _buscarMenuPorIconoEnDocumento(doc, altTexto);
+        var destino = _buscarMenuPorIcono(altTexto);
+        if (!origen || !destino) return;
+
+        destino.innerHTML = origen.innerHTML;
+        _prepararMenuCopiado(destino, altTexto);
+        copiados++;
+    });
+
+    if (copiados === secciones.length) {
+        _guardarMenusCompartidosLocales();
+        return true;
+    }
+
+    return false;
+}
+
+function _sincronizarMenusDesdeIframeIndex() {
+    return new Promise(function (resolve) {
+        var iframe = document.createElement('iframe');
+        var terminado = false;
+
+        function finalizar(resultado) {
+            if (terminado) return;
+            terminado = true;
+            clearTimeout(timeout);
+            if (iframe.parentNode) iframe.parentNode.removeChild(iframe);
+            resolve(resultado);
+        }
+
+        var timeout = setTimeout(function () {
+            finalizar(false);
+        }, 2000);
+
+        iframe.style.display = 'none';
+        iframe.src = 'index.html';
+        iframe.onload = function () {
+            try {
+                finalizar(_aplicarMenusCompartidosDesdeDocumento(iframe.contentDocument || iframe.contentWindow.document));
+            } catch (error) {
+                finalizar(false);
+            }
+        };
+        iframe.onerror = function () {
+            finalizar(false);
+        };
+
+        document.body.appendChild(iframe);
+    });
+}
+
+function sincronizarMenusRespaldo() {
     var enIndex = !!document.getElementById('contenido-principal');
 
     // ---------- PLANTELES ----------
@@ -121,6 +247,13 @@ function sincronizarMenusCompartidos() {
             liEspecialidades +
             liRequisitos;
     }
+}
+
+async function sincronizarMenusCompartidos() {
+    sincronizarMenusRespaldo();
+    _guardarMenusCompartidosLocales();
+    setupMobileDropdowns();
+    _notificarMenusActualizados();
 }
 
 // ---------- Navegación entre secciones (index.html) ----------

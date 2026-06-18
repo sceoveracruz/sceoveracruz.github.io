@@ -7,9 +7,15 @@ document.addEventListener('DOMContentLoaded', function () {
 
     // ---------- Especialidades y Requisitos desde páginas secundarias ----------
 
+    function normalizarTexto(texto) {
+        return texto.trim().toUpperCase()
+            .normalize('NFD')
+            .replace(/[\u0300-\u036f]/g, '');
+    }
+
     function byText(selector, text) {
         return Array.from(document.querySelectorAll(selector)).find(function (el) {
-            return el.textContent.trim().toUpperCase() === text;
+            return normalizarTexto(el.textContent) === normalizarTexto(text);
         });
     }
 
@@ -36,6 +42,29 @@ document.addEventListener('DOMContentLoaded', function () {
                 sessionStorage.setItem('mostrarSeccion', 'requisitos');
                 window.location.href = 'index.html';
             }
+        });
+    }
+
+    function configurarOfertaEducativa() {
+        document.querySelectorAll('.dropdown-menu a').forEach(function (el) {
+            var texto = normalizarTexto(el.textContent);
+            var seccion = null;
+
+            if (texto === 'ESPECIALIDADES') seccion = 'especialidades';
+            if (texto.indexOf('REQUISITOS') !== -1) seccion = 'requisitos';
+            if (!seccion || el.dataset.seccionFix === seccion) return;
+
+            el.dataset.seccionFix = seccion;
+            el.addEventListener('click', function (e) {
+                e.preventDefault();
+                var funcion = seccion === 'especialidades' ? window.mostrarEspecialidades : window.mostrarRequisitos;
+                if (typeof funcion === 'function') {
+                    funcion();
+                    return;
+                }
+                sessionStorage.setItem('mostrarSeccion', seccion);
+                window.location.href = 'index.html';
+            });
         });
     }
 
@@ -141,10 +170,16 @@ document.addEventListener('DOMContentLoaded', function () {
         document.querySelectorAll('.nav-main .dropdown-menu a, .plantel-item').forEach(function (el) {
             var match = el.textContent.match(/CECATI\s+\d+/i);
             if (match) enlazarPlantel(el, match[0].toUpperCase());
+            else if (normalizarTexto(el.textContent).indexOf('SCEO VERACRUZ') !== -1) enlazarPlantel(el, 'SCEO Veracruz');
         });
     }
 
+    configurarOfertaEducativa();
     configurarPlanteles();
+    document.addEventListener('menusCompartidosActualizados', function () {
+        configurarOfertaEducativa();
+        configurarPlanteles();
+    });
     setTimeout(configurarPlanteles, 300);
     setTimeout(configurarPlanteles, 1000);
 });
