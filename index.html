@@ -11,7 +11,8 @@
     <meta name="description" content="Sitio oficial de la Subdirección de la Coordinación de Enlace Operativo del Estado de Veracruz. Información de CECATI, especialidades, requisitos de inscripción y noticias.">
     <meta name="keywords" content="sceo veracruz, sceo ver, sceoveracruz, sceover, CECATI Veracruz, capacitación para el trabajo veracruz, DGCFT, cursos, Veracruz">
     <meta name="author" content="SCEO Veracruz">
-    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <style>
         * {
             margin: 0;
@@ -739,6 +740,22 @@
         }
 
         /* ---------- 480px: Móviles ---------- */
+        .nav-subtitle,
+        .nav-main {
+            position: relative !important;
+            top: auto !important;
+            left: auto !important;
+            right: auto !important;
+        }
+
+        .main-content {
+            margin-top: 20px !important;
+        }
+
+        body::before {
+            display: none !important;
+        }
+
         @media (max-width: 480px) {
             .header-top {
                 padding: 6px 10px;
@@ -891,10 +908,6 @@
 </head>
 <body>
     <!-- Encabezado principal -->
-    <header class="header-top">
-        <img src="imagenes/gob_mx.png" alt="Gobierno de México" class="logo-gob">
-    </header>
-
     <!-- Banner de subdirección -->
     <div class="nav-subtitle">
         <h1>SUBDIRECCIÓN DE LA COORDINACIÓN DE ENLACE OPERATIVO DEL ESTADO DE VERACRUZ</h1>
@@ -919,6 +932,11 @@
                     </div>
                 </a>
             </li>
+
+
+
+
+            <!-- DATOS PARA OFERTA EDUCATIVA -->
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle">
                     <div class="nav-item-with-icon">
@@ -932,6 +950,12 @@
                     <li><a href="#" onclick="mostrarRequisitos(); return false;">REQUISITOS DE INSCRIPCIÓN</a></li>
                 </ul>
             </li>
+
+
+
+
+            
+            <!-- DATOS PARA PLANTELES -->
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle">
                     <div class="nav-item-with-icon">
@@ -953,6 +977,12 @@
                     <li><a href="javascript:void(0)">CECATI 170 Orizaba</a></li>
                 </ul>
             </li>
+
+
+
+
+            
+            <!-- DATOS PARA CONTACTO SCEO -->
             <li class="dropdown">
                 <a href="#" class="dropdown-toggle">
                     <div class="nav-item-with-icon">
@@ -988,6 +1018,13 @@
                     </a></li>
                 </ul>
             </li>
+
+
+
+
+
+
+            <!-- DATOS PARA NOTICIAS -->
              <li id="nav-noticias">
                 <a href="boletines.html">
                     <div class="nav-item-with-icon">
@@ -996,6 +1033,12 @@
                     </div>
                 </a>
             </li>
+
+
+
+
+
+
             <li class="search-container">
                 <div class="search-box">
                     <input type="text" id="busqueda-especialidad" placeholder="BUSQUEDA DE ESPECIALIDAD" autocomplete="off">
@@ -1711,6 +1754,7 @@
             { nombre: "Soldadura y pailería", id: "planteles-soldadura-paileria" },
             { nombre: "Soporte a instalac. eléctricas y motores eléctricos", id: "planteles-soporte-electricos" },
             { nombre: "Soporte técnico a equipos y sistemas computacionales", id: "planteles-soporte-computacionales" },
+            
         ];
         
         let searchTimeout;
@@ -2460,7 +2504,11 @@
             };
         }
 
-        // Base de datos de información de planteles actualizada
+
+
+
+
+        // DIRECTORIO PLANTELES
         const infoPlanteles = {
             'SCEO Veracruz': {
                 cct: '30ACC0001N',
@@ -2729,7 +2777,7 @@
                 telefono: '(272) 727-46-44',
                 directorio: {
                     direccion: {
-                        titular: 'Héctor Juan Hernández',
+                        titular: 'Héctor Juan Hernández (Responsable de las Funciones)',
                         email: 'cecati168.dir@dgcft.sems.gob.mx'
                     },
                     capacitacion: {
@@ -2761,7 +2809,7 @@
                         email: 'cecati170.dir@dgcft.sems.gob.mx'
                     },
                     capacitacion: {
-                        titular: 'Óscar Armando Munguía Hernández',
+                        titular: 'Vacante',
                         email: 'cecati170.cap@dgcft.sems.gob.mx'
                     },
                     vinculacion: {
@@ -2921,7 +2969,8 @@
         }
     </script>
     <script src="js/boletines.js"></script>
-    <script src="js/site.js"></script>
+    <script src="js/site.js?v=20260618-site-source"></script>
     <script src="js/fixes.js"></script>
+    <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
 </body>
 </html>
