@@ -8,7 +8,8 @@
     <meta http-equiv="Expires" content="0">
     <meta name="version" content="1.0">
     <title>Boletines - SUBDIRECCIÓN DE ENLACE OPERATIVO DEL ESTADO DE VERACRUZ</title>
-    <link rel="icon" type="image/x-icon" href="imagenes/favicon.ico">
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
+    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <link rel="stylesheet" href="css/styles.css">
     <link rel="stylesheet" href="css/inline.css">
 </head>
@@ -16,10 +17,6 @@
 
 <body>
     <!-- Encabezado principal -->
-    <header class="header-top">
-        <img src="imagenes/gob_mx.png" alt="Gobierno de México" class="logo-gob">
-    </header>
-
     <!-- Banner de subdirección -->
     <div class="nav-subtitle">
         <h1>SUBDIRECCIÓN DE LA COORDINACIÓN DE ENLACE OPERATIVO DEL ESTADO DE VERACRUZ</h1>
@@ -103,12 +100,12 @@
                     </a></li>
                     <li><a href="mailto:ver.plan@dgcft.sems.gob.mx">
                         <strong>Auxiliar del Área de Planeación y Evaluación</strong><br>
-                        Titular: Irene Margarita Vargas Camarillo<br>
+                        Titular: Eduardo Manuel Rodríguez Azueta<br>
                         Correo electrónico: ver.plan@dgcft.sems.gob.mx
                     </a></li>
                     <li><a href="mailto:ver.vinc@dgcft.sems.gob.mx">
                         <strong>Auxiliar del Área de Vinculación con el Sector Productivo</strong><br>
-                        Titular: Esmeralda Zarate Chávez<br>
+                        Titular: Esmeralda<br>
                         Correo electrónico: ver.vinc@dgcft.sems.gob.mx
                     </a></li>
                 </ul>
@@ -164,10 +161,45 @@
             <img id="modal-img" src="" alt="Imagen en grande" style="max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 8px;">
         </div>
     </main>
-    <script src="js/site.js"></script>
+    <script src="js/site.js?v=20260622-sticky-nav"></script>
     <script src="js/boletines.js"></script>
     <script src="js/boletines-events.js"></script>
     <script src="js/fixes.js"></script>
+    <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
+    <script>
+        // Sticky Navigation - La barra de navegación se vuelve fija al hacer scroll
+        document.addEventListener('DOMContentLoaded', function() {
+            const navMain = document.querySelector('.nav-main');
+            if (navMain) {
+                const navSubtitle = document.querySelector('.nav-subtitle');
+                const headerTop = document.querySelector('.header-top');
+                
+                let stickyThreshold = 0;
+                
+                if (headerTop) {
+                    stickyThreshold += headerTop.offsetHeight;
+                }
+                
+                if (navSubtitle) {
+                    stickyThreshold += navSubtitle.offsetHeight;
+                }
+                
+                if (stickyThreshold === 0) {
+                    stickyThreshold = 130;
+                }
+                
+                window.addEventListener('scroll', function() {
+                    const scrollPosition = window.scrollY;
+                    
+                    if (scrollPosition > stickyThreshold) {
+                        navMain.classList.add('sticky');
+                    } else {
+                        navMain.classList.remove('sticky');
+                    }
+                });
+            }
+        });
+    </script>
     <script>
         document.addEventListener('DOMContentLoaded', function() {
             const navInicio = document.getElementById('nav-inicio');
