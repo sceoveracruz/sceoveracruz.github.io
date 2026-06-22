@@ -1,4 +1,0 @@
-User-agent: *
-Allow: /
-
-Sitemap: https://sceoveracruz.github.io/sitemap.xml
