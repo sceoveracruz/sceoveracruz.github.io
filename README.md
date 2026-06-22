@@ -1,1 +1,0 @@
-# sceoveracruz.github.io
