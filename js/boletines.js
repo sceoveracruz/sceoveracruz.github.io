@@ -203,6 +203,12 @@
                 plantelInfo.style.display = 'none';
             }
 
+            // Ocultar marquesina
+            const marquesina = document.getElementById('banner-marquesina');
+            if (marquesina) {
+                marquesina.style.display = 'none';
+            }
+
             // Ocultar contenedor de boletines
             const contenedorBoletines = document.getElementById('contenedor-boletines');
             if (contenedorBoletines) {
@@ -228,7 +234,7 @@
                         <h2 style="color: #691c32; font-size: 1.8em; margin-bottom: 20px;">Galería de Imágenes</h2>
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr)); gap: 20px;">
                             ${noticia.imagenesAdicionales.map(img => `
-                                <img src="${img}" alt="Imagen adicional" onclick="abrirImagenEnGrande('${img}')" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px; cursor: pointer; transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
+                                <img loading="lazy" src="${img}" alt="Imagen adicional" onclick="abrirImagenEnGrande('${img}')" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px; cursor: pointer; transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
                             `).join('')}
                         </div>
                     </div>
@@ -242,7 +248,7 @@
                             ← Regresar a Boletines
                         </button>
                     </div>
-                    <img src="${noticia.imagen}" alt="${noticia.titulo}" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 10px; margin-bottom: 20px;">
+                    <img loading="lazy" src="${noticia.imagen}" alt="${noticia.titulo}" style="width: 100%; max-height: 400px; object-fit: cover; border-radius: 10px; margin-bottom: 20px;">
                     <h1 style="color: #691c32; font-size: 2.5em; margin-bottom: 20px;">${noticia.titulo}</h1>
                     <p style="color: #666; font-size: 14px; margin-bottom: 20px;"> ${noticia.fecha}</p>
                     <div style="line-height: 1.8; color: #333; font-size: 16px; text-align: justify;">${noticia.textoCompleto}</div>
@@ -260,6 +266,12 @@
             if (contenidoPrincipal) {
                 // Estamos en index.html
                 contenidoPrincipal.style.display = 'block';
+                
+                // Mostrar marquesina al regresar a pantalla de inicio
+                const marquesina = document.getElementById('banner-marquesina');
+                if (marquesina) {
+                    marquesina.style.display = 'block';
+                }
             } else {
                 // Estamos en boletines.html o historico.html
                 const contenedorBoletines = document.getElementById('contenedor-boletines');
@@ -306,7 +318,7 @@
 
             contenedor.innerHTML = noticiasRecientes.map((noticia, index) => `
                 <div class="u-style-5" onclick="mostrarDetalleNoticia(${noticia.id})">
-                    <img class="u-style-16" src="${noticia.imagen}" alt="${noticia.titulo}">
+                    <img loading="lazy" class="u-style-16" src="${noticia.imagen}" alt="${noticia.titulo}">
                     <div class="u-style-17">
                         <h3 class="u-style-18">${noticia.titulo}</h3>
                         <p class="u-style-19">${noticia.textoPrevio}</p>
@@ -334,7 +346,7 @@
             contenedor.innerHTML = noticiasRecientes.map(noticia => `
                 <div style="background: white; padding: 25px; border-radius: 15px; box-shadow: 0 10px 30px rgba(0,0,0,0.1); margin-bottom: 30px; max-width: 1200px; margin-left: auto; margin-right: auto; cursor: pointer; display: flex; gap: 30px;" onclick="irABoletinesConNoticia(${noticia.id})">
                     <div style="flex: 0 0 50%;">
-                        <img src="${noticia.imagen}" alt="${noticia.titulo}" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
+                        <img loading="lazy" src="${noticia.imagen}" alt="${noticia.titulo}" style="width: 100%; height: 300px; object-fit: cover; border-radius: 10px;">
                     </div>
                     <div style="flex: 1; display: flex; flex-direction: column; justify-content: center;">
                         <h3 style="color: #691c32; font-size: 1.8em; margin-bottom: 15px;">${noticia.titulo}</h3>
