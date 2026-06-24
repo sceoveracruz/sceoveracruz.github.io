@@ -31,12 +31,12 @@ const SLIDES_BANNER = [
         link: 'ROCO%202025.pdf',
         alt: 'Obten tu reconocimiento oficial ROCO en 3 pasos'
     },
-    {
-        imagen: 'imagenes/banner4.jpg',
-        link: 'https://www.facebook.com/profile.php?id=61590452188700',
-        alt: 'SCEO - Facebook'
-    }
-];
+//    {
+//        imagen: 'imagenes/banner4.jpg',
+//        link: 'https://www.facebook.com/profile.php?id=61590452188700',
+//        alt: 'SCEO - Facebook'
+//    }
+//];
 
 const SEGUNDOS_POR_IMAGEN = 6;
 
