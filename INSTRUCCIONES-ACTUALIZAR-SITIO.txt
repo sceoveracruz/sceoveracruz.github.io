@@ -1,0 +1,259 @@
+===========================================================
+  INSTRUCCIONES PARA ACTUALIZAR EL SITIO SCEO VERACRUZ
+===========================================================
+Guía en lenguaje sencillo para hacer 3 tipos de cambios:
+
+  1. Agregar una noticia/boletín nuevo
+  2. Cambiar imágenes (banner principal y fotos de noticias)
+  3. Cambiar los menús compartidos: OFERTA EDUCATIVA, PLANTELES
+     y CONTACTO
+
+Solo sigue los pasos y respeta el formato exacto (comas, comillas, etc.) de los ejemplos.
+
+Recuerda: todos los cambios se suben a través de la página web de GitHub (Add file > Upload files), reemplazando el archivo existente con el mismo nombre.
+
+Repositorio: https://github.com/arma0220/sceo2
+Usuario:ver.pa2@dgcft.sems.gob.mx
+Contraseña:Armandit0
+
+
+
+===========================================================
+1. AGREGAR UNA NOTICIA / BOLETÍN NUEVO
+===========================================================
+
+Archivo a editar: js/boletines.js
+
+Dentro de ese archivo hay un bloque que empieza con:
+    const noticias = [
+
+Ahí adentro encontrarás un EJEMPLO comentado (con // al inicio de cada línea) que dice "EJEMPLO PARA AGREGAR NOTAS". Cópialo, quítale las // y rellena los datos de tu noticia nueva.
+
+PASO 1 - Elige un número de "id" que no se haya usado.
+Mira la noticia más reciente (la que está primero en la lista) y suma 1 a su id. Ejemplo: si la última noticia tiene id: 16, tu noticia nueva será id: 17.
+
+PASO 2 - Copia este bloque y pégalo justo DESPUÉS de "const noticias = [" (es decir, al principio de la lista, para que aparezca primero / más reciente):
+
+    {
+        id: 17,
+        titulo: "Título de tu noticia aquí",
+        textoPrevio: "Resumen corto que aparece en la tarjeta de la lista.",
+        textoCompleto: "Texto completo de la noticia. Para hacer un salto de línea usa <br><br> entre párrafos.",
+        imagen: "imagenes/noticias/noticia17.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia17-1.jpg",
+            "imagenes/noticias/noticia17-2.jpg"
+        ],
+        fecha: "24-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+
+   IMPORTANTE: deja la coma "," al final del bloque (después de la última llave "}"), porque le sigue otra noticia.
+
+PASO 3 - Reemplaza estos valores con los de tu noticia real:
+   - id            -> número siguiente (ver Paso 1)
+   - titulo        -> el título de la noticia
+   - textoPrevio   -> 1-2 líneas de resumen (se ve en la tarjeta)
+   - textoCompleto -> el cuerpo completo de la noticia
+   - imagen        -> ruta de la imagen principal (ver sección 2)
+   - imagenesAdicionales -> lista de fotos extra (puede ir vacía: [])
+   - fecha         -> formato DD-MM-AAAA
+   - mes           -> nombre del mes en español, con mayúscula inicial
+   - año           -> el año, como texto, ej. "2026"
+
+PASO 4 - Si tu noticia NO tiene fotos adicionales, déjalo así:
+        imagenesAdicionales: [],
+
+PASO 5 - Revisa que no falte ninguna coma. Cada propiedad (titulo, textoPrevio, etc.) termina en coma "," EXCEPTO la última antes del cierre "}" (anio no lleva coma).
+
+PASO 6 - Sube el archivo js/boletines.js actualizado a GitHub, reemplazando el que ya existe en la carpeta /js.
+
+PASO 7 - Sube también las imágenes nuevas (ver sección 2 abajo).
+
+NOTA: No necesitas tocar nada en boletines.html ni en historico.html. Ambas páginas leen automáticamente la lista de noticias.js y muestran la más reciente primero.
+
+
+
+===========================================================
+2. CAMBIAR O AGREGAR IMÁGENES
+===========================================================
+
+--- 2.1 Fotos de una noticia ---
+
+Carpeta: imagenes/noticias/
+
+Nombres de archivo recomendados (para que coincidan con lo que
+pones en boletines.js):
+   - Imagen principal:        noticia17.jpg
+   - Imágenes adicionales:    noticia17-1.jpg, noticia17-2.jpg, etc.
+
+Pasos:
+   1. Recorta/ajusta la foto si es necesario (no hay tamaño
+      obligatorio, pero se ve mejor en formato horizontal).
+   2. Sube la imagen a la carpeta imagenes/noticias/ en GitHub
+      (Add file > Upload files).
+   3. Asegúrate que el nombre del archivo en GitHub sea
+      EXACTAMENTE igual al que escribiste en el campo "imagen"
+      o "imagenesAdicionales" de boletines.js (mayúsculas,
+      espacios y extensión .jpg/.png deben coincidir).
+
+--- 2.2 Banner rotativo (carrusel de la página de inicio) ---
+
+Archivo a editar: js/banner-marquesina.js
+
+Al inicio del archivo hay una lista llamada SLIDES_BANNER.
+Cada imagen del carrusel es un bloque como este:
+
+    {
+        imagen: 'imagenes/banner1.jpg',
+        link: 'https://...',
+        alt: 'Texto descriptivo corto'
+    },
+
+Para AGREGAR una imagen nueva al carrusel:
+   1. Sube la imagen a la carpeta imagenes/ (ej. banner5.jpg).
+      Tamaño recomendado: 1900x440 px aprox., JPEG calidad 80-90%.
+   2. Copia un bloque como el de arriba y pégalo dentro de la
+      lista SLIDES_BANNER (antes del corchete final "]").
+   3. Cambia:
+      - imagen -> nombre del archivo que subiste
+      - link   -> a dónde debe llevar al hacer clic (si no debe
+                  llevar a ningún lado, pon '#')
+      - alt    -> descripción corta de la imagen (para accesibilidad)
+   4. No olvides la coma "," al final de cada bloque, salvo el
+      último de la lista.
+
+Para QUITAR una imagen del carrusel: borra su bloque completo
+(de la llave "{" a la llave "}" con su coma).
+
+No hay que tocar el HTML ni el CSS para el carrusel: el banner
+se construye solo con lo que pongas en SLIDES_BANNER.
+
+--- 2.3 Otras imágenes del sitio (logos, iconos del menú, etc.) ---
+
+Estas imágenes viven en la carpeta imagenes/ y se llaman desde
+el HTML directamente (index.html, boletines.html, historico.html).
+Para cambiarlas, solo sube el archivo nuevo a GitHub con el
+MISMO nombre que el archivo viejo, y se actualizará solo.
+
+Si quieres usar un nombre de archivo distinto, tendrás que
+buscar y reemplazar la ruta de la imagen vieja por la nueva en
+el HTML correspondiente (busca el texto src="imagenes/...").
+
+
+===========================================================
+3. CAMBIAR LOS MENÚS COMPARTIDOS
+   (OFERTA EDUCATIVA, PLANTELES, CONTACTO)
+===========================================================
+
+Estos 3 menús del nav son ESPECIALES: se editan en UN SOLO
+lugar (el archivo js/site.js) y el cambio se refleja
+automáticamente en las 3 páginas (index.html, boletines.html,
+historico.html). NO los edites directamente en el HTML, porque
+site.js los reescribe cada vez que carga la página.
+
+Archivo a editar: js/site.js
+
+--- 3.1 Menú PLANTELES ---
+
+Busca este bloque al inicio del archivo:
+
+    var PLANTELES_SCEO = [
+        { texto: 'SCEO Veracruz' },
+        { texto: 'CECATI 31 Coatzacoalcos' },
+        ...
+    ];
+
+Para AGREGAR un plantel: copia una línea como
+    { texto: 'CECATI 170 Orizaba' },
+y pégala dentro de la lista, cambiando el texto. No olvides la
+coma al final (salvo en la última línea de la lista).
+
+Para QUITAR un plantel: borra su línea completa.
+
+IMPORTANTE: el texto debe empezar con "CECATI" seguido del
+número de plantel y el nombre del lugar (ej. "CECATI 200
+Nombre"), o con "SCEO Veracruz" si es el plantel principal.
+Esto es necesario porque fixes.js detecta el texto "CECATI N"
+automáticamente para hacerlo clickeable y mostrar su
+información. Si el texto no sigue ese patrón, el plantel no
+funcionará al hacer clic.
+
+--- 3.2 Menú CONTACTO ---
+
+Busca este bloque:
+
+    var CONTACTOS_SCEO = [
+        {
+            correo: 'ver.sceo@dgcft.sems.gob.mx',
+            cargo: 'Subdirector de la Coordinación de Enlace Operativo',
+            titular: 'Sergio López Hernández'
+        },
+        ...
+    ];
+
+Para AGREGAR un contacto: copia un bloque completo como el de
+arriba (las 3 líneas entre { y }), pégalo dentro de la lista y
+cambia:
+   - correo   -> el correo electrónico de contacto
+   - cargo    -> el puesto o área
+   - titular  -> nombre completo de la persona
+
+Para QUITAR un contacto: borra su bloque completo (de "{" a
+"}," incluyendo la coma).
+
+Para EDITAR un contacto existente (ej. cambió el titular):
+solo cambia el texto entre comillas de "titular" (o "cargo" o
+"correo"), sin tocar las comillas ni las comas.
+
+--- 3.3 Menú OFERTA EDUCATIVA ---
+
+Este menú tiene 3 opciones fijas: CALENDARIO ESCOLAR,
+ESPECIALIDADES y REQUISITOS DE INSCRIPCIÓN. El texto y
+comportamiento de ESPECIALIDADES y REQUISITOS no cambia desde
+aquí (ya están conectados a sus secciones en index.html).
+
+Lo único que normalmente cambia en este menú es el PDF del
+calendario escolar. Busca esta línea, cerca del inicio del
+archivo:
+
+    var OFERTA_EDUCATIVA_PDF = 'Calendario Escolar 2025-2026.pdf';
+
+Para actualizar el calendario escolar:
+   1. Sube el nuevo PDF a la raíz del repositorio (mismo nivel
+      que index.html) en GitHub.
+   2. Cambia el nombre entre comillas en esa línea para que
+      coincida EXACTAMENTE con el nombre del archivo PDF que
+      subiste (incluyendo mayúsculas y espacios).
+
+--- 3.4 Después de editar site.js ---
+
+   1. Sube el archivo js/site.js actualizado a GitHub,
+      reemplazando el que ya existe en la carpeta /js.
+   2. No necesitas tocar index.html, boletines.html ni
+      historico.html: los 3 leen los menús desde site.js
+      automáticamente al cargar.
+
+
+===========================================================
+RECORDATORIOS GENERALES
+===========================================================
+
+- Todos los archivos .js que edites deben mantener las comillas
+  ('...' o "...") y las comas exactamente como en los ejemplos.
+  Un error de sintaxis (coma de más, comilla de menos) puede
+  hacer que la página deje de funcionar.
+
+- Antes de subir un cambio, revisa que no haya quedado un "//"
+  olvidado al inicio de una línea que sí quieres que funcione
+  (eso la desactiva, como un comentario).
+
+- Gracias al sistema de cache que ya está configurado en el
+  sitio, NO necesitas cambiar ningún número de versión (?v=...)
+  al subir cambios en estos archivos. La página siempre carga
+  la versión más reciente automáticamente.
+
+- Si algo se ve raro después de subir un cambio, abre la página
+  con Ctrl+Shift+R (recarga forzada) para descartar cualquier
+  duda de cache antes de revisar el código.
