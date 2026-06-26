@@ -24,6 +24,11 @@
                 textoCompleto: "Con gran entusiasmo y orgullo, el CECATI 72 llevó a cabo el evento “Creaciones Educativas”, Fase Estatal, una jornada dedicada a reconocer y promover la creatividad, la innovación y el talento de las y los estudiantes que se forman en las distintas especialidades que ofrece la institución.<br><br>Durante el evento, las y los alumnos presentaron diversos proyectos que evidenciaron el impacto de la formación para el trabajo en el desarrollo de competencias técnicas, habilidades creativas y capacidades emprendedoras. Cada propuesta reflejó el esfuerzo, la dedicación y el acompañamiento permanente de las y los instructores, quienes contribuyen de manera decisiva a la formación integral del alumnado.<br><br>La ceremonia contó con la distinguida presencia de autoridades municipales, entre ellas la Lic. Nereyda Jiménez Cruz, Síndica Única del Honorable Ayuntamiento de Cosoleacaque, y el Lic. Juan Antonio Tena Galván, Regidor Octavo del Honorable Ayuntamiento de Minatitlán, Veracruz, cuya participación reafirma la importancia de fortalecer los lazos entre las instituciones educativas y su entorno social.<br><br>Asimismo, se reconoció la presencia y el respaldo del Ing. Sergio López Hernández, Subdirector de la Coordinación de Enlace Operativo de la DGCFT en el estado de Veracruz, así como de la Mtra. Esmeralda Zárate Chávez, Auxiliar de Vinculación con el Sector Productivo de la misma Subdirección, quienes acompañaron esta actividad como muestra de su compromiso con el fortalecimiento de la educación para el trabajo y la vinculación con los sectores productivos.<br><br>El CECATI 72 agradeció la participación de directivos, docentes, personal administrativo, estudiantes, autoridades, personal de apoyo y aliados estratégicos que hicieron posible la realización de este importante encuentro académico, el cual contribuye a fortalecer la calidad educativa y a generar mayores oportunidades de desarrollo para las y los estudiantes.<br><br>A través de iniciativas como “Creaciones Educativas”, el CECATI 72 reafirma su misión de transformar vidas mediante la educación, impulsando espacios donde el conocimiento, la creatividad y la innovación se convierten en herramientas para construir mejores oportunidades de crecimiento personal y profesional.<br><br>Las autoridades educativas felicitaron a todas y todos los participantes por su destacada participación y por demostrar que la capacitación para el trabajo es un motor de desarrollo, innovación y transformación social.",
                 imagen: "imagenes/noticias/noticia16.jpg",
                 imagenesAdicionales: [
+                    {
+                        tipo: "video",
+                        miniatura: "imagenes/noticias/noticia16-video.jpg",
+                        enlace: "https://www.facebook.com/reel/1493867121950721"
+                    },
                     "imagenes/noticias/noticia16-1.jpg",
                     "imagenes/noticias/noticia16-2.jpg",
                     "imagenes/noticias/noticia16-3.jpg",
@@ -331,9 +336,47 @@
                     <div style="margin-top: 40px;">
                         <h2 style="color: #691c32; font-size: 1.8em; margin-bottom: 20px;">Galería de Imágenes</h2>
                         <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 350px), 1fr)); gap: 20px;">
-                            ${noticia.imagenesAdicionales.map(img => `
-                                <img loading="lazy" src="${img}" alt="Imagen adicional" onclick="abrirImagenEnGrande('${img}')" style="width: 100%; height: 300px; object-fit: cover; border-radius: 8px; cursor: pointer; transition: transform 0.3s ease; box-shadow: 0 4px 8px rgba(0,0,0,0.1);" onmouseover="this.style.transform='scale(1.03)'" onmouseout="this.style.transform='scale(1)'">
-                            `).join('')}
+                            ${noticia.imagenesAdicionales.map(item => {
+
+            // Si es una imagen normal
+            if (typeof item === "string") {
+                return `
+                    <img loading="lazy"
+                        src="${item}"
+                        alt="Imagen adicional"
+                        onclick="abrirImagenEnGrande('${item}')"
+                        style="width:100%;height:300px;object-fit:cover;border-radius:8px;cursor:pointer;transition:transform .3s ease;box-shadow:0 4px 8px rgba(0,0,0,.1);"
+                        onmouseover="this.style.transform='scale(1.03)'"
+                        onmouseout="this.style.transform='scale(1)'">
+                `;
+            }
+
+            // Si es un video de Facebook
+            if (item.tipo === "video") {
+                return `
+                    <div onclick="window.open('${item.enlace}','_blank')"
+                        style="position:relative;cursor:pointer;">
+
+                        <img loading="lazy"
+                            src="${item.miniatura}"
+                            style="width:100%;height:300px;object-fit:cover;border-radius:8px;box-shadow:0 4px 8px rgba(0,0,0,.1);">
+
+                        <div style="
+                            position:absolute;
+                            top:50%;
+                            left:50%;
+                            transform:translate(-50%,-50%);
+                            font-size:70px;
+                            color:white;
+                            text-shadow:0 0 15px black;">
+                            ▶
+                        </div>
+
+                    </div>
+                `;
+            }
+
+        }).join('')}
                         </div>
                     </div>
                 `;
