@@ -1165,7 +1165,8 @@
                         <img loading="lazy" src="imagenes/${iconoPlantel}" alt="${plantelNombre}" style="width: 72px; height: 101px; margin-right: 15px; vertical-align: middle">
                         ${plantelNombre}
                     </h1>
-                    <div style="border-bottom: 3px solid #FFD700; width: 100px; margin: 0 auto;"></div>
+                    <div style="border-bottom: 3px solid #FFD700; width: 100%; max-width: 400px; margin: 0 auto 10px;"></div>
+                    <p style="color: #691c32; font-size: 1.3em; font-weight: 600; margin: 0;"></p>
                 </div>
                 
                 <div style="background: #f8f9fa; padding: 25px; border-radius: 10px; margin-bottom: 25px;">
@@ -1234,7 +1235,7 @@
                         ` : ''}
                         ${plantel.directorio.administrativo ? `
                         <div class="plantel-directorio-item">
-                            <h3 style="color: #8B1538; margin-bottom: 15px;">📋 Jefatura de Servicios Administrativos</h3>
+                            <h3 style="color: #8B1538; margin-bottom: 15px; text-align: left;">📋 Jefatura de Servicios Administrativos</h3>
                             <p><strong>Titular:</strong> ${plantel.directorio.administrativo.titular}</p>
                             <p><strong>Correo:</strong> ${plantel.directorio.administrativo.email}</p>
                         </div>
