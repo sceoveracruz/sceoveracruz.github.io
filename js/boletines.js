@@ -16,7 +16,21 @@
             //    mes: "Junio",
             //    anio: "2026"
             //},
-            
+            {
+                id: 17,
+                titulo: "CECATI 49 celebra con éxito la ceremonia de clausura del ciclo escolar",
+                textoPrevio: "Con un emotivo acto académico, el CECATI 49 reconoció el esfuerzo, la dedicación y el compromiso de las y los alumnos que concluyeron satisfactoriamente su formación durante el ciclo escolar.",
+                textoCompleto: "El pasado martes 30 de junio, el CECATI 49 llevó a cabo la ceremonia de clausura correspondiente al cierre del ciclo escolar, en un evento que reunió a autoridades educativas, personal docente, familiares e invitados especiales para reconocer el esfuerzo y la perseverancia de las y los estudiantes que culminaron exitosamente su preparación.<br><br>Durante la ceremonia se destacó la importancia de la capacitación para el trabajo como una herramienta que fortalece el desarrollo profesional y personal de las y los egresados, quienes hoy cuentan con nuevos conocimientos y habilidades para enfrentar los retos del ámbito laboral y contribuir al desarrollo de su comunidad.<br><br>El CECATI 49 expresa una sincera felicitación a todas y todos los egresados por el compromiso, la disciplina y la dedicación demostrados a lo largo de su proceso formativo. Asimismo, reconoce el invaluable apoyo de las familias y del personal docente, quienes hicieron posible el logro de esta importante meta.<br><br>¡Enhorabuena a la generación que hoy concluye una etapa e inicia un nuevo camino lleno de oportunidades y éxito!",
+                imagen: "imagenes/noticias/noticia17.jpg",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia17-1.jpg",
+                    "imagenes/noticias/noticia17-2.jpg",
+                    "imagenes/noticias/noticia17-3.jpg",
+                ],
+                fecha: "30-06-2026",
+                mes: "Junio",
+                anio: "2026"
+            },
             {
                 id: 16,
                 titulo: "CECATI 72 celebra la creatividad y la innovación estudiantil en la Fase Estatal de “Creaciones Educativas”",
