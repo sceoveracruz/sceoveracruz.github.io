@@ -25,7 +25,6 @@
                 imagenesAdicionales: [
                     "imagenes/noticias/noticia18-1.jpg",
                     "imagenes/noticias/noticia18-2.jpg",
-                    "imagenes/noticias/noticia18-3.jpg",
                 ],
                 fecha: "30-06-2026",
                 mes: "Junio",
