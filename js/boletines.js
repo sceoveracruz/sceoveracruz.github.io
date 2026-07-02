@@ -2,7 +2,7 @@
         const noticias = [
             //EJEMPLO PARA AGREGAR NOTAS
             //{
-            //    id: 13,
+            //    id: 18,
             //    titulo: " ",
             //    textoPrevio: " ",
             //    textoCompleto: " ",
@@ -16,6 +16,21 @@
             //    mes: "Junio",
             //    anio: "2026"
             //},
+            {
+                id: 18,
+                titulo: "CECATI 103 celebra la clausura del ciclo escolar 2025–2026 y reconoce el compromiso con la educación y la sociedad",
+                textoPrevio: "Con la presencia de autoridades de los ámbitos educativo, gubernamental y empresarial, el CECATI 103 realizó la ceremonia de clausura del ciclo escolar 2025–2026, destacando los logros académicos de sus estudiantes y reconociendo a quienes, con solidaridad y vocación de servicio, fortalecen el desarrollo de la comunidad. ",
+                textoCompleto: "Poza Rica, Veracruz; julio de 2026.<br><br>En representación de la directora del CECATI 103, Dra. María Silvia Mujica Ramírez, se llevó a cabo la ceremonia de clausura de cursos correspondiente al ciclo escolar 2025–2026, un evento que reunió a distinguidas autoridades, docentes, personal administrativo, estudiantes, familiares e invitados especiales para celebrar la culminación de una importante etapa en la formación de las y los alumnos.<br><br>La institución agradeció la distinguida presencia de las autoridades que integraron el presídium, entre ellas el Ing. Eduardo Rodríguez Azueta, supervisor de la Subdirección de Enlace Operativo en el Estado de Veracruz; la Lic. Raquel Bonilla Herrera, senadora por el estado de Veracruz; la Dra. Diana Luz González Escudero, directora del CBTis No. 78; el Mtro. Roberto Carlos Mar Pérez, secretario de Desarrollo Integral del H. Ayuntamiento de Coatzintla; el Mtro. Marcos Isauro Ramírez Rocha, director académico del Tecnológico Superior de Poza Rica; el Mtro. Juan Daniel Jiménez Cristóbal, coordinador de Vinculación de la Universidad Veracruzana, Región Poza Rica–Tuxpan; el Lic. Jesús Uenseslao Jiménez, representante de la Asociación de Hoteles y Restaurantes PRESERUR; el L.A.E. Pedro Pablo Olmedo Rosas, director administrativo del Laboratorio Biomatraz; y la Mtra. Karla Oyuki Rubio Garrido, rectora de la Universidad de Oriente, Campus Poza Rica.<br><br>Durante el acto protocolario se destacó que esta ceremonia representa mucho más que el término de un ciclo académico; simboliza el esfuerzo, la perseverancia y el compromiso de quienes integran la comunidad educativa del CECATI 103 para formar ciudadanos preparados, responsables y comprometidos con su entorno.<br><br>Como parte de la ceremonia, se entregaron diversos reconocimientos a personas e instituciones que han contribuido significativamente al desarrollo de la comunidad educativa. Se expresó un especial agradecimiento al Pentathlón Deportivo Militarizado Universitario de Poza Rica por su valiosa participación y apoyo durante el evento, distinguiéndose por su disciplina, compromiso y espíritu de servicio.<br><br>Asimismo, fueron reconocidos los alumnos Jesús Alberto Salazar Méndez y Gerardo González Moncada, quienes representaron con orgullo al CECATI 103 en el Primer Concurso Nacional de Creaciones Educativas, destacando por su creatividad, talento y dedicación, llevando en alto el nombre de la institución.<br><br>Uno de los momentos más significativos fue el reconocimiento a todas las personas que hicieron posible la operación de la cocina comunitaria instalada en el plantel para brindar alimentos a las familias afectadas por la inundación del pasado 10 de octubre. Su solidaridad y trabajo conjunto reflejaron el verdadero compromiso social que distingue al CECATI 103.<br><br>La institución expresó un agradecimiento especial a quienes participaron en la preparación y distribución de los alimentos, así como a la Lic. Raquel Bonilla Herrera, la Dra. Diana Luz González Escudero, la C. Edith del Carmen Matías Valencia y a la Unión de Comerciantes de la Zona Sur de la Huasteca, quienes realizaron importantes donaciones de insumos alimenticios que permitieron apoyar a las familias en uno de los momentos más difíciles para la comunidad.<br><br>En el marco de esta celebración, la Mtra. Karla Oyuki Rubio Garrido reconoció el trabajo realizado por el CECATI 103, felicitando a directivos, docentes y personal administrativo por el compromiso que demuestran con la formación integral de sus estudiantes y por el amor y dedicación que imprimen en cada uno de los cursos que fortalecen las habilidades y competencias de quienes se preparan para incorporarse al sector productivo.<br><br>Finalmente, el CECATI 103 felicitó a las y los egresados por haber alcanzado esta importante meta académica e hizo un llamado a continuar preparándose de manera permanente, convencido de que la educación, la capacitación y los valores constituyen las mejores herramientas para construir un mejor futuro.<br><br>Con esta ceremonia, el CECATI 103 reafirma su compromiso con la formación de profesionales competentes, el desarrollo de la comunidad y la promoción de una educación con sentido humano, responsabilidad social y vocación de servicio.",
+                imagen: "imagenes/noticias/noticia18.jpg",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia18-1.jpg",
+                    "imagenes/noticias/noticia18-2.jpg",
+                    "imagenes/noticias/noticia18-3.jpg",
+                ],
+                fecha: "30-06-2026",
+                mes: "Junio",
+                anio: "2026"
+            },
             {
                 id: 17,
                 titulo: "CECATI 49 celebra con éxito la ceremonia de clausura del ciclo escolar",
