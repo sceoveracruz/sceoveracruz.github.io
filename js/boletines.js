@@ -16,7 +16,6 @@
             //    mes: "Junio",
             //    anio: "2026"
             //},
-                
             {
                 id: 18,
                 titulo: "CECATI 103 celebra la clausura del ciclo escolar 2025–2026 y reconoce el compromiso con la educación y la sociedad",
