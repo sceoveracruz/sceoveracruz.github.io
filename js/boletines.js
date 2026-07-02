@@ -34,6 +34,7 @@
                     "imagenes/noticias/noticia18-9.jpg",
                     "imagenes/noticias/noticia18-10.jpg",
                     "imagenes/noticias/noticia18-11.jpg",
+                    "imagenes/noticias/noticia18-12.jpg",
                 ],
                 fecha: "30-06-2026",
                 mes: "Junio",
