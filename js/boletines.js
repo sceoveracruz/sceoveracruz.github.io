@@ -26,8 +26,8 @@
                     "imagenes/noticias/noticia19-1.jpg",
                     "imagenes/noticias/noticia19.jpg"
                 ],
-                fecha: "23-06-2026",
-                mes: "Junio",
+                fecha: "03-07-2026",
+                mes: "Julio",
                 anio: "2026"
             },
             {
