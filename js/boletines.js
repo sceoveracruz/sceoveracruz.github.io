@@ -17,6 +17,20 @@
             //    anio: "2026"
             //},
             {
+                id: 19,
+                titulo: "DGCFT fortalece el diálogo con la Sección X del SNTE en reunión de trabajo",
+                textoPrevio: "Autoridades de la DGCFT y representantes sindicales refrendan su compromiso de impulsar acciones en favor del personal de los Centros de Formación para el Trabajo.",
+                textoCompleto: "La Dirección General de Centros de Formación para el Trabajo (DGCFT) llevó a cabo una reunión de trabajo encabezada por el director general, **Dr. Francisco Garduño Yáñez**, quien, acompañado de su equipo directivo, sostuvo un encuentro con representantes de la Sección X del SNTE, liderados por el **Mtro. Arturo Alejandro Salazar Lara** y el **Prof. José Nieves**, coordinador del Colegiado Nacional de Asuntos Laborales.<br><br>El encuentro se desarrolló en un ambiente de respeto, apertura y diálogo constructivo, con el propósito de fortalecer la comunicación institucional, escuchar propuestas y avanzar en acciones que contribuyan al bienestar de las y los trabajadores de los Centros de Formación para el Trabajo.<br><br>Durante la reunión, ambas partes coincidieron en la importancia de mantener el trabajo colaborativo como una vía para impulsar mejores condiciones laborales y fortalecer la calidad educativa que distingue a los CECATI en todo el país.<br><br>Con este tipo de encuentros, la DGCFT reafirma su compromiso con el diálogo permanente y la construcción de acuerdos que favorezcan el desarrollo de su comunidad educativa y el fortalecimiento de la Educación para y en el Trabajo.",
+                imagen: "imagenes/noticias/noticia19.jpg",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia19-1.jpg",
+                    "imagenes/noticias/noticia19.jpg"
+                ],
+                fecha: "23-06-2026",
+                mes: "Junio",
+                anio: "2026"
+            },
+            {
                 id: 18,
                 titulo: "CECATI 103 celebra la clausura del ciclo escolar 2025–2026 y reconoce el compromiso con la educación y la sociedad",
                 textoPrevio: "Con la presencia de autoridades de los ámbitos educativo, gubernamental y empresarial, el CECATI 103 realizó la ceremonia de clausura del ciclo escolar 2025–2026, destacando los logros académicos de sus estudiantes y reconociendo a quienes, con solidaridad y vocación de servicio, fortalecen el desarrollo de la comunidad. ",
