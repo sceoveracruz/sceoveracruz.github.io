@@ -17,6 +17,25 @@
             //    anio: "2026"
             //},
             {
+                id: 20,
+                titulo: "CECATI No. 72 celebra la graduación del ciclo escolar 2025–2026",
+                textoPrevio: "La institución reconoció el esfuerzo de sus egresados y reafirmó su compromiso con la formación para el trabajo y el desarrollo de competencias laborales.",
+                textoCompleto: "<strong>Cosoleacaque, Veracruz; julio de 2026.</strong><br><br>El Centro de Capacitación para el Trabajo Industrial (CECATI) No. 72 realizó la ceremonia de graduación del ciclo escolar 2025–2026, en la que se reconoció el esfuerzo, la dedicación y el compromiso de las y los alumnos que concluyeron satisfactoriamente su proceso de formación en las diferentes especialidades que ofrece el plantel.<br><br>La ceremonia fue presidida por el Lic. Mateo Sinoé Peña Morales, responsable de las funciones de la Dirección del CECATI No. 72, acompañado por la Mtra. Esmeralda Zárate Chávez, auxiliar de Vinculación con el Sector Productivo de la Subdirección de Enlace Operativo de la DGCFT en el estado de Veracruz, así como por autoridades municipales, educativas y representantes de diversas instituciones de la región.<br><br>Durante el evento se destacó la importancia de la capacitación para el trabajo como una herramienta que fortalece las competencias de las y los egresados, favoreciendo su incorporación al sector productivo y el desarrollo de proyectos de emprendimiento que contribuyen al crecimiento económico y social de la región.<br><br>Al concluir la ceremonia, el CECATI No. 72 felicitó a las y los graduados por este importante logro académico y los invitó a continuar preparándose con responsabilidad, compromiso y vocación de servicio, reafirmando su compromiso de brindar una educación de calidad, incluyente y orientada al desarrollo de las comunidades.",
+                imagen: "imagenes/noticias/noticia20.webp",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia20-1.webp",
+                    "imagenes/noticias/noticia20-2.webp",
+                    "imagenes/noticias/noticia20-3.webp",
+                    "imagenes/noticias/noticia20-4.webp",
+                    "imagenes/noticias/noticia20-5.webp",
+                    "imagenes/noticias/noticia20-6.webp",
+                    "imagenes/noticias/noticia20.webp",
+                ],
+                fecha: "04-07-2026",
+                mes: "Julio",
+                anio: "2026"
+            },
+            {
                 id: 19,
                 titulo: "DGCFT fortalece el diálogo con la Sección X del SNTE en reunión de trabajo",
                 textoPrevio: "Autoridades de la DGCFT y representantes sindicales refrendan su compromiso de impulsar acciones en favor del personal de los Centros de Formación para el Trabajo.",
