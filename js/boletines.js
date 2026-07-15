@@ -17,6 +17,22 @@
             //    anio: "2026"
             //},
             {
+                id: 21,
+                titulo: "Talento CECATI fortalece la identidad institucional en todo el país",
+                textoPrevio: "La Dirección General de Centros de Formación para el Trabajo (DGCFT) recibió la primera entrega de astas bandera y banderas institucionales elaboradas por alumnas, alumnos y docentes de los CECATI de Nuevo León y Veracruz, un proyecto que refleja la calidad de la formación para el trabajo, el compromiso con la excelencia y el orgullo de pertenecer a la comunidad CECATI.",
+                textoCompleto: "<strong>¡Orgullo CECATI desde Nuevo León y Veracruz para todo México!</strong><br><br>La Dirección General de Centros de Formación para el Trabajo (DGCFT) recibió en el Centro de Convenciones la primera entrega de <strong>500 astas bandera</strong>, elaboradas por estudiantes de la especialidad de <strong>Máquinas Herramientas</strong> de los CECATI del estado de Nuevo León, así como <strong>400 banderas de pedestal y escritorio</strong>, confeccionadas por alumnas y alumnos de las especialidades de <strong>Confección Industrial de Ropa</strong> y <strong>Artes Gráficas</strong> de los CECATI del estado de Veracruz.<br><br>Este importante proyecto representa la primera entrega del material cívico que será distribuido en las oficinas de la Dirección General de Centros de Formación para el Trabajo en todo el país, donde las banderas de <strong>México</strong>, la <strong>Secretaría de Educación Pública (SEP)</strong> y la <strong>DGCFT</strong> serán portadas con orgullo y respeto.<br><br>Cada asta y cada bandera son el resultado del talento, la disciplina, la creatividad y el compromiso de las y los estudiantes, quienes aplicaron los conocimientos adquiridos en su formación para desarrollar productos de alta calidad que hoy fortalecen la identidad institucional de los CECATI.<br><br>Este logro demuestra que en los Centros de Formación para el Trabajo no solo se desarrollan competencias laborales, sino que también se promueven valores como el compromiso, la responsabilidad, el trabajo en equipo y el amor por México.<br><br>La DGCFT expresa su más sincero reconocimiento a las alumnas, alumnos, docentes y personal de los CECATI de <strong>Nuevo León</strong> y <strong>Veracruz</strong>, cuya dedicación hizo posible este proyecto que hoy se convierte en un símbolo del orgullo, la calidad y la vocación de servicio que distinguen a la comunidad CECATI en todo el país.",
+                imagen: "imagenes/noticias/noticia21.jpg",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia21-1.jpg",
+                    "imagenes/noticias/noticia21-2.jpg",
+                    "imagenes/noticias/noticia21-3.jpg",
+                    "imagenes/noticias/noticia21.jpg",
+                ],
+                fecha: "23-07-2026",
+                mes: "Julio",
+                anio: "2026"
+            },
+            {
                 id: 20,
                 titulo: "CECATI No. 72 celebra la graduación del ciclo escolar 2025–2026",
                 textoPrevio: "La institución reconoció el esfuerzo de sus egresados y reafirmó su compromiso con la formación para el trabajo y el desarrollo de competencias laborales.",
