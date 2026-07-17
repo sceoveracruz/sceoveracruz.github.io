@@ -57,7 +57,7 @@ var CONTACTOS_SCEO = [
 
 // Datos de Oferta Educativa. El PDF y los textos de los links son fijos;
 // solo el comportamiento de ESPECIALIDADES/REQUISITOS cambia según la página.
-var OFERTA_EDUCATIVA_PDF = 'Calendario Escolar 2025-2026.pdf';
+var OFERTA_EDUCATIVA_PDF = 'Calendario_Escolar.pdf';
 
 function _escaparHTML(texto) {
     var div = document.createElement('div');
@@ -364,6 +364,11 @@ function setupMobileDropdowns() {
 // ---------- Inicialización ----------
 
 document.addEventListener('DOMContentLoaded', function () {
+    // Limpiar cache de menús para asegurar que use el nombre correcto del PDF
+    try {
+        localStorage.removeItem('menusCompartidosSCEO');
+    } catch (error) {}
+
     sincronizarMenusCompartidos();
     setupMobileDropdowns();
 
