@@ -27,7 +27,7 @@
                     "imagenes/noticias/noticia21-2.webp",
                     "imagenes/noticias/noticia21-3.webp",
                 ],
-                fecha: "23-07-2026",
+                fecha: "13-07-2026",
                 mes: "Julio",
                 anio: "2026"
             },
