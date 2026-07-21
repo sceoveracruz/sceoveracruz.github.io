@@ -23,16 +23,11 @@ const SLIDES_BANNER = [
     },
     {
         imagen: 'imagenes/banner2.jpg',
-        link: 'https://www.google.com/search?q=calendario+de+juegos+del+mundial+2026',
-        alt: 'DGCFT apoyando a la selección'
-    },
-    {
-        imagen: 'imagenes/banner3.jpg',
         link: 'ROCO%202025.pdf',
         alt: 'Obten tu reconocimiento oficial ROCO en 3 pasos'
     },
     {
-        imagen: 'imagenes/banner4.jpg',
+        imagen: 'imagenes/banner3.jpg',
         link: 'https://www.facebook.com/profile.php?id=61590452188700',
         alt: 'SCEO - Facebook'
     }
