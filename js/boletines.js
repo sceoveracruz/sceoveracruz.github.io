@@ -17,6 +17,26 @@
             //    anio: "2026"
             //},
             {
+                id: 22,
+                titulo: "Presentan “CECATÍN, el héroe del oficio”, una iniciativa que impulsa el emprendimiento y la identidad de los CECATI en Veracruz",
+                textoPrevio: "Como parte de las estrategias para fortalecer el emprendimiento, la creatividad y la vinculación con el sector productivo, la Subdirección de la Coordinación de Enlace Operativo en Veracruz presenta el primer número de la historieta “CECATÍN, el héroe del oficio”, un proyecto innovador que promueve la formación para el trabajo a través de los medios digitales.",
+                textoCompleto: "<strong>Veracruz, Ver.</strong> Como parte de las acciones estratégicas para fortalecer el emprendimiento, la innovación y la vinculación con el sector productivo, la Subdirección de la Coordinación de Enlace Operativo (SCEO) de la Dirección General de Centros de Formación para el Trabajo (DGCFT) en el estado de Veracruz presenta el primer número de la historieta <strong>“CECATÍN, el héroe del oficio”</strong>, una iniciativa que busca promover la formación para el trabajo mediante contenidos creativos y de alto impacto.<br><br>Este proyecto forma parte de las estrategias estatales orientadas a responder a las necesidades actuales de la capacitación, colocando al estudiante como protagonista de su propio proceso formativo y fomentando el desarrollo de habilidades relacionadas con el emprendimiento, la creatividad y la innovación.<br><br>La historieta <strong>“CECATÍN, el héroe del oficio”</strong> nace como una propuesta original con proyección estatal y nacional, diseñada para difundirse a través de medios digitales y acercar a la comunidad educativa contenidos que fortalezcan la identidad institucional de los CECATI, además de resaltar el valor de los oficios y la capacitación para el trabajo.<br><br>La creación, ilustración y diseño de esta publicación estuvo a cargo de la <strong>C. María de Jesús González Cruz</strong>, con la participación y coordinación de la <strong>Subdirección de la Coordinación de Enlace Operativo en Veracruz</strong>, reafirmando el compromiso institucional de impulsar proyectos innovadores que promuevan la educación, el talento y el desarrollo integral de las y los estudiantes.<br><br>Con iniciativas como esta, la DGCFT y la SCEO Veracruz continúan fortaleciendo la cultura del emprendimiento y la difusión de proyectos que inspiran a las nuevas generaciones a descubrir en la capacitación una oportunidad para transformar su futuro y contribuir al desarrollo de sus comunidades.",
+                imagen: "imagenes/noticias/noticia22.jpg",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia22.jpg",
+                    "imagenes/noticias/noticia22-1.webp",
+                    "imagenes/noticias/noticia22-2.webp",
+                    "imagenes/noticias/noticia22-3.webp",
+                    "imagenes/noticias/noticia22-4.webp",
+                    "imagenes/noticias/noticia22-5.webp",
+                    "imagenes/noticias/noticia22-6.webp",
+                    "imagenes/noticias/noticia22-7.webp",
+                ],
+                fecha: "23-07-2026",
+                mes: "Julio",
+                anio: "2026"
+            },
+            {
                 id: 21,
                 titulo: "Talento CECATI fortalece la identidad institucional en todo el país",
                 textoPrevio: "La Dirección General de Centros de Formación para el Trabajo (DGCFT) recibió la primera entrega de astas bandera y banderas institucionales elaboradas por alumnas, alumnos y docentes de los CECATI de Nuevo León y Veracruz, un proyecto que refleja la calidad de la formación para el trabajo, el compromiso con la excelencia y el orgullo de pertenecer a la comunidad CECATI.",
