@@ -25,8 +25,15 @@
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <script>
-        document.write('<link rel="stylesheet" href="css/styles.css?v=' + Date.now() + '">');
-        document.write('<link rel="stylesheet" href="css/inline.css?v=' + Date.now() + '">');
+        (function () {
+            var v = Date.now();
+            ['css/styles.css', 'css/inline.css'].forEach(function (href) {
+                var link = document.createElement('link');
+                link.rel = 'stylesheet';
+                link.href = href + '?v=' + v;
+                document.head.appendChild(link);
+            });
+        })();
     </script>
 </head>
 
@@ -182,7 +189,10 @@
             var v = Date.now();
             var archivos = ['js/site.js', 'js/boletines.js', 'js/boletines-events.js', 'js/fixes.js'];
             archivos.forEach(function (src) {
-                document.write('<script src="' + src + '?v=' + v + '"><\/script>');
+                var s = document.createElement('script');
+                s.src = src + '?v=' + v;
+                s.async = false; // conserva el orden de ejecución, igual que document.write, pero sin bloquear la carga
+                document.body.appendChild(s);
             });
         })();
     </script>
