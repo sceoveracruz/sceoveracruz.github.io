@@ -1,4 +1,10 @@
-document.addEventListener('DOMContentLoaded', function () {
+// NOTA: ya no se auto-invoca con DOMContentLoaded. Los scripts se cargan de
+// forma dinámica (no bloqueante) para que funcionen bien en redes móviles
+// lentas, y eso puede hacer que DOMContentLoaded se dispare antes de que
+// este script termine de descargarse. boletines.html llama a
+// inicializarBoletinesEvents() explícitamente justo después de que todos
+// sus scripts terminan de cargar.
+function inicializarBoletinesEvents() {
     document.querySelectorAll("[data-event-click=\"boletines-ev-1\"]").forEach(function (element) {
         element.addEventListener('click', function (event) {
             const result = (function (event) { mostrarEspecialidades(); return false; }).call(this, event);
@@ -153,4 +159,4 @@ document.addEventListener('DOMContentLoaded', function () {
             return result;
         });
     });
-});
+}
