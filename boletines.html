@@ -25,15 +25,8 @@
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
     <script>
-        (function () {
-            var v = Date.now();
-            ['css/styles.css', 'css/inline.css'].forEach(function (href) {
-                var link = document.createElement('link');
-                link.rel = 'stylesheet';
-                link.href = href + '?v=' + v;
-                document.head.appendChild(link);
-            });
-        })();
+        document.write('<link rel="stylesheet" href="css/styles.css?v=' + Date.now() + '">');
+        document.write('<link rel="stylesheet" href="css/inline.css?v=' + Date.now() + '">');
     </script>
 </head>
 
@@ -188,26 +181,9 @@
         (function () {
             var v = Date.now();
             var archivos = ['js/site.js', 'js/boletines.js', 'js/boletines-events.js', 'js/fixes.js'];
-            var scripts = archivos.map(function (src) {
-                var s = document.createElement('script');
-                s.src = src + '?v=' + v;
-                s.async = false; // conserva el orden de ejecución, igual que document.write, pero sin bloquear la carga
-                return s;
+            archivos.forEach(function (src) {
+                document.write('<script src="' + src + '?v=' + v + '"><\/script>');
             });
-            // Una vez que TODOS los scripts terminaron de descargarse y
-            // ejecutarse (el orden entre ellos ya quedó garantizado por
-            // async=false), recién ahí es seguro llamar a sus funciones de
-            // inicialización, en el mismo orden en que se habrían disparado
-            // los DOMContentLoaded originales. Esto evita que, si algún
-            // script tarda en llegar por una red lenta, se quede esperando
-            // un DOMContentLoaded que ya pasó y nunca se ejecute.
-            scripts[scripts.length - 1].onload = function () {
-                if (typeof inicializarSite === 'function') inicializarSite();
-                if (typeof inicializarBoletinesPagina === 'function') inicializarBoletinesPagina();
-                if (typeof inicializarBoletinesEvents === 'function') inicializarBoletinesEvents();
-                if (typeof inicializarFixes === 'function') inicializarFixes();
-            };
-            scripts.forEach(function (s) { document.body.appendChild(s); });
         })();
     </script>
     <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
