@@ -18,23 +18,23 @@
 const SLIDES_BANNER = [
     {
         imagen: 'imagenes/banner1.jpg',
-        link: 'https://www.youtube.com/watch?v=pUgUJtr7Idk&t=2s',
-        alt: 'El ABC de las emociones - Línea de la Vida 800 911 2000 - Canal de YouTube'
+        link: 'https://www.facebook.com/profile.php?id=61590452188700',
+        alt: 'SCEO - Facebook'
     },
     {
         imagen: 'imagenes/banner2.jpg',
-        link: 'https://www.google.com/search?q=calendario+de+juegos+del+mundial+2026',
-        alt: 'DGCFT apoyando a la selección'
+        link: 'ROCO%202025.pdf',
+        alt: 'Obten tu ROCO en 3 pasos'
     },
     {
         imagen: 'imagenes/banner3.jpg',
-        link: 'ROCO%202025.pdf',
-        alt: 'Obten tu reconocimiento oficial ROCO en 3 pasos'
-    },
+        link: 'https://www.youtube.com/watch?v=pUgUJtr7Idk&t=2s',
+        alt: 'El ABC de las emociones - Línea de la Vida 800 911 2000'        
+    }
     {
-        imagen: 'imagenes/banner4.jpg',
-        link: 'https://www.facebook.com/profile.php?id=61590452188700',
-        alt: 'SCEO - Facebook'
+        imagen: 'imagenes/banner4.webp',
+        link: 'Calendario_Escolar.pdf',
+        alt: 'Calendario escolar'        
     }
 ];
 
