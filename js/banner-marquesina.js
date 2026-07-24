@@ -30,7 +30,7 @@ const SLIDES_BANNER = [
         imagen: 'imagenes/banner3.jpg',
         link: 'https://www.youtube.com/watch?v=pUgUJtr7Idk&t=2s',
         alt: 'El ABC de las emociones - Línea de la Vida 800 911 2000 - Canal de YouTube'        
-    }
+    },
     {
         imagen: 'imagenes/banner4.webp',
         link: 'Calendario_Escolar.pdf',
