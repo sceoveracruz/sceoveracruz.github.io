@@ -617,10 +617,8 @@
             window.location.href = 'boletines.html';
         }
 
-        // Generar noticias en index.html al cargar la página.
-        // NOTA: ya no se auto-invoca con DOMContentLoaded (ver explicación
-        // junto al bloque de inicialización de boletines.html más abajo).
-        // El HTML de cada página llama a esta función explícitamente.
+        // Generar noticias en index.html al cargar la página
+        document.addEventListener('DOMContentLoaded', generarNoticiasIndex);
 
         // ------------------------------------------------------------------
         // Inicialización de boletines.html
@@ -638,14 +636,7 @@
         // Boletines"), pero si hay una noticia pendiente, el contenedor del
         // grid se mantiene oculto desde el principio y se muestra
         // directamente el detalle, sin que el grid llegue a verse.
-        //
-        // NOTA: ya no se auto-invoca con DOMContentLoaded. Los scripts se
-        // cargan de forma dinámica (no bloqueante) para que funcionen bien
-        // en redes móviles lentas, y eso puede hacer que DOMContentLoaded
-        // se dispare antes de que este script termine de descargarse. Por
-        // eso boletines.html llama a esta función explícitamente justo
-        // después de que todos sus scripts terminan de cargar.
-        function inicializarBoletinesPagina() {
+        document.addEventListener('DOMContentLoaded', function () {
             const esPaginaBoletines = !!document.getElementById('contenedor-boletines');
             const noticiaId = localStorage.getItem('mostrarNoticia');
             const abrirNotaDirecta = esPaginaBoletines && !!noticiaId;
@@ -672,7 +663,7 @@
             if (abrirNotaDirecta) {
                 mostrarDetalleNoticia(parseInt(noticiaId, 10));
             }
-        }
+        });
 
         // Función para generar histórico de noticias
         function generarHistoricoNoticias() {
@@ -741,6 +732,5 @@
             contenedor.innerHTML = html;
         }
 
-        // Generar histórico al cargar la página.
-        // NOTA: ya no se auto-invoca con DOMContentLoaded; historico.html
-        // llama a esta función explícitamente (ver nota más arriba).
+        // Generar histórico al cargar la página
+        document.addEventListener('DOMContentLoaded', generarHistoricoNoticias);

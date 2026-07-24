@@ -87,15 +87,7 @@ document.addEventListener('menusCompartidosActualizados', function () {
     configurarPlanteles();
 });
 
-// NOTA: ya no se auto-invoca con DOMContentLoaded. Los scripts se cargan de
-// forma dinámica (no bloqueante) para que funcionen bien en redes móviles
-// lentas, y eso puede hacer que DOMContentLoaded se dispare antes de que
-// este script termine de descargarse. Cada página llama a inicializarFixes()
-// explícitamente justo después de que todos sus scripts terminan de cargar
-// (el listener de 'menusCompartidosActualizados' de arriba, en cambio, se
-// registra apenas este script se ejecuta, sin depender de DOMContentLoaded,
-// así que sigue funcionando igual que antes).
-function inicializarFixes() {
+document.addEventListener('DOMContentLoaded', function () {
 
     // ---------- Especialidades y Requisitos desde páginas secundarias ----------
 
@@ -201,4 +193,4 @@ function inicializarFixes() {
 
     configurarOfertaEducativa();
     configurarPlanteles();
-}
+});

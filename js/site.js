@@ -362,17 +362,8 @@ function setupMobileDropdowns() {
 }
 
 // ---------- Inicialización ----------
-//
-// NOTA: ya no se auto-invoca con DOMContentLoaded. Los scripts se cargan de
-// forma dinámica (no bloqueante) para que funcionen bien en redes móviles
-// lentas, y eso puede hacer que DOMContentLoaded se dispare antes de que
-// este script termine de descargarse. Por eso cada página llama a
-// inicializarSite() explícitamente justo después de que todos sus scripts
-// terminan de cargar (y, importante, DESPUÉS de que fixes.js ya se cargó,
-// para que su listener de 'menusCompartidosActualizados' ya esté activo
-// cuando aquí se dispare ese evento).
 
-function inicializarSite() {
+document.addEventListener('DOMContentLoaded', function () {
     // Limpiar cache de menús para asegurar que use el nombre correcto del PDF
     try {
         localStorage.removeItem('menusCompartidosSCEO');
@@ -389,4 +380,4 @@ function inicializarSite() {
             history.replaceState(null, null, window.location.pathname);
         }
     }
-}
+});

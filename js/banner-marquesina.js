@@ -24,12 +24,12 @@ const SLIDES_BANNER = [
     {
         imagen: 'imagenes/banner2.jpg',
         link: 'ROCO%202025.pdf',
-        alt: 'Obten tu ROCO en 3 pasos'
+        alt: 'Obten tu reconocimiento oficial ROCO en 3 pasos'
     },
     {
         imagen: 'imagenes/banner3.jpg',
         link: 'https://www.youtube.com/watch?v=pUgUJtr7Idk&t=2s',
-        alt: 'El ABC de las emociones - Línea de la Vida 800 911 2000'        
+        alt: 'El ABC de las emociones - Línea de la Vida 800 911 2000 - Canal de YouTube'        
     }
     {
         imagen: 'imagenes/banner4.webp',
@@ -129,9 +129,4 @@ function _construirMarquesina() {
     iniciarAutoplay();
 }
 
-// NOTA: ya no se auto-invoca aquí con DOMContentLoaded. Los scripts se
-// cargan de forma dinámica (no bloqueante) para que funcionen bien en redes
-// móviles lentas, y con eso DOMContentLoaded puede dispararse antes de que
-// este script siquiera termine de descargarse. Por eso el propio HTML
-// (index.html) llama a _construirMarquesina() explícitamente justo
-// después de que todos los scripts de la página terminan de cargar.
+document.addEventListener('DOMContentLoaded', _construirMarquesina);
