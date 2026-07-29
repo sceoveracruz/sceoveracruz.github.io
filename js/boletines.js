@@ -17,6 +17,32 @@
             //    anio: "2026"
             //},
             {
+                id: 24,
+                titulo: "CECATI 170 y Ayuntamiento de Ixtaczoquitlán fortalecen la capacitación para el trabajo mediante convenio de colaboración",
+                textoPrevio: "Con el propósito de ampliar las oportunidades de capacitación y fortalecer el desarrollo de la población, el CECATI 170 y el Ayuntamiento de Ixtaczoquitlán firmaron un convenio de colaboración que beneficiará tanto a la ciudadanía como al personal del gobierno municipal. ",
+                textoCompleto: "<strong>Ixtaczoquitlán, Veracruz.</strong> Con el objetivo de fortalecer la capacitación para el trabajo y generar mayores oportunidades de desarrollo para la población, el Centro de Capacitación para el Trabajo Industrial <strong>(CECATI) No. 170</strong> y el Ayuntamiento de Ixtaczoquitlán formalizaron un convenio de colaboración que permitirá ampliar la oferta de formación en beneficio de las y los habitantes del municipio.<br><br>Gracias a este acuerdo, la ciudadanía podrá acceder a cursos de capacitación orientados al desarrollo de competencias laborales, el emprendimiento y la adquisición de nuevas habilidades que favorezcan su incorporación al mercado laboral y contribuyan a su crecimiento personal y profesional. Asimismo, las y los servidores públicos del Ayuntamiento recibirán capacitación continua para fortalecer sus conocimientos y brindar una atención más eficiente, cercana y de calidad a la población.<br><br>La firma del convenio contó con la participación del presidente municipal, <strong>José Luis Cortés Gutiérrez</strong>; la síndica única, <strong>Sandra Raquel Xotlanihua González</strong>; y la directora del <strong>CECATI 170, Jaqueline Jiménez Torres</strong>, quienes refrendaron su compromiso de trabajar de manera coordinada en favor del desarrollo educativo, económico y social del municipio.<br><br>Con acciones como esta, la Dirección General de Centros de Formación para el Trabajo (DGCFT) fortalece la vinculación entre las instituciones educativas y los gobiernos municipales, impulsando una capacitación pertinente y de calidad que contribuya a mejorar las oportunidades de empleo, el emprendimiento y el bienestar de las comunidades.",
+                imagen: "imagenes/noticias/noticia24.webp",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia24.webp",
+                ],
+                fecha: "29-07-2026",
+                mes: "Julio",
+                anio: "2026"
+            },
+            {
+                id: 23,
+                titulo: "DGCFT y Gobierno de Veracruz fortalecen alianza para impulsar la capacitación y el desarrollo laboral",
+                textoPrevio: "El Director General de la DGCFT sostuvo una reunión de trabajo con el titular de la Secretaría del Trabajo, Previsión Social y Productividad del Estado de Veracruz para impulsar nuevos cursos de capacitación y fortalecer la vinculación de los CECATI con el sector productivo.",
+                textoCompleto: "<strong>Veracruz, Ver.; 28 de julio de 2026.</strong> Con el propósito de fortalecer la capacitación para el trabajo y ampliar las oportunidades de desarrollo profesional en la entidad, el director general de la Dirección General de Centros de Formación para el Trabajo (DGCFT) sostuvo una reunión de trabajo con el secretario del Trabajo, Previsión Social y Productividad del Estado de Veracruz, <strong>Lic. Luis Arturo Santiago Martínez</strong>.<br><br>Durante el encuentro se abordaron estrategias orientadas a impulsar la apertura de nuevos cursos acordes con las tendencias y necesidades del mercado laboral, así como a fortalecer la vinculación de los Centros de Capacitación para el Trabajo Industrial (CECATI) con el sector productivo de la región.<br><br>Ambas instancias coincidieron en la importancia de consolidar acciones conjuntas que permitan acercar una oferta educativa pertinente y de calidad, capaz de responder a las demandas actuales de los sectores productivos y contribuir al desarrollo económico y social del estado.<br><br>La DGCFT refrenda su compromiso de trabajar de manera coordinada con los gobiernos estatales para ampliar las oportunidades de capacitación, impulsar el empleo, fomentar el emprendimiento y fortalecer la formación de capital humano que contribuya al crecimiento y bienestar de las comunidades.",
+                imagen: "imagenes/noticias/noticia23.webp",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia23.webp",
+                ],
+                fecha: "28-07-2026",
+                mes: "Julio",
+                anio: "2026"
+            },
+            {
                 id: 22,
                 titulo: "Presentan “CECATÍN, el héroe del oficio”, una iniciativa que impulsa el emprendimiento y la identidad de los CECATI en Veracruz",
                 textoPrevio: "Como parte de las estrategias para fortalecer el emprendimiento, la creatividad y la vinculación con el sector productivo, la Subdirección de la Coordinación de Enlace Operativo en Veracruz presenta el primer número de la historieta “CECATÍN, el héroe del oficio”, un proyecto innovador que promueve la formación para el trabajo a través de los medios digitales.",
