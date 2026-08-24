@@ -17,6 +17,21 @@
             //    anio: "2026"
             //},
             {
+                id: 26,
+                titulo: "DGCFT e ICATVER fortalecen la colaboración para impulsar la capacitación en Veracruz",
+                textoPrevio: "Autoridades de la DGCFT y del Instituto de Capacitación para el Trabajo del Estado de Veracruz (ICATVER) sostuvieron una reunión de trabajo para fortalecer la coordinación institucional y generar nuevas oportunidades de capacitación para la población veracruzana.",
+                textoCompleto: "<strong>DGCFT e ICATVER fortalecen vínculos para impulsar la capacitación en Veracruz</strong><br><br><strong>Veracruz, Ver.</strong> Con el propósito de fortalecer la coordinación interinstitucional y sumar esfuerzos en favor de la capacitación para el trabajo, se llevó a cabo una reunión de trabajo con la directora general del Instituto de Capacitación para el Trabajo del Estado de Veracruz (ICATVER), <strong>Mtra. Adriana Esther Martínez Sánchez</strong>.<br><br>Durante el encuentro se abordaron estrategias para fortalecer la colaboración entre ambas instituciones, así como oportunidades para impulsar acciones conjuntas que respondan a las necesidades actuales de capacitación y contribuyan al desarrollo de habilidades y competencias de la población veracruzana.<br><br>La reunión permitió refrendar la importancia de mantener una comunicación permanente y generar sinergias entre las instituciones dedicadas a la formación para el trabajo, con el objetivo de ampliar las oportunidades de empleo, emprendimiento y desarrollo profesional en el estado.<br><br>Con este tipo de encuentros, la <strong>Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong> reafirma su compromiso de trabajar de manera coordinada con las instituciones de capacitación de Veracruz para fortalecer la formación de capital humano y contribuir al desarrollo económico y social de la entidad",
+                imagen: "imagenes/noticias/noticia26-2.webp",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia26-1.webp",
+                    "imagenes/noticias/noticia26-2.webp",
+                    "imagenes/noticias/noticia26-3.webp",
+                ],
+                fecha: "23-07-2026",
+                mes: "Julio",
+                anio: "2026"
+            },
+            {
                 id: 25,
                 titulo: "CECATI celebra 63 años de transformar vidas con la Primera Muestra Museográfica de Creaciones Educativas",
                 textoPrevio: "En el marco del 63 aniversario de los CECATI, se inauguró la Primera Muestra Museográfica de Creaciones Educativas, un espacio que reúne el talento, la creatividad y las competencias desarrolladas por estudiantes de los Centros de Capacitación para el Trabajo Industrial de todo el país.",
