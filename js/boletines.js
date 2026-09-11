@@ -17,6 +17,24 @@
             //    anio: "2026"
             //},
             {
+                id: 27,
+                titulo: "CECATI 72 fortalece la formación en Soldadura y Pailería con donación de equipo industrial",
+                textoPrevio: "La colaboración con el sector privado permitirá fortalecer la formación práctica de las y los estudiantes del CECATI 72 y ampliar sus oportunidades de incorporación al sector industrial.",
+                textoCompleto: "<strong>CECATI 72 fortalece la formación en Soldadura y Pailería con donación de equipo industrial</strong><br><br><strong>Cosoleacaque, Veracruz.</strong> El Centro de Capacitación para el Trabajo Industrial (CECATI) No. 72, de la Dirección General de Centros de Formación para el Trabajo (DGCFT), recibió una importante <strong>donación de equipo industrial por parte de la empresa ContourGlobal</strong>, en beneficio de la especialidad de Soldadura y Pailería.<br><br>A nombre del plantel, el responsable de las funciones de la Dirección, <strong>Lic. Mateo Sinuhe Peña Morales</strong>, expresó su agradecimiento a ContourGlobal por este valioso apoyo, que permitirá fortalecer las prácticas de las y los estudiantes mediante el uso de herramientas y equipos con características profesionales.<br><br>La incorporación de este equipamiento contribuirá al desarrollo de <strong>habilidades y competencias técnicas</strong>, fortaleciendo la preparación de las y los estudiantes y ampliando sus oportunidades de incorporación al sector industrial y al mercado laboral.<br><br>Esta colaboración refrenda la importancia de fortalecer la <strong>vinculación entre los Centros de Formación para el Trabajo y el sector productivo</strong>, con el propósito de impulsar una oferta de capacitación pertinente y acorde con las necesidades actuales de la industria.<br><br>Con acciones como esta, el CECATI No. 72 reafirma su compromiso con una formación de calidad, mientras que la participación del sector privado demuestra que <strong>sumar esfuerzos en favor de la capacitación es invertir en el talento, el empleo y el futuro de las nuevas generaciones</strong>.",
+                imagen: "imagenes/noticias/noticia27-1.webp",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia27-1.webp",
+                    "imagenes/noticias/noticia27-2.webp",
+                    "imagenes/noticias/noticia27-3.webp",
+                    "imagenes/noticias/noticia27-4.webp",
+                    "imagenes/noticias/noticia27-5.webp",
+                    "imagenes/noticias/noticia27-6.webp",
+                ],
+                fecha: "03-09-2026",
+                mes: "Septiembre",
+                anio: "2026"
+            },
+            {
                 id: 26,
                 titulo: "SCEO Veracruz e ICATVER fortalecen la coordinación para impulsar la capacitación para el trabajo",
                 textoPrevio: "El Mtro. Sergio López Hernández, subdirector de la Coordinación de Enlace Operativo (SCEO) Veracruz, sostuvo una reunión de trabajo con la directora general del ICATVER, Mtra. Adriana Esther Martínez Sánchez, para fortalecer la colaboración institucional en materia de capacitación y desarrollo de competencias.",
