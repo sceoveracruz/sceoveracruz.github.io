@@ -2,20 +2,46 @@
         const noticias = [
             //EJEMPLO PARA AGREGAR NOTAS
             //{
-            //    id: 23,
+            //    id: 30,
             //    titulo: " ",
             //    textoPrevio: " ",
             //    textoCompleto: " ",
-            //    imagen: "imagenes/noticias/noticia13.webp",
+            //    imagen: "imagenes/noticias/noticia28.webp",
             //    imagenesAdicionales: [
-            //        "imagenes/noticias/noticia13-1.webp",
-            //        "imagenes/noticias/noticia13-2.webp",
-            //       "imagenes/noticias/noticia13-3.webp",
+            //        "imagenes/noticias/noticia30-1.webp",
+            //        "imagenes/noticias/noticia30-2.webp",
+            //        "imagenes/noticias/noticia30-3.webp",
             //    ],
-            //    fecha: "23-07-2026",
-            //    mes: "Julio",
+            //    fecha: "23-09-2026",
+            //    mes: "Septiembre",
             //    anio: "2026"
             //},
+            {
+                id: 29,
+                titulo: "DGCFT fortalece la vinculación con CANALAVA para impulsar la capacitación y el emprendimiento",
+                textoPrevio: "La colaboración busca alinear la capacitación de los CECATI con las necesidades de la industria de lavanderías, planchado y tintorería, además de generar nuevas oportunidades de autoempleo y emprendimiento.",
+                textoCompleto: "<strong>Ciudad de México.</strong> Por indicaciones del <strong>Dr. Francisco Garduño Yáñez, Director General de la DGCFT</strong>, se llevó a cabo una reunión de trabajo entre la <strong>Mtra. Diana P. Laurrabaquio Flores, Directora de Apoyo a la Operación</strong>; los titulares de las Subdirecciones de la Coordinación de Enlace Operativo (SCEO) de la Ciudad de México y Veracruz, <strong>Citlali Camus Caracas</strong> y <strong>Ing. Sergio López Hernández</strong>, respectivamente; y representantes de la <strong>Cámara Nacional de la Industria de Lavanderías (CANALAVA)</strong>, encabezados por su Presidenta del Consejo, <strong>Marcela Espinoza</strong>, y su Directora General, <strong>Montserrat Hernández</strong>.<br><br>El encuentro tuvo como propósito establecer las bases para una colaboración e intercambio de experiencias que permita fortalecer las áreas de <strong>capacitación para el trabajo</strong> relacionadas con la industria del lavado, planchado y tintorería, así como identificar nuevas oportunidades de emprendimiento para la población atendida en los <strong>CECATI</strong>.<br><br>A través de esta vinculación se busca impulsar acciones que permitan <strong>atender las necesidades reales del sector productivo</strong>, desarrollar programas de estudio pertinentes y generar oportunidades de <strong>autoempleo y creación de microempresas</strong> para las y los egresados de los CECATI.<br><br>Asimismo, se contempla fortalecer la posibilidad de <strong>certificar competencias laborales</strong> en un sector que demanda personal capacitado y que representa una alternativa para el desarrollo de proyectos productivos.<br><br>Con este tipo de alianzas, la <strong>DGCFT</strong> refrenda su compromiso de vincular la Formación para el Trabajo con las necesidades del sector empresarial, contribuyendo a que las personas egresadas no solo adquieran conocimientos y habilidades, sino que encuentren en la capacitación <strong>nuevas oportunidades de empleo, autoempleo y emprendimiento</strong>.<br><br>La DGCFT agradece a <strong>CANALAVA</strong> su apertura y disposición para sumar esfuerzos en favor de la Formación para el Trabajo y del desarrollo de oportunidades para la población atendida en los CECATI.",
+                imagen: "imagenes/noticias/noticia29.webp",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia29.webp",
+                ],
+                fecha: "11-09-2026",
+                mes: "Septiembre",
+                anio: "2026"
+            },
+            {
+                id: 28,
+                titulo: "SCEO Veracruz fortalece la vinculación institucional con el Ayuntamiento de Veracruz",
+                textoPrevio: "La reunión de trabajo con el Ayuntamiento de Veracruz fortalece las alianzas estratégicas para impulsar acciones de capacitación para el trabajo en beneficio de la región.",
+                textoCompleto: "<strong>Veracruz, Veracruz.</strong> Como parte de las acciones de vinculación con el sector productivo y las instituciones públicas, el <strong>Ing. Sergio López Hernández, Subdirector de la Coordinación de Enlace Operativo de la DGCFT en el Estado de Veracruz</strong>, sostuvo una reunión de trabajo con el <strong>Lic. Pedro Bustos, Director de Catastro del H. Ayuntamiento de Veracruz</strong>.<br><br>Durante este encuentro se abordaron temas de interés común y oportunidades de colaboración, con el propósito de fortalecer la coordinación institucional y generar alianzas que contribuyan al desarrollo de acciones en materia de <strong>capacitación para el trabajo</strong>.<br><br>Este tipo de acercamientos permite consolidar vínculos entre la <strong>DGCFT, los gobiernos municipales y los distintos sectores de la sociedad</strong>, favoreciendo la generación de estrategias que respondan a las necesidades de la región y contribuyan al desarrollo de las competencias de la población.<br><br>Con estas acciones, el <strong>SCEO Veracruz</strong> refrenda su compromiso de impulsar la vinculación institucional y fortalecer las oportunidades de capacitación para el trabajo en beneficio de las comunidades veracruzanas.",
+                imagen: "imagenes/noticias/noticia28.webp",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia28.webp",
+                ],
+                fecha: "07-09-2026",
+                mes: "Septiembre",
+                anio: "2026"
+            },
             {
                 id: 27,
                 titulo: "CECATI 72 fortalece la formación en Soldadura y Pailería con donación de equipo industrial",
