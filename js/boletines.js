@@ -17,6 +17,19 @@
             //    anio: "2026"
             //},
             {
+                id: 31,
+                titulo: "CECATI 170 fortalece la vinculación institucional con el Voluntariado del IMSS Veracruz Sur",
+                textoPrevio: "El acuerdo de colaboración permitirá impulsar acciones de capacitación que contribuyan a la elaboración de pelucas oncológicas y al fortalecimiento de la labor social del Voluntariado del IMSS Veracruz Sur.",
+                textoCompleto: "<strong>Ixtaczoquitlán, Veracruz.</strong> Con el propósito de fortalecer la vinculación institucional y contribuir, desde la capacitación para el trabajo, a iniciativas de beneficio social, se llevó a cabo la <strong>firma de un Acuerdo de Colaboración entre el CECATI No. 170 y el Voluntariado del IMSS Veracruz Sur</strong>.<br><br>Este acuerdo tiene entre sus principales objetivos establecer acciones conjuntas que permitan apoyar la importante labor que realiza el <strong>Voluntariado del IMSS Veracruz Sur</strong> en la elaboración de <strong>pelucas oncológicas</strong>, mediante procesos de capacitación que fortalezcan las habilidades y conocimientos necesarios para esta actividad.<br><br>La colaboración representa una oportunidad para vincular la <strong>Formación para el Trabajo</strong> con acciones de carácter social, poniendo las capacidades y conocimientos adquiridos a través de la capacitación al servicio de quienes más lo necesitan.<br><br>Asimismo, este tipo de alianzas permite ampliar el alcance de los servicios que ofrecen los CECATI, al generar espacios de colaboración con instituciones que desarrollan actividades de impacto directo en la comunidad.<br><br>El <strong>SCEO Veracruz</strong> reconoce y agradece al <strong>Voluntariado del IMSS Veracruz Sur</strong> la confianza y disposición para sumar esfuerzos con el CECATI No. 170, refrendando el compromiso de fortalecer la vinculación institucional y promover una capacitación que contribuya al desarrollo de las personas y al bienestar de la sociedad.",
+                imagen: "imagenes/noticias/noticia31.webp",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia31.webp",
+                ],
+                fecha: "15-09-2026",
+                mes: "Septiembre",
+                anio: "2026"
+            },
+            {
                 id: 30,
                 titulo: "SCEO Veracruz fortalece la coordinación con directores de los 10 CECATI para el ciclo escolar 2026-2027",
                 textoPrevio: "La reunión de trabajo permitió establecer acuerdos y estrategias para fortalecer los servicios de capacitación y atender las necesidades de la población durante el nuevo ciclo escolar.",
