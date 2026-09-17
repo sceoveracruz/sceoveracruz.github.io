@@ -17,6 +17,24 @@
             //    anio: "2026"
             //},
             {
+                id: 30,
+                titulo: "SCEO Veracruz fortalece la coordinación con directores de los 10 CECATI para el ciclo escolar 2026-2027",
+                textoPrevio: "La reunión de trabajo permitió establecer acuerdos y estrategias para fortalecer los servicios de capacitación y atender las necesidades de la población durante el nuevo ciclo escolar.",
+                textoCompleto: "<strong>Xalapa, Veracruz.</strong> Con el propósito de coordinar las acciones correspondientes al nuevo ciclo escolar <strong>2026-2027</strong>, se llevó a cabo la <strong>Reunión de Trabajo de Directores de los CECATI del Estado de Veracruz</strong>, con la participación de los directores de los 10 planteles que conforman la entidad.<br><br>El encuentro, realizado el pasado <strong>3 de septiembre</strong> en las instalaciones del <strong>CECATI No. 151 de Xalapa</strong>, constituyó un espacio de diálogo, coordinación y colaboración para fortalecer las acciones de la <strong>Formación para el Trabajo</strong> en el estado.<br><br>Durante la reunión se abordaron temas relacionados con la <strong>oferta educativa y los trayectos formativos</strong>, proyectos estatales, la próxima <strong>Muestra de Prototipos</strong>, así como estrategias y acciones orientadas a fortalecer los servicios de capacitación que ofrecen los planteles.<br><br>Asimismo, se analizaron otros temas de interés para el desarrollo y crecimiento de los CECATI, con la finalidad de establecer acuerdos y coordinar esfuerzos que permitan atender de manera pertinente las necesidades de las comunidades a las que brindan sus servicios.<br><br>Estos encuentros fortalecen la comunicación y el trabajo conjunto entre los planteles, al permitir compartir experiencias, identificar áreas de oportunidad y generar estrategias para ofrecer una <strong>capacitación pertinente, innovadora y de calidad</strong>, acorde con las necesidades del entorno.<br><br>De esta manera, el <strong>SCEO Veracruz</strong> continúa impulsando la coordinación entre los 10 CECATI de la entidad, con miras a consolidar las acciones y proyectos que marcarán el desarrollo de la Formación para el Trabajo durante el ciclo escolar <strong>2026-2027</strong>.",
+                imagen: "imagenes/noticias/noticia30.webp",
+                imagenesAdicionales: [
+                {
+                tipo: "video",
+                miniatura: "imagenes/noticias/noticia30-video.jpg",
+                enlace: "https://www.facebook.com/reel/1601197661804996"
+                },
+                    "imagenes/noticias/noticia30",
+                ],
+                fecha: "15-09-2026",
+                mes: "Septiembre",
+                anio: "2026"
+            },
+            {
                 id: 29,
                 titulo: "DGCFT fortalece la vinculación con CANALAVA para impulsar la capacitación y el emprendimiento",
                 textoPrevio: "La colaboración busca alinear la capacitación de los CECATI con las necesidades de la industria de lavanderías, planchado y tintorería, además de generar nuevas oportunidades de autoempleo y emprendimiento.",
