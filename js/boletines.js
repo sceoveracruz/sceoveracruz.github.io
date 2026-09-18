@@ -17,6 +17,21 @@
             //    anio: "2026"
             //},
             {
+                id: 32,
+                titulo: "DGCFT y Mercado Libre clausuran la primera generación de la Escuela de Automatización",
+                textoPrevio: "La iniciativa conjunta fortaleció las competencias del personal de Mercado Libre mediante 120 horas de formación teórica y práctica, con la participación de los CECATI 135 y 92.",
+                textoCompleto: "<strong>Ciudad de México.</strong> La <strong>Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong> y <strong>Mercado Libre</strong> llevaron a cabo la clausura de la <strong>primera generación de la Escuela de Automatización</strong>, iniciativa desarrollada de manera conjunta para fortalecer las competencias del personal de la empresa y atender las necesidades actuales de sus plantas.<br><br>En este proyecto participaron el <strong>CECATI No. 135</strong> y el <strong>CECATI No. 92</strong>, contribuyendo con los procesos de capacitación orientados al desarrollo de conocimientos y habilidades vinculados con la automatización y las necesidades del entorno laboral.<br><br>Durante <strong>tres semanas y con una duración de 120 horas</strong>, las y los participantes realizaron actividades teóricas y prácticas enfocadas en el fortalecimiento de competencias aplicables a los retos tecnológicos y productivos de la industria.<br><br>Durante el acto de clausura, la <strong>Mtra. Diana Álvarez Maury, Directora Técnica de la DGCFT</strong>, en representación del <strong>Dr. Francisco Garduño Yáñez, Titular de la DGCFT</strong>, realizó la entrega de las constancias correspondientes y reconoció el compromiso del personal docente y de quienes participaron en el desarrollo de esta primera generación.<br><br>Asimismo, se destacó la coordinación y seguimiento del <strong>Dr. Eduardo Calderón Cuevas</strong>, cuya participación permitió articular los esfuerzos institucionales necesarios para la puesta en marcha y desarrollo de este proyecto de colaboración.<br><br>Como parte del evento, integrantes de la primera generación compartieron sus experiencias, destacando que el proceso formativo les permitió <strong>reafirmar conocimientos, recuperar aprendizajes previos y adquirir nuevas herramientas</strong> para fortalecer su desempeño laboral. También resaltaron la creación de una red de apoyo entre colegas y el acompañamiento brindado por el personal instructor durante la capacitación.<br><br>La primera generación de la <strong>Escuela de Automatización</strong> constituye un referente para continuar fortaleciendo la colaboración entre la <strong>DGCFT y el sector productivo</strong>, mediante estrategias de capacitación pertinentes y vinculadas con las necesidades tecnológicas y de talento de las empresas.<br><br>Con acciones como esta, la <strong>DGCFT</strong> refrenda su compromiso de impulsar una Formación para el Trabajo vinculada con los sectores productivos y orientada al desarrollo de las competencias que demanda el entorno laboral actual.",
+                imagen: "imagenes/noticias/noticia32-1.webp",
+                imagenesAdicionales: [
+                    "imagenes/noticias/noticia32-1.webp",
+                    "imagenes/noticias/noticia32-2.webp",
+                    "imagenes/noticias/noticia32-3.webp",
+                ],
+                fecha: "18-09-2026",
+                mes: "Septiembre",
+                anio: "2026"
+            },
+            {
                 id: 31,
                 titulo: "CECATI 170 fortalece la vinculación institucional con el Voluntariado del IMSS Veracruz Sur",
                 textoPrevio: "El acuerdo de colaboración permitirá impulsar acciones de capacitación que contribuyan a la elaboración de pelucas oncológicas y al fortalecimiento de la labor social del Voluntariado del IMSS Veracruz Sur.",
