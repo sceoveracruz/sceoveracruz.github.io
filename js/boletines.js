@@ -23,12 +23,21 @@
                 textoCompleto: "<strong>Veracruz, Veracruz.</strong> En el marco de las acciones de prevención y protección civil, los <strong>CECATI del Estado de Veracruz, en coordinación con el SCEO Veracruz</strong>, participaron este viernes 18 de septiembre de 2026 en un ejercicio de simulacro, con el propósito de fortalecer la cultura de la prevención y la capacidad de respuesta de la comunidad educativa ante una eventual emergencia sísmica.<br><br>La hipótesis planteada para el ejercicio correspondió a un <strong>sismo de magnitud 7.7</strong>, con una profundidad de 67 kilómetros y epicentro ubicado a 15 kilómetros al sur-suroeste de Tehuacán, Puebla.<br><br><strong>11:00 horas</strong>, activación de la alarma sísmica, personal docente, administrativo y alumnado suspendieron sus actividades para aplicar los protocolos establecidos de repliegue y evacuación.<br><br><strong>11:01 a 11:03 </strong>La comunidad educativa siguió las <strong>rutas de evacuación señalizadas</strong> y se trasladó de manera ordenada y con calma hacia los puntos de reunión establecidos en cada plantel, atendiendo las indicaciones de seguridad y evitando correr, gritar o empujar.<br><br><strong>11:05 </strong>Posteriormente, los responsables de cada área realizaron el <strong>pase de lista y censo del personal y alumnado</strong>, confirmándose saldo blanco y sin novedad. El tiempo aproximado de evacuación fue de <strong>3 minutos con 30 segundos</strong>, con la participación del 100 % de la comunidad presente en los planteles.<br><br><strong>11:10 horas</strong>Como parte de la retroalimentación, se reforzaron recomendaciones relacionadas con la <strong>mochila de emergencia, la identificación de zonas de menor riesgo y la importancia de mantener la calma</strong> ante una situación de emergencia.<br><br>El ejercicio permitió evaluar los protocolos de evacuación, comunicación y repliegue, así como identificar áreas de oportunidad para continuar fortaleciendo las medidas de seguridad en los centros educativos.<br><br>Con estas acciones, los <strong>CECATI del Estado de Veracruz</strong> refrendan su compromiso con la protección y seguridad de su comunidad educativa, promoviendo una cultura de prevención que contribuya a salvaguardar la integridad de estudiantes, docentes y personal administrativo, bajo el principio: <strong>“Prevenir también es educar”.</strong>",
                 imagen: "imagenes/noticias/noticia33.webp",
                 imagenesAdicionales: [
+                    {
+                        tipo: "video",
+                        miniatura: "imagenes/noticias/noticia33-video.webp",
+                        enlace: "https://www.facebook.com/reel/1108532198403889"
+                    },
                     "imagenes/noticias/noticia33.webp",
                     "imagenes/noticias/noticia33-1.webp",
                     "imagenes/noticias/noticia33-2.webp",
                     "imagenes/noticias/noticia33-3.webp",
                     "imagenes/noticias/noticia33-4.webp",
                     "imagenes/noticias/noticia33-5.webp",
+                    "imagenes/noticias/noticia33-6.webp",
+                    "imagenes/noticias/noticia33-7.webp",
+                    "imagenes/noticias/noticia33-8.webp",
+                    "imagenes/noticias/noticia33-9.webp",
                 ],
                 fecha: "18-09-2026",
                 mes: "Septiembre",
