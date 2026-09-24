@@ -26,6 +26,8 @@ const noticias = [
             "imagenes/noticias/noticia34-1.webp",
             "imagenes/noticias/noticia34-2.webp",
             "imagenes/noticias/noticia34-3.webp",
+            "imagenes/noticias/noticia34-4.webp",
+            "imagenes/noticias/noticia34-5.webp",
         ],
         fecha: "23-09-2026",
         mes: "Septiembre",
