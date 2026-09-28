@@ -17,6 +17,24 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 35,
+        titulo: "CECATI 72 e IVEA fortalecen la vinculación para impulsar la educación y la capacitación",
+        textoPrevio: "La colaboración permitió acercar a estudiantes del CECATI 72 información sobre los servicios gratuitos del IVEA para jóvenes y adultos que desean concluir su educación básica.",
+        textoCompleto: "<strong>Cosoleacaque, Veracruz.</strong> Como parte de las acciones para fortalecer la <strong>vinculación interinstitucional</strong> en beneficio de la comunidad, el <strong>CECATI No. 72</strong> recibió en sus instalaciones al personal del <strong>Instituto Veracruzano de Educación para los Adultos (IVEA), Coordinación Minatitlán</strong>, encabezado por la <strong>Lic. Alba Erika González Bautista, Coordinadora de Zona</strong>.<br><br>Durante la visita, se brindó a las y los estudiantes información sobre los servicios <strong>gratuitos</strong> que ofrece el IVEA a jóvenes y adultos de 15 años en adelante que desean iniciar, continuar o concluir su educación básica.<br><br>Entre los servicios disponibles se encuentran la <strong>alfabetización, educación primaria, educación secundaria y Lengua de Señas Mexicana</strong>, además de asesorías y materiales didácticos que acompañan el proceso educativo, así como la posibilidad de obtener la certificación oficial correspondiente.<br><br>Como parte de esta actividad, personal del IVEA realizó la <strong>colocación de carteles informativos y distribución de folletos</strong> en las aulas y talleres del plantel, con el propósito de acercar esta información a la comunidad educativa y facilitar el acceso a las opciones de educación básica para jóvenes y adultos.<br><br>La colaboración entre ambas instituciones representa una oportunidad para fortalecer la formación integral de la comunidad, al vincular la <strong>capacitación para el trabajo con el acceso a la educación básica</strong> y contribuir así al desarrollo académico y personal de las personas.<br><br>El <strong>CECATI No. 72</strong> agradece al <strong>IVEA</strong> su disposición para sumar esfuerzos y refrenda su compromiso de impulsar alianzas que generen mayores oportunidades de aprendizaje y desarrollo para la población.<br><br>Con estas acciones, el <strong>SCEO Veracruz</strong> continúa fortaleciendo la vinculación interinstitucional para acercar servicios educativos y de capacitación a las comunidades de la entidad.",
+        imagen: "imagenes/noticias/noticia35-4.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia35-1.webp",
+            "imagenes/noticias/noticia35-2.webp",
+            "imagenes/noticias/noticia35-3.webp",
+            "imagenes/noticias/noticia35-4.webp",
+            "imagenes/noticias/noticia35-5.webp",
+            "imagenes/noticias/noticia35-6.webp",
+        ],
+        fecha: "23-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
         id: 34,
         titulo: "CECATI 170 fortalece la capacitación para mujeres de Tlanecatilpam en alianza con Fundación Corazón Raíz",
         textoPrevio: "La alianza permitirá acercar conocimientos de informática a 25 mujeres de la comunidad de Tlanecatilpam, en el municipio de Zongolica, fortaleciendo sus oportunidades de desarrollo y capacitación.",
