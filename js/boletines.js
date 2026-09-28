@@ -30,7 +30,7 @@ const noticias = [
             "imagenes/noticias/noticia35-5.webp",
             "imagenes/noticias/noticia35-6.webp",
         ],
-        fecha: "23-09-2026",
+        fecha: "28-09-2026",
         mes: "Septiembre",
         anio: "2026"
     },
