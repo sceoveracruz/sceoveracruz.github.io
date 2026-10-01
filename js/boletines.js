@@ -17,6 +17,23 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 36,
+        titulo: "SCEO Veracruz e ICATVER fortalecen la coordinación institucional ante próxima visita de la DGCFT",
+        textoPrevio: "La reunión de trabajo permitió establecer acuerdos y coordinar acciones entre ambas instituciones, previo a la visita de autoridades de la DGCFT y de los ICAT del país.",
+        textoCompleto: "<strong>Veracruz, Veracruz.</strong> Con el propósito de fortalecer la coordinación interinstitucional y dar seguimiento a las acciones de colaboración en materia de <strong>Formación para el Trabajo</strong>, se llevó a cabo una reunión de trabajo entre el <strong>Ing. Sergio López Hernández, Subdirector de la Coordinación de Enlace Operativo de los CECATI en el Estado de Veracruz (SCEO Veracruz)</strong>, y la <strong>Mtra. Adriana Esther Martínez Sánchez, Directora General del ICATVER</strong>, acompañada por parte de su equipo de trabajo.<br><br>Durante el encuentro se abordaron diversos temas de interés y se establecieron <strong>acuerdos y acciones de coordinación</strong> como parte de los preparativos ante la próxima visita de la <strong>Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>.<br><br>La visita estará encabezada por el <strong>Dr. Francisco Garduño Yáñez, Director General de la DGCFT</strong>, y contará con la participación del <strong>Dr. Héctor L. Martínez Castuera</strong>, responsable de la coordinación de los Institutos de Capacitación para el Trabajo (ICAT) del país.<br><br>Este tipo de reuniones permiten fortalecer los canales de comunicación entre las instituciones responsables de la capacitación para el trabajo en la entidad, así como establecer acciones conjuntas que contribuyan a una mejor coordinación y atención de los temas relacionados con la <strong>Formación para el Trabajo en Veracruz</strong>.<br><br>El <strong>SCEO Veracruz</strong> refrenda su compromiso de mantener una coordinación permanente con el <strong>ICATVER</strong> y con las instancias vinculadas con la Formación para el Trabajo, impulsando acuerdos que fortalezcan la atención de las necesidades de capacitación de la población veracruzana.",
+        imagen: "imagenes/noticias/noticia36-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia36-1.webp",
+            "imagenes/noticias/noticia36-2.webp",
+            "imagenes/noticias/noticia36-3.webp",
+            "imagenes/noticias/noticia36-4.webp",
+            "imagenes/noticias/noticia36-5.webp",
+        ],
+        fecha: "01-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
         id: 35,
         titulo: "CECATI 72 e IVEA fortalecen la vinculación para impulsar la educación y la capacitación",
         textoPrevio: "La colaboración permitió acercar a estudiantes del CECATI 72 información sobre los servicios gratuitos del IVEA para jóvenes y adultos que desean concluir su educación básica.",
@@ -30,7 +47,7 @@ const noticias = [
             "imagenes/noticias/noticia35-5.webp",
             "imagenes/noticias/noticia35-6.webp",
         ],
-        fecha: "28-09-2026",
+        fecha: "23-09-2026",
         mes: "Septiembre",
         anio: "2026"
     },
