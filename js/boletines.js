@@ -21,11 +21,11 @@ const noticias = [
         titulo: "CECATI 31 fortalece las habilidades técnicas de sus alumnos mediante prácticas de Máquinas-Herramienta",
         textoPrevio: "La formación práctica permite a los estudiantes desarrollar precisión, conocimientos técnicos y experiencia en el manejo de máquinas y herramientas, fortaleciendo sus competencias para el ámbito laboral.",
         textoCompleto: "<strong>Coatzacoalcos, Veracruz.</strong> En el <strong>CECATI 31</strong>, los alumnos de la especialidad de <strong>Máquinas-Herramienta</strong> fortalecen sus conocimientos mediante prácticas en el taller, donde desarrollan precisión, técnica y destreza en el manejo de máquinas y herramientas.<br><br>A través del aprendizaje práctico, los estudiantes transforman los conocimientos adquiridos en experiencia, fortaleciendo sus competencias técnicas y preparándose para responder a las necesidades del sector productivo.<br><br>La capacitación para el trabajo ofrece oportunidades para adquirir habilidades especializadas que contribuyen al desarrollo profesional y a la incorporación al mercado laboral.<br><br><strong>¿Te gustaría desarrollar tus habilidades técnicas?</strong> El CECATI 31 invita al público interesado a inscribirse en sus capacitaciones de Máquinas-Herramienta y formar parte de su comunidad educativa.<br><br><strong>Informes y WhatsApp:</strong> 921 218 5115.",
-        imagen: "imagenes/noticias/noticia40-1.webp",
+        imagen: "imagenes/noticias/noticia40-video.webp",
         imagenesAdicionales: [
         {
         tipo: "video",
-        miniatura: "imagenes/noticias/noticia40-video.png",
+        miniatura: "imagenes/noticias/noticia40-video.webp",
         enlace: "https://www.facebook.com/reel/2105325303402770"
         },
         ],
@@ -38,7 +38,7 @@ const noticias = [
         titulo: "DGCFT supervisa el CECATI 170 y fortalece la vinculación con el sector productivo en Veracruz",
         textoPrevio: "La visita de supervisión en Orizaba permitió escuchar las propuestas y necesidades de la comunidad educativa y reafirmar la importancia de coordinar esfuerzos con los ICAT para impulsar la capacitación y el desarrollo económico regional.",
         textoCompleto: "<strong>Orizaba, Veracruz.</strong> Como parte de las acciones de supervisión y seguimiento a los servicios de Formación para el Trabajo, el <strong>Lic. Francisco Garduño Yáñez, Director General de la Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>, realizó una visita al <strong>CECATI No. 170</strong>, con el propósito de conocer de primera mano las propuestas, necesidades y áreas de oportunidad de su comunidad educativa.<br><br>Durante la jornada, se generó un espacio de diálogo con estudiantes, docentes y personal del plantel, destacando la importancia de mantener una comunicación cercana que permita fortalecer los servicios de capacitación y atender las necesidades de quienes forman parte de la comunidad escolar.<br><br>Entre los ejes prioritarios se destacó la importancia de fortalecer la coordinación con los <strong>Institutos de Capacitación para el Trabajo (ICAT) del estado</strong>, a fin de articular esfuerzos y promover una mayor vinculación entre la capacitación y las necesidades del sector productivo de la región.<br><br>Esta coordinación busca impulsar una <strong>Formación para el Trabajo pertinente y de calidad</strong>, que contribuya al desarrollo de competencias laborales, fortalezca a las micro, pequeñas y medianas empresas (MIPYMES) y genere mayores oportunidades de empleo y emprendimiento.<br><br>La visita reafirma el compromiso de la <strong>DGCFT y del SCEO Veracruz</strong> con el fortalecimiento de los planteles, la atención a su comunidad educativa y la consolidación de alianzas estratégicas que contribuyan al desarrollo económico y social de la entidad.<br><br>Con estas acciones, los CECATI continúan trabajando para que la capacitación responda a las necesidades reales de la población y del sector productivo, convirtiéndose en una herramienta para ampliar las oportunidades laborales y promover el desarrollo regional.",
-        imagen: "imagenes/noticias/noticia28.webp",
+        imagen: "imagenes/noticias/noticia39-1.webp",
         imagenesAdicionales: [
             "imagenes/noticias/noticia39-1.webp",
             "imagenes/noticias/noticia39-2.webp",
