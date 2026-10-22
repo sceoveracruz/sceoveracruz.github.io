@@ -17,6 +17,43 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 38,
+        titulo: "CECATI 170 y Fundación Doctor Hernández Zurita impulsan alianzas para fortalecer la capacitación en optometría",
+        textoPrevio: "La visita del titular de la DGCFT a Orizaba fortalece el acercamiento entre instituciones educativas, el sector empresarial y la Fundación Doctor Hernández Zurita para promover oportunidades de formación técnica y desarrollo profesional.",
+        textoCompleto: "<strong>Orizaba, Veracruz.</strong> Con el propósito de fortalecer los vínculos entre la educación, la capacitación para el trabajo y el sector productivo, la <strong>Fundación Doctor Hernández Zurita, I.B.P.</strong> destacó la importancia de impulsar alianzas institucionales que contribuyan a generar mayores oportunidades de formación y desarrollo profesional para la sociedad.<br><br>En este contexto, se recibió la visita del <strong>Lic. Francisco Garduño Yáñez, Director General de la Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>, quien acudió a Orizaba por invitación de la <strong>Lic. Jacqueline Jiménez Torres, directora del CECATI No. 170</strong>.<br><br>El encuentro propició un espacio de diálogo entre el titular de la DGCFT y el <strong>Dr. Marco Antonio Hernández Olguín, presidente del Consejo Directivo de la Fundación</strong>, con quien comparte una relación de amistad de varios años y el interés por promover iniciativas que contribuyan al bienestar y desarrollo de la sociedad.<br><br>Asimismo, estuvieron presentes autoridades municipales del Ayuntamiento de Orizaba, así como representantes de los sectores educativo y empresarial, quienes coincidieron en la importancia de sumar esfuerzos para fortalecer la preparación de las personas y ampliar sus oportunidades de incorporación al ámbito laboral.<br><br>En este marco, se destacó la posibilidad de fortalecer la colaboración entre la <strong>Fundación Doctor Hernández Zurita</strong> y el <strong>CECATI No. 170</strong>, vinculando la experiencia de la Fundación en el campo de la salud visual con la formación técnica especializada, particularmente en iniciativas relacionadas con la <strong>capacitación de auxiliares en optometría</strong>.<br><br>Este tipo de alianzas permite compartir conocimientos, aprovechar las capacidades de ambas instituciones y promover proyectos que vinculen la formación técnica con las necesidades del entorno, favoreciendo el desarrollo de nuevas competencias y oportunidades profesionales.<br><br>La <strong>DGCFT, a través de los CECATI</strong>, continúa impulsando la vinculación con instituciones y organizaciones comprometidas con la educación y el desarrollo social, con el propósito de ofrecer una capacitación pertinente que contribuya a mejorar las perspectivas laborales y la calidad de vida de la población.<br><br>Bajo esta visión, la colaboración institucional reafirma que la <strong>capacitación para el trabajo es también una herramienta de desarrollo social</strong>, al brindar conocimientos y habilidades que favorecen la autonomía de las personas y generan beneficios para sus familias y comunidades.",
+        imagen: "imagenes/noticias/noticia28.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia30-1.webp",
+            "imagenes/noticias/noticia30-2.webp",
+            "imagenes/noticias/noticia30-3.webp",
+            "imagenes/noticias/noticia30-4.webp",
+            "imagenes/noticias/noticia30-5.webp",
+            "imagenes/noticias/noticia30-6.webp",
+            "imagenes/noticias/noticia30-7.webp",
+            "imagenes/noticias/noticia30-8.webp",
+            "imagenes/noticias/noticia30-9.webp",
+            "imagenes/noticias/noticia30-10.webp",
+        ],
+        fecha: "20-09-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 37,
+        titulo: "DGCFT fortalece la supervisión y la calidad de la capacitación en el CECATI 103 de Poza Rica",
+        textoPrevio: "La visita de supervisión permitió conocer de cerca el trabajo de estudiantes, docentes y directivos, y reafirmar el compromiso institucional con una capacitación de calidad vinculada con las oportunidades laborales.",
+        textoCompleto: "<strong>Poza Rica, Veracruz.</strong> Como parte de las acciones de seguimiento y supervisión de los servicios de Formación para el Trabajo, se realizó una visita al <strong>CECATI No. 103</strong>, ubicado en el municipio de Poza Rica, Veracruz, con el propósito de conocer de cerca las actividades que se desarrollan en el plantel.<br><br>Durante el recorrido por las aulas y talleres, se constató el talento y la dedicación de las y los estudiantes, así como la vocación y el compromiso del personal docente y directivo, quienes contribuyen diariamente a la formación de personas con conocimientos y habilidades para incorporarse al ámbito laboral.<br><br>Este acercamiento permite reconocer la importancia de mantener una supervisión cercana a los planteles, identificar sus necesidades y fortalecer las acciones orientadas a ofrecer una <strong>capacitación pertinente, de calidad y vinculada con las oportunidades de empleo</strong>.<br><br>En esta etapa de transformación, la <strong>Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong> refrenda su compromiso de impulsar una formación que contribuya al desarrollo de las competencias de la población y que se traduzca en oportunidades reales de crecimiento personal, laboral y productivo.<br><br>Con estas acciones, se fortalece el trabajo de los CECATI en Veracruz para continuar brindando servicios de capacitación que respondan a las necesidades de la sociedad y del sector productivo.",
+        imagen: "imagenes/noticias/noticia37-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia37-1.webp",
+            "imagenes/noticias/noticia37-2.webp",
+            "imagenes/noticias/noticia37-3.webp",
+        ],
+        fecha: "23-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
         id: 36,
         titulo: "SCEO Veracruz e ICATVER fortalecen la coordinación institucional ante próxima visita de la DGCFT",
         textoPrevio: "La reunión de trabajo permitió establecer acuerdos y coordinar acciones entre ambas instituciones, previo a la visita de autoridades de la DGCFT y de los ICAT del país.",
