@@ -17,6 +17,23 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 40,
+        titulo: "CECATI 31 fortalece las habilidades técnicas de sus alumnos mediante prácticas de Máquinas-Herramienta",
+        textoPrevio: "La formación práctica permite a los estudiantes desarrollar precisión, conocimientos técnicos y experiencia en el manejo de máquinas y herramientas, fortaleciendo sus competencias para el ámbito laboral.",
+        textoCompleto: "<strong>Coatzacoalcos, Veracruz.</strong> En el <strong>CECATI 31</strong>, los alumnos de la especialidad de <strong>Máquinas-Herramienta</strong> fortalecen sus conocimientos mediante prácticas en el taller, donde desarrollan precisión, técnica y destreza en el manejo de máquinas y herramientas.<br><br>A través del aprendizaje práctico, los estudiantes transforman los conocimientos adquiridos en experiencia, fortaleciendo sus competencias técnicas y preparándose para responder a las necesidades del sector productivo.<br><br>La capacitación para el trabajo ofrece oportunidades para adquirir habilidades especializadas que contribuyen al desarrollo profesional y a la incorporación al mercado laboral.<br><br><strong>¿Te gustaría desarrollar tus habilidades técnicas?</strong> El CECATI 31 invita al público interesado a inscribirse en sus capacitaciones de Máquinas-Herramienta y formar parte de su comunidad educativa.<br><br><strong>Informes y WhatsApp:</strong> 921 218 5115.",
+        imagen: "imagenes/noticias/noticia40-1.webp",
+        imagenesAdicionales: [
+        {
+        tipo: "video",
+        miniatura: "imagenes/noticias/noticia40-video.png",
+        enlace: "https://www.facebook.com/reel/2105325303402770"
+        },
+        ],
+        fecha: "15-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
         id: 39,
         titulo: "DGCFT supervisa el CECATI 170 y fortalece la vinculación con el sector productivo en Veracruz",
         textoPrevio: "La visita de supervisión en Orizaba permitió escuchar las propuestas y necesidades de la comunidad educativa y reafirmar la importancia de coordinar esfuerzos con los ICAT para impulsar la capacitación y el desarrollo económico regional.",
