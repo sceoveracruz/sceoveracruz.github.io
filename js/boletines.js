@@ -17,6 +17,38 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 42,
+        titulo: "DGCFT fortalece la vinculación institucional con el CECATI 72 en Cosoleacaque",
+        textoPrevio: "La comunidad educativa del CECATI 72 recibió la visita del director general de la DGCFT, Francisco Garduño Yáñez, acompañado de representantes de la Dirección de Apoyo a la Operación y del SCEO Veracruz, para reafirmar el compromiso con la capacitación para el trabajo y el desarrollo de nuevas oportunidades.",
+        textoCompleto: "<strong>Cosoleacaque, Veracruz.</strong> La comunidad educativa del <strong>Centro de Capacitación para el Trabajo Industrial (CECATI) No. 72</strong> recibió la visita del <strong>Dr. Francisco Garduño Yáñez, director general de la Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>, acompañado de <strong>Diana Patricia Lurrabaquio Flores</strong>, de la Dirección de Apoyo a la Operación, y del <strong>Ing. Sergio López Hernández, subdirector de la Coordinación de Enlace Operativo en el Estado de Veracruz (SCEO)</strong>.<br><br>Este encuentro representa una oportunidad para fortalecer la comunicación y la colaboración institucional, así como para refrendar el compromiso de ofrecer una formación para el trabajo que impulse el desarrollo de habilidades, amplíe las oportunidades laborales y contribuya al bienestar de la comunidad.<br><br>La visita también reconoce la labor que realizan diariamente el personal directivo, docente y administrativo de los Centros de Capacitación para el Trabajo Industrial, cuya dedicación contribuye a brindar servicios educativos pertinentes y a responder a las necesidades de quienes buscan prepararse para el ámbito laboral.<br><br>A nombre de la comunidad educativa del CECATI 72, el <strong>Lic. Mateo Sinuhé Peña Morales, responsable de las funciones de la Dirección</strong>, expresó su agradecimiento por la visita y la atención brindada al plantel.<br><br>Con estos acercamientos, la DGCFT y el SCEO Veracruz continúan fortaleciendo la coordinación con los planteles, promoviendo el trabajo en equipo y la suma de esfuerzos para consolidar la capacitación para el trabajo como una vía para el desarrollo profesional y la generación de nuevas oportunidades.",
+        imagen: "imagenes/noticias/noticia42-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia42-1.webp",
+            "imagenes/noticias/noticia42-2.webp",
+            "imagenes/noticias/noticia42-3.webp",
+            "imagenes/noticias/noticia42-4.webp",
+            "imagenes/noticias/noticia42-5.webp",
+            "imagenes/noticias/noticia42-6.webp",
+            "imagenes/noticias/noticia42-7.webp",
+            "imagenes/noticias/noticia42-8.webp",
+            "imagenes/noticias/noticia42-9.webp",
+            "imagenes/noticias/noticia42-10.webp",
+            "imagenes/noticias/noticia42-11.webp",
+            "imagenes/noticias/noticia42-12.webp",
+            "imagenes/noticias/noticia42-13.webp",
+            "imagenes/noticias/noticia42-14.webp",
+            "imagenes/noticias/noticia42-15.webp",
+            "imagenes/noticias/noticia42-16.webp",
+            "imagenes/noticias/noticia42-17.webp",
+            "imagenes/noticias/noticia42-18.webp",
+            "imagenes/noticias/noticia42-19.webp",
+            "imagenes/noticias/noticia42-20.webp",
+        ],
+        fecha: "21-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
         id: 41,
         titulo: "Pese al mal tiempo, Francisco Garduño recorre el CECATI 31 de Coatzacoalcos para fortalecer la capacitación laboral de las nuevas generaciones",
         textoPrevio: "El director general de los Centros de Formación para el Trabajo de la SEP constató las condiciones de los talleres y dialogó con docentes y personal administrativo para conocer las necesidades del plantel.",
@@ -29,8 +61,8 @@ const noticias = [
         enlace: "https://www.facebook.com/61579316799896/videos/4231351223821620"
         },
         ],
-        fecha: "23-10-2026",
-        mes: "Septiembre",
+        fecha: "21-10-2026",
+        mes: "Octubre",
         anio: "2026"
     },
     {
