@@ -17,6 +17,31 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 44,
+        titulo: "DGCFT fortalece la supervisión y la formación práctica en cuatro CECATI de Veracruz",
+        textoPrevio: "Durante la Jornada Nacional de Visita a Planteles, la DGCFT recorrió los CECATI 33, 168, 49 y 31 para conocer de cerca las actividades en los talleres, dialogar con las comunidades educativas y reafirmar su compromiso con una capacitación para el trabajo de calidad.",
+        textoCompleto: "<strong>Veracruz, Veracruz.</strong> Como parte de la <strong>Jornada Nacional de Visita a Planteles</strong>, la Dirección General de Centros de Formación para el Trabajo (DGCFT) realizó recorridos de supervisión por los <strong>CECATI 33, 168, 49 y 31</strong>, ubicados en Río Blanco, Ciudad Mendoza, Córdoba y Coatzacoalcos, respectivamente, con el propósito de conocer las condiciones de operación y las actividades de capacitación que se desarrollan en cada centro.<br><br>A pesar de las intensas lluvias registradas durante la jornada, los recorridos permitieron conocer de cerca el trabajo que realizan estudiantes e instructores en los talleres, así como dialogar sobre las herramientas y los procesos que forman parte de su preparación técnica.<br><br>Durante las visitas, se observaron actividades de carpintería, cosmetología y estilismo, mecánica, electricidad y máquinas-herramienta, especialidades en las que las y los estudiantes desarrollan conocimientos y habilidades prácticas para fortalecer su preparación e incorporarse al ámbito laboral.<br><br>Estos acercamientos también permitieron escuchar las experiencias y necesidades de docentes, personal administrativo y estudiantes, reconociendo su dedicación y el papel fundamental que desempeñan en los procesos de enseñanza y aprendizaje.<br><br>Con estas acciones, la DGCFT refrenda su compromiso de impulsar una formación para el trabajo pertinente y de calidad, que contribuya al desarrollo de habilidades, genere oportunidades de empleo y emprendimiento, y favorezca el bienestar de las comunidades.",
+        imagen: "imagenes/noticias/noticia44-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia44-1.webp",
+            "imagenes/noticias/noticia44-2.webp",
+            "imagenes/noticias/noticia44-3.webp",
+            "imagenes/noticias/noticia44-4.webp",
+            "imagenes/noticias/noticia44-5.webp",
+            "imagenes/noticias/noticia44-6.webp",
+            "imagenes/noticias/noticia40-7.webp",
+            "imagenes/noticias/noticia40-8.webp",
+            "imagenes/noticias/noticia40-9.webp",
+            "imagenes/noticias/noticia40-10.webp",
+            "imagenes/noticias/noticia40-11.webp",
+            "imagenes/noticias/noticia40-12.webp",
+            "imagenes/noticias/noticia40-13.webp",
+        ],
+        fecha: "26-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
         id: 43,
         titulo: "DGCFT reconoce el trabajo coordinado de los CECATI y el ICATVER durante la Jornada Nacional de Visita a Planteles en Veracruz",
         textoPrevio: "Tras una semana de recorridos y reuniones de trabajo, la DGCFT reconoció la participación de los 10 CECATI, el SCEO Veracruz y las 17 unidades de capacitación del ICATVER, destacando la importancia de dar seguimiento a los acuerdos para fortalecer el Sistema de Formación para el Trabajo.",
