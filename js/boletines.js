@@ -17,6 +17,26 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 45,
+        titulo: "DGCFT concluye su gira de trabajo en Veracruz con visitas a los CECATI 159 y 42",
+        textoPrevio: "El director general de la DGCFT, Francisco Garduño Yáñez, visitó los planteles de Tlacotalpan y del puerto de Veracruz, donde reconoció el compromiso de sus comunidades educativas y fortaleció la vinculación institucional con autoridades municipales.",
+        textoCompleto: "<strong>Tlacotalpan y Veracruz, Veracruz.</strong> Como parte de la Jornada Nacional de Visita a Planteles, el <strong>Dr. Francisco Garduño Yáñez, director general de la Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>, concluyó su gira de trabajo por el estado con visitas al <strong>CECATI 159, en Tlacotalpan, y al CECATI 42, en el puerto de Veracruz</strong>, para conocer las actividades de capacitación y el trabajo que realizan sus comunidades educativas.<br><br>Durante su visita a Tlacotalpan, el titular de la DGCFT agradeció al presidente municipal, <strong>Cristian Romero Pérez</strong>, por su recepción y por otorgarle el reconocimiento como <strong>Visitante Distinguido</strong>, distinción que recibió en representación de la comunidad de la DGCFT.<br><br>Este reconocimiento refrenda la importancia de la colaboración entre las instituciones educativas y los gobiernos municipales para fortalecer la vinculación local y contribuir al bienestar de la población mediante la formación para el trabajo.<br><br>En ambos planteles, el recorrido por las distintas áreas permitió constatar el entusiasmo de las y los estudiantes, así como la dedicación del personal docente y administrativo que diariamente contribuye a la preparación técnica de quienes buscan desarrollar sus habilidades y ampliar sus oportunidades laborales.<br><br>Como parte de la visita al CECATI 159, el director general plasmó un mensaje en el libro de visitas del plantel, frente a su emblemático mural, como testimonio de este encuentro con la comunidad educativa.<br><br>Con estas actividades, la DGCFT concluye su gira de trabajo por Veracruz y reafirma su compromiso de mantener el acercamiento con los planteles, fortalecer la coordinación institucional e impulsar una capacitación para el trabajo que genere mayores oportunidades de desarrollo para las y los mexicanos. ",
+        imagen: "imagenes/noticias/noticia45.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia45-1.webp",
+            "imagenes/noticias/noticia45-2.webp",
+            "imagenes/noticias/noticia45-3.webp",
+            "imagenes/noticias/noticia45-4.webp",
+            "imagenes/noticias/noticia45-5.webp",
+            "imagenes/noticias/noticia45-6.webp",
+            "imagenes/noticias/noticia45-7.webp",
+            "imagenes/noticias/noticia45-8.webp",
+        ],
+        fecha: "26-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
         id: 44,
         titulo: "DGCFT fortalece la supervisión y la formación práctica en cuatro CECATI de Veracruz",
         textoPrevio: "Durante la Jornada Nacional de Visita a Planteles, la DGCFT recorrió los CECATI 33, 168, 49 y 31 para conocer de cerca las actividades en los talleres, dialogar con las comunidades educativas y reafirmar su compromiso con una capacitación para el trabajo de calidad.",
