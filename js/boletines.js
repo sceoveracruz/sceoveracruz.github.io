@@ -28,7 +28,6 @@ const noticias = [
                 miniatura: "imagenes/noticias/noticia43-video.webp",
                 enlace: "https://www.facebook.com/reel/1628621372326067"
             },
-            "imagenes/noticias/noticia43-video.webp",
             "imagenes/noticias/noticia43-1.webp",
             "imagenes/noticias/noticia43-2.webp",
             "imagenes/noticias/noticia43-3.webp",
