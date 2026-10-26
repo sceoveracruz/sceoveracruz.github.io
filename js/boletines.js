@@ -17,6 +17,27 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 43,
+        titulo: "DGCFT reconoce el trabajo coordinado de los CECATI y el ICATVER durante la Jornada Nacional de Visita a Planteles en Veracruz",
+        textoPrevio: "Tras una semana de recorridos y reuniones de trabajo, la DGCFT reconoció la participación de los 10 CECATI, el SCEO Veracruz y las 17 unidades de capacitación del ICATVER, destacando la importancia de dar seguimiento a los acuerdos para fortalecer el Sistema de Formación para el Trabajo.",
+        textoCompleto: "<strong>Veracruz, Veracruz.</strong> Al concluir una semana de actividades de la <strong>Jornada Nacional de Visita a Planteles en el estado de Veracruz</strong>, la Dirección General de Centros de Formación para el Trabajo (DGCFT) reconoció el compromiso y la colaboración de los 10 Centros de Capacitación para el Trabajo Industrial (CECATI), el SCEO Veracruz, las 17 unidades de capacitación del Instituto de Capacitación para el Trabajo del Estado de Veracruz (ICATVER) y su Dirección General.<br><br>Durante la jornada, los recorridos por los planteles y la reunión de evaluación permitieron conocer las condiciones de operación, identificar áreas de oportunidad y establecer acuerdos concretos orientados a fortalecer el Sistema de Formación para el Trabajo.<br><br>Asimismo, se destacó la importancia de dar seguimiento puntual a los compromisos establecidos, a fin de traducir el diálogo y la coordinación institucional en acciones y resultados que contribuyan a mejorar los servicios de capacitación en beneficio de la población.<br><br>La participación conjunta de los CECATI y el ICATVER reafirma el valor del trabajo colaborativo y de la suma de esfuerzos entre las instituciones dedicadas a la formación para el trabajo, con un propósito común: ofrecer mayores oportunidades de desarrollo a las comunidades.<br><br>Con este encuentro, la DGCFT agradeció la organización, disposición y compromiso de los equipos participantes, y refrendó la importancia de continuar trabajando como un sistema coordinado, cercano a los planteles y al servicio de la sociedad.",
+        imagen: "imagenes/noticias/noticia43-1.webp",
+        imagenesAdicionales: [
+            {
+                tipo: "video",
+                miniatura: "imagenes/noticias/noticia43-video.webp",
+                enlace: "https://www.facebook.com/reel/1628621372326067"
+            },
+            "imagenes/noticias/noticia43-video.webp",
+            "imagenes/noticias/noticia43-1.webp",
+            "imagenes/noticias/noticia43-2.webp",
+            "imagenes/noticias/noticia43-3.webp",
+        ],
+        fecha: "25-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
         id: 42,
         titulo: "DGCFT fortalece la vinculación institucional con el CECATI 72 en Cosoleacaque",
         textoPrevio: "La comunidad educativa del CECATI 72 recibió la visita del director general de la DGCFT, Francisco Garduño Yáñez, acompañado de representantes de la Dirección de Apoyo a la Operación y del SCEO Veracruz, para reafirmar el compromiso con la capacitación para el trabajo y el desarrollo de nuevas oportunidades.",
