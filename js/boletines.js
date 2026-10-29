@@ -25,7 +25,7 @@ const noticias = [
         imagenesAdicionales: [
             {
                     tipo: "video",
-                    miniatura: "imagenes/noticias/noticia47-video.jpg",
+                    miniatura: "imagenes/noticias/noticia47-video.webp",
                     enlace: "https://www.facebook.com/61590452188700/videos/pcb.122151863097348406/2515192062299094"
             },
             "imagenes/noticias/noticia47-1.webp",
