@@ -17,6 +17,19 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 48,
+        titulo: "CECATI 170 fortalece la vinculación con el Ayuntamiento y el sector empresarial de Orizaba",
+        textoPrevio: "El CECATI 170 agradeció las atenciones del Ayuntamiento de Orizaba y la invitación de CANACO Orizaba, en encuentros que favorecen el intercambio de experiencias, la colaboración institucional y el fortalecimiento de los vínculos con autoridades y representantes del sector empresarial.",
+        textoCompleto: "<strong>Orizaba, Veracruz.</strong> Como parte de las acciones para fortalecer la vinculación institucional, el <strong>CECATI 170</strong> expresó su agradecimiento al <strong>Lic. Hugo Chahín Kuri, presidente municipal de Orizaba</strong>, por las atenciones brindadas y la invitación para conocer las instalaciones de la Policía Municipal, así como las estrategias de seguridad implementadas en el municipio.<br><br>Este encuentro permitió conocer las acciones que se desarrollan en materia de seguridad y propició un intercambio de experiencias que contribuye a fortalecer la colaboración y el compromiso con el bienestar de la comunidad.<br><br>Asimismo, el plantel agradeció a la <strong>Mtra. Ihali Saldaña Romero, presidenta de CANACO Orizaba</strong>, al Comité Técnico Consultivo de Vinculación y al <strong>Lic. Víctor Manuel Luna Cubillas, vicepresidente de CANACO Orizaba</strong>, por la invitación a este importante evento.<br><br>La participación en estos espacios favorece el acercamiento con las autoridades municipales y el sector empresarial, generando oportunidades para estrechar la colaboración entre las instituciones educativas y los distintos actores de la sociedad.<br><br>Con estas acciones, el CECATI 170 refrenda su compromiso de continuar fortaleciendo sus vínculos institucionales en beneficio de la comunidad, convencido de que la colaboración y el trabajo conjunto contribuyen al desarrollo de mejores oportunidades para todas y todos.<br><br><strong>CECATI 170: me capacita, CECATI 170 cambia mi vida.</strong>",
+        imagen: "imagenes/noticias/noticia48.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia48.webp",
+        ],
+        fecha: "29-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
         id: 47,
         titulo: "CECATI 103 promueve las tradiciones mexicanas con su Concurso de Catrinas",
         textoPrevio: "A través de la creatividad, el arte y la preservación de las tradiciones, el CECATI 103 se prepara para celebrar su Concurso de Catrinas, en el que participarán 12 concursantes para honrar una de las expresiones más representativas del Día de Muertos.",
