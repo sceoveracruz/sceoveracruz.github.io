@@ -17,6 +17,25 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 47,
+        titulo: "CECATI 103 promueve las tradiciones mexicanas con su Concurso de Catrinas",
+        textoPrevio: "A través de la creatividad, el arte y la preservación de las tradiciones, el CECATI 103 se prepara para celebrar su Concurso de Catrinas, en el que participarán 12 concursantes para honrar una de las expresiones más representativas del Día de Muertos.",
+        textoCompleto: "<strong>Poza Rica, Veracruz.</strong> El <strong>Centro de Capacitación para el Trabajo Industrial (CECATI) 103</strong> se prepara para realizar su <strong>Concurso de Catrinas</strong>, una actividad que promueve la creatividad, la expresión artística y la preservación de las tradiciones mexicanas en el marco de las celebraciones del Día de Muertos.<br><br>En este certamen participarán <strong>12 Catrinas</strong>, cuyas representaciones destacarán el talento, la imaginación y el valor cultural de una de las figuras más emblemáticas de la identidad mexicana.<br><br>La Catrina constituye una expresión del arte popular que, a través de sus diseños, vestuarios y caracterizaciones, contribuye a mantener vivas las tradiciones y a transmitirlas entre generaciones. Su presencia en las celebraciones del Día de Muertos también proyecta la riqueza cultural de México a nivel internacional.<br><br>Con este tipo de actividades, el CECATI 103 fomenta la participación de su comunidad educativa en iniciativas culturales que fortalecen la identidad, la convivencia y el reconocimiento de las expresiones artísticas populares.<br><br><strong>¡Mucho éxito a las 12 participantes!</strong> Que su creatividad y dedicación hagan de este concurso una celebración llena de color, tradición y orgullo por la cultura mexicana.",
+        imagen: "imagenes/noticias/noticia47-1.webp",
+        imagenesAdicionales: [
+            {
+                    tipo: "video",
+                    miniatura: "imagenes/noticias/noticia16-video.jpg",
+                    enlace: "https://www.facebook.com/61590452188700/videos/pcb.122151863097348406/2515192062299094"
+            },
+            "imagenes/noticias/noticia47-1.webp",
+            "imagenes/noticias/noticia47-2.webp",
+        ],
+        fecha: "28-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
         id: 46,
         titulo: "Veracruz fortalece la coordinación entre ICATVER y CECATI para impulsar la capacitación para el trabajo",
         textoPrevio: "La Primera Reunión de Evaluación ICATVER–CECATI Veracruz reunió a autoridades federales y estatales para evaluar resultados, compartir experiencias y establecer estrategias conjuntas que fortalezcan la formación para el trabajo y amplíen las oportunidades de desarrollo para la población veracruzana.",
