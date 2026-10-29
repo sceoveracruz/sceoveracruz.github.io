@@ -26,9 +26,10 @@ const noticias = [
             {
                     tipo: "video",
                     miniatura: "imagenes/noticias/noticia47-video.webp",
-                    enlace: "https://www.facebook.com/61590452188700/videos/pcb.122151863097348406/2515192062299094"
+                    enlace: "https://www.facebook.com/share/v/1FSQXoJ5jR/"
             },
             "imagenes/noticias/noticia47-1.webp",
+            "imagenes/noticias/noticia47-2.webp",
         ],
         fecha: "28-10-2026",
         mes: "Octubre",
