@@ -1,0 +1,1381 @@
+// Base de datos de noticias
+const noticias = [
+    //EJEMPLO PARA AGREGAR NOTAS
+    //{
+    //    id: 40,
+    //    titulo: " ",
+    //    textoPrevio: " ",
+    //    textoCompleto: " ",
+    //    imagen: "imagenes/noticias/noticia40.webp",
+    //    imagenesAdicionales: [
+    //        "imagenes/noticias/noticia40-1.webp",
+    //        "imagenes/noticias/noticia40-2.webp",
+    //        "imagenes/noticias/noticia40-3.webp",
+    //    ],
+    //    fecha: "23-10-2026",
+    //    mes: "Octubre",
+    //    anio: "2026"
+    //},
+    
+    //  SI ES CON VIDEO
+    //    imagenesAdicionales: [
+    //           {
+    //                tipo: "video",
+    //                miniatura: "imagenes/noticias/noticia16-video.webp",
+    //                enlace: "https://www.facebook.com/reel/1493867121950721"
+    //            },
+    //            "imagenes/noticias/noticia16-1.webp",
+    //
+    //    ],
+    //    fecha: "23-10-2026",
+    //    mes: "Octubre",
+    //    anio: "2026"
+    //},
+    {
+        id: 48,
+        titulo: "CECATI 170 fortalece la vinculación con el Ayuntamiento y el sector empresarial de Orizaba",
+        textoPrevio: "El CECATI 170 agradeció las atenciones del Ayuntamiento de Orizaba y la invitación de CANACO Orizaba, en encuentros que favorecen el intercambio de experiencias, la colaboración institucional y el fortalecimiento de los vínculos con autoridades y representantes del sector empresarial.",
+        textoCompleto: "<strong>Orizaba, Veracruz.</strong> Como parte de las acciones para fortalecer la vinculación institucional, el <strong>CECATI 170</strong> expresó su agradecimiento al <strong>Lic. Hugo Chahín Kuri, presidente municipal de Orizaba</strong>, por las atenciones brindadas y la invitación para conocer las instalaciones de la Policía Municipal, así como las estrategias de seguridad implementadas en el municipio.<br><br>Este encuentro permitió conocer las acciones que se desarrollan en materia de seguridad y propició un intercambio de experiencias que contribuye a fortalecer la colaboración y el compromiso con el bienestar de la comunidad.<br><br>Asimismo, el plantel agradeció a la <strong>Mtra. Ihali Saldaña Romero, presidenta de CANACO Orizaba</strong>, al Comité Técnico Consultivo de Vinculación y al <strong>Lic. Víctor Manuel Luna Cubillas, vicepresidente de CANACO Orizaba</strong>, por la invitación a este importante evento.<br><br>La participación en estos espacios favorece el acercamiento con las autoridades municipales y el sector empresarial, generando oportunidades para estrechar la colaboración entre las instituciones educativas y los distintos actores de la sociedad.<br><br>Con estas acciones, el CECATI 170 refrenda su compromiso de continuar fortaleciendo sus vínculos institucionales en beneficio de la comunidad, convencido de que la colaboración y el trabajo conjunto contribuyen al desarrollo de mejores oportunidades para todas y todos.<br><br><strong>CECATI 170: me capacita, CECATI 170 cambia mi vida.</strong>",
+        imagen: "imagenes/noticias/noticia48.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia48.webp",
+        ],
+        fecha: "29-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 47,
+        titulo: "CECATI 103 promueve las tradiciones mexicanas con su Concurso de Catrinas",
+        textoPrevio: "A través de la creatividad, el arte y la preservación de las tradiciones, el CECATI 103 se prepara para celebrar su Concurso de Catrinas, en el que participarán 12 concursantes para honrar una de las expresiones más representativas del Día de Muertos.",
+        textoCompleto: "<strong>Poza Rica, Veracruz.</strong> El <strong>Centro de Capacitación para el Trabajo Industrial (CECATI) 103</strong> se prepara para realizar su <strong>Concurso de Catrinas</strong>, una actividad que promueve la creatividad, la expresión artística y la preservación de las tradiciones mexicanas en el marco de las celebraciones del Día de Muertos.<br><br>En este certamen participarán <strong>12 Catrinas</strong>, cuyas representaciones destacarán el talento, la imaginación y el valor cultural de una de las figuras más emblemáticas de la identidad mexicana.<br><br>La Catrina constituye una expresión del arte popular que, a través de sus diseños, vestuarios y caracterizaciones, contribuye a mantener vivas las tradiciones y a transmitirlas entre generaciones. Su presencia en las celebraciones del Día de Muertos también proyecta la riqueza cultural de México a nivel internacional.<br><br>Con este tipo de actividades, el CECATI 103 fomenta la participación de su comunidad educativa en iniciativas culturales que fortalecen la identidad, la convivencia y el reconocimiento de las expresiones artísticas populares.<br><br><strong>¡Mucho éxito a las 12 participantes!</strong> Que su creatividad y dedicación hagan de este concurso una celebración llena de color, tradición y orgullo por la cultura mexicana.",
+        imagen: "imagenes/noticias/noticia47-1.webp",
+        imagenesAdicionales: [
+            {
+                    tipo: "video",
+                    miniatura: "imagenes/noticias/noticia47-video.webp",
+                    enlace: "https://www.facebook.com/share/v/1FSQXoJ5jR/"
+            },
+            "imagenes/noticias/noticia47-1.webp",
+            "imagenes/noticias/noticia47-2.webp",
+        ],
+        fecha: "28-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 46,
+        titulo: "Veracruz fortalece la coordinación entre ICATVER y CECATI para impulsar la capacitación para el trabajo",
+        textoPrevio: "La Primera Reunión de Evaluación ICATVER–CECATI Veracruz reunió a autoridades federales y estatales para evaluar resultados, compartir experiencias y establecer estrategias conjuntas que fortalezcan la formación para el trabajo y amplíen las oportunidades de desarrollo para la población veracruzana.",
+        textoCompleto: "<strong>Veracruz, Veracruz, octubre de 2026.</strong> Con el propósito de fortalecer la coordinación interinstitucional y mejorar los servicios de capacitación para el trabajo, se llevó a cabo la <strong>Primera Reunión de Evaluación ICATVER–CECATI Veracruz</strong>, un espacio de diálogo, análisis e intercambio de experiencias entre autoridades y representantes de las instituciones dedicadas a la formación técnica en la entidad.<br><br>El encuentro contó con la participación del <strong>Mtro. Francisco Garduño Yáñez, director general de Centros de Formación para el Trabajo</strong>; el <strong>Dr. Héctor Leoncio Martínez Castuera, coordinador de los Organismos Descentralizados Estatales de los Institutos de Capacitación para el Trabajo</strong>; el <strong>Mtro. Luis Arturo Santiago Martínez, secretario de Trabajo, Previsión Social y Productividad de Veracruz</strong>, y la <strong>Profa. Adriana Esther Martínez Sánchez, directora general del ICATVER</strong>.<br><br>Durante la reunión se abordaron los avances, las áreas de oportunidad y las estrategias para fortalecer la oferta de capacitación, procurando que los programas formativos respondan a las necesidades del sector productivo y contribuyan a generar mayores oportunidades de empleo y desarrollo para las y los veracruzanos.<br><br>Como parte de las actividades, las unidades de capacitación del ICATVER presentaron su oferta educativa, experiencias de trabajo y resultados, mostrando la diversidad de servicios que brindan a la población y el compromiso de sus equipos con la formación de competencias laborales.<br><br>Asimismo, se destacó la importancia de mantener una colaboración permanente entre el ICATVER y los Centros de Capacitación para el Trabajo Industrial (CECATI), mediante acuerdos y acciones coordinadas que permitan fortalecer el Sistema de Formación para el Trabajo en el estado.<br><br>Con esta reunión, las instituciones participantes refrendan su disposición de dar seguimiento a los compromisos establecidos y sumar esfuerzos para impulsar una capacitación de calidad, cercana a las necesidades de las comunidades y orientada al bienestar de las familias veracruzanas.",
+        imagen: "imagenes/noticias/noticia46.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia46-1.webp",
+            "imagenes/noticias/noticia46-2.webp",
+            "imagenes/noticias/noticia46-3.webp",
+            "imagenes/noticias/noticia46-4.webp",
+            "imagenes/noticias/noticia46-5.webp",
+            "imagenes/noticias/noticia46-6.webp",
+            "imagenes/noticias/noticia46-7.webp",
+            "imagenes/noticias/noticia46-8.webp",
+            "imagenes/noticias/noticia46-9.webp",
+            "imagenes/noticias/noticia46-10.webp",
+            "imagenes/noticias/noticia46-11.webp",
+            "imagenes/noticias/noticia46-12.webp",
+            "imagenes/noticias/noticia46-13.webp",
+            "imagenes/noticias/noticia46-14.webp",
+            "imagenes/noticias/noticia46-15.webp",
+            "imagenes/noticias/noticia46-16.webp",
+        ],
+        fecha: "23-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 45,
+        titulo: "DGCFT concluye su gira de trabajo en Veracruz con visitas a los CECATI 159 y 42",
+        textoPrevio: "El director general de la DGCFT, Francisco Garduño Yáñez, visitó los planteles de Tlacotalpan y del puerto de Veracruz, donde reconoció el compromiso de sus comunidades educativas y fortaleció la vinculación institucional con autoridades municipales.",
+        textoCompleto: "<strong>Tlacotalpan y Veracruz, Veracruz.</strong> Como parte de la Jornada Nacional de Visita a Planteles, el <strong>Dr. Francisco Garduño Yáñez, director general de la Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>, concluyó su gira de trabajo por el estado con visitas al <strong>CECATI 159, en Tlacotalpan, y al CECATI 42, en el puerto de Veracruz</strong>, para conocer las actividades de capacitación y el trabajo que realizan sus comunidades educativas.<br><br>Durante su visita a Tlacotalpan, el titular de la DGCFT agradeció al presidente municipal, <strong>Cristian Romero Pérez</strong>, por su recepción y por otorgarle el reconocimiento como <strong>Visitante Distinguido</strong>, distinción que recibió en representación de la comunidad de la DGCFT.<br><br>Este reconocimiento refrenda la importancia de la colaboración entre las instituciones educativas y los gobiernos municipales para fortalecer la vinculación local y contribuir al bienestar de la población mediante la formación para el trabajo.<br><br>En ambos planteles, el recorrido por las distintas áreas permitió constatar el entusiasmo de las y los estudiantes, así como la dedicación del personal docente y administrativo que diariamente contribuye a la preparación técnica de quienes buscan desarrollar sus habilidades y ampliar sus oportunidades laborales.<br><br>Como parte de la visita al CECATI 159, el director general plasmó un mensaje en el libro de visitas del plantel, frente a su emblemático mural, como testimonio de este encuentro con la comunidad educativa.<br><br>Con estas actividades, la DGCFT concluye su gira de trabajo por Veracruz y reafirma su compromiso de mantener el acercamiento con los planteles, fortalecer la coordinación institucional e impulsar una capacitación para el trabajo que genere mayores oportunidades de desarrollo para las y los mexicanos. ",
+        imagen: "imagenes/noticias/noticia45.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia45-1.webp",
+            "imagenes/noticias/noticia45-2.webp",
+            "imagenes/noticias/noticia45-3.webp",
+            "imagenes/noticias/noticia45-4.webp",
+            "imagenes/noticias/noticia45-5.webp",
+            "imagenes/noticias/noticia45-6.webp",
+            "imagenes/noticias/noticia45-7.webp",
+            "imagenes/noticias/noticia45-8.webp",
+        ],
+        fecha: "26-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 44,
+        titulo: "DGCFT fortalece la supervisión y la formación práctica en cuatro CECATI de Veracruz",
+        textoPrevio: "Durante la Jornada Nacional de Visita a Planteles, la DGCFT recorrió los CECATI 33, 168, 49 y 31 para conocer de cerca las actividades en los talleres, dialogar con las comunidades educativas y reafirmar su compromiso con una capacitación para el trabajo de calidad.",
+        textoCompleto: "<strong>Veracruz, Veracruz.</strong> Como parte de la <strong>Jornada Nacional de Visita a Planteles</strong>, la Dirección General de Centros de Formación para el Trabajo (DGCFT) realizó recorridos de supervisión por los <strong>CECATI 33, 168, 49 y 31</strong>, ubicados en Río Blanco, Ciudad Mendoza, Córdoba y Coatzacoalcos, respectivamente, con el propósito de conocer las condiciones de operación y las actividades de capacitación que se desarrollan en cada centro.<br><br>A pesar de las intensas lluvias registradas durante la jornada, los recorridos permitieron conocer de cerca el trabajo que realizan estudiantes e instructores en los talleres, así como dialogar sobre las herramientas y los procesos que forman parte de su preparación técnica.<br><br>Durante las visitas, se observaron actividades de carpintería, cosmetología y estilismo, mecánica, electricidad y máquinas-herramienta, especialidades en las que las y los estudiantes desarrollan conocimientos y habilidades prácticas para fortalecer su preparación e incorporarse al ámbito laboral.<br><br>Estos acercamientos también permitieron escuchar las experiencias y necesidades de docentes, personal administrativo y estudiantes, reconociendo su dedicación y el papel fundamental que desempeñan en los procesos de enseñanza y aprendizaje.<br><br>Con estas acciones, la DGCFT refrenda su compromiso de impulsar una formación para el trabajo pertinente y de calidad, que contribuya al desarrollo de habilidades, genere oportunidades de empleo y emprendimiento, y favorezca el bienestar de las comunidades.",
+        imagen: "imagenes/noticias/noticia44-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia44-1.webp",
+            "imagenes/noticias/noticia44-2.webp",
+            "imagenes/noticias/noticia44-3.webp",
+            "imagenes/noticias/noticia44-4.webp",
+            "imagenes/noticias/noticia44-5.webp",
+            "imagenes/noticias/noticia44-6.webp",
+            "imagenes/noticias/noticia44-7.webp",
+            "imagenes/noticias/noticia44-8.webp",
+            "imagenes/noticias/noticia44-9.webp",
+            "imagenes/noticias/noticia44-10.webp",
+            "imagenes/noticias/noticia44-11.webp",
+            "imagenes/noticias/noticia44-12.webp",
+            "imagenes/noticias/noticia44-13.webp",
+        ],
+        fecha: "26-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 43,
+        titulo: "DGCFT reconoce el trabajo coordinado de los CECATI y el ICATVER durante la Jornada Nacional de Visita a Planteles en Veracruz",
+        textoPrevio: "Tras una semana de recorridos y reuniones de trabajo, la DGCFT reconoció la participación de los 10 CECATI, el SCEO Veracruz y las 17 unidades de capacitación del ICATVER, destacando la importancia de dar seguimiento a los acuerdos para fortalecer el Sistema de Formación para el Trabajo.",
+        textoCompleto: "<strong>Veracruz, Veracruz.</strong> Al concluir una semana de actividades de la <strong>Jornada Nacional de Visita a Planteles en el estado de Veracruz</strong>, la Dirección General de Centros de Formación para el Trabajo (DGCFT) reconoció el compromiso y la colaboración de los 10 Centros de Capacitación para el Trabajo Industrial (CECATI), el SCEO Veracruz, las 17 unidades de capacitación del Instituto de Capacitación para el Trabajo del Estado de Veracruz (ICATVER) y su Dirección General.<br><br>Durante la jornada, los recorridos por los planteles y la reunión de evaluación permitieron conocer las condiciones de operación, identificar áreas de oportunidad y establecer acuerdos concretos orientados a fortalecer el Sistema de Formación para el Trabajo.<br><br>Asimismo, se destacó la importancia de dar seguimiento puntual a los compromisos establecidos, a fin de traducir el diálogo y la coordinación institucional en acciones y resultados que contribuyan a mejorar los servicios de capacitación en beneficio de la población.<br><br>La participación conjunta de los CECATI y el ICATVER reafirma el valor del trabajo colaborativo y de la suma de esfuerzos entre las instituciones dedicadas a la formación para el trabajo, con un propósito común: ofrecer mayores oportunidades de desarrollo a las comunidades.<br><br>Con este encuentro, la DGCFT agradeció la organización, disposición y compromiso de los equipos participantes, y refrendó la importancia de continuar trabajando como un sistema coordinado, cercano a los planteles y al servicio de la sociedad.",
+        imagen: "imagenes/noticias/noticia43-1.webp",
+        imagenesAdicionales: [
+            {
+                tipo: "video",
+                miniatura: "imagenes/noticias/noticia43-video.webp",
+                enlace: "https://www.facebook.com/reel/1628621372326067"
+            },
+            "imagenes/noticias/noticia43-1.webp",
+            "imagenes/noticias/noticia43-2.webp",
+            "imagenes/noticias/noticia43-3.webp",
+        ],
+        fecha: "25-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 42,
+        titulo: "DGCFT fortalece la vinculación institucional con el CECATI 72 en Cosoleacaque",
+        textoPrevio: "La comunidad educativa del CECATI 72 recibió la visita del director general de la DGCFT, Francisco Garduño Yáñez, acompañado de representantes de la Dirección de Apoyo a la Operación y del SCEO Veracruz, para reafirmar el compromiso con la capacitación para el trabajo y el desarrollo de nuevas oportunidades.",
+        textoCompleto: "<strong>Cosoleacaque, Veracruz.</strong> La comunidad educativa del <strong>Centro de Capacitación para el Trabajo Industrial (CECATI) No. 72</strong> recibió la visita del <strong>Dr. Francisco Garduño Yáñez, director general de la Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>, acompañado de <strong>Diana Patricia Lurrabaquio Flores</strong>, de la Dirección de Apoyo a la Operación, y del <strong>Ing. Sergio López Hernández, subdirector de la Coordinación de Enlace Operativo en el Estado de Veracruz (SCEO)</strong>.<br><br>Este encuentro representa una oportunidad para fortalecer la comunicación y la colaboración institucional, así como para refrendar el compromiso de ofrecer una formación para el trabajo que impulse el desarrollo de habilidades, amplíe las oportunidades laborales y contribuya al bienestar de la comunidad.<br><br>La visita también reconoce la labor que realizan diariamente el personal directivo, docente y administrativo de los Centros de Capacitación para el Trabajo Industrial, cuya dedicación contribuye a brindar servicios educativos pertinentes y a responder a las necesidades de quienes buscan prepararse para el ámbito laboral.<br><br>A nombre de la comunidad educativa del CECATI 72, el <strong>Lic. Mateo Sinuhé Peña Morales, responsable de las funciones de la Dirección</strong>, expresó su agradecimiento por la visita y la atención brindada al plantel.<br><br>Con estos acercamientos, la DGCFT y el SCEO Veracruz continúan fortaleciendo la coordinación con los planteles, promoviendo el trabajo en equipo y la suma de esfuerzos para consolidar la capacitación para el trabajo como una vía para el desarrollo profesional y la generación de nuevas oportunidades.",
+        imagen: "imagenes/noticias/noticia42-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia42-1.webp",
+            "imagenes/noticias/noticia42-2.webp",
+            "imagenes/noticias/noticia42-3.webp",
+            "imagenes/noticias/noticia42-4.webp",
+            "imagenes/noticias/noticia42-5.webp",
+            "imagenes/noticias/noticia42-6.webp",
+            "imagenes/noticias/noticia42-7.webp",
+            "imagenes/noticias/noticia42-8.webp",
+            "imagenes/noticias/noticia42-9.webp",
+            "imagenes/noticias/noticia42-10.webp",
+            "imagenes/noticias/noticia42-11.webp",
+            "imagenes/noticias/noticia42-12.webp",
+            "imagenes/noticias/noticia42-13.webp",
+            "imagenes/noticias/noticia42-14.webp",
+            "imagenes/noticias/noticia42-15.webp",
+            "imagenes/noticias/noticia42-16.webp",
+            "imagenes/noticias/noticia42-17.webp",
+            "imagenes/noticias/noticia42-18.webp",
+            "imagenes/noticias/noticia42-19.webp",
+            "imagenes/noticias/noticia42-20.webp",
+        ],
+        fecha: "21-10-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 41,
+        titulo: "Pese al mal tiempo, Francisco Garduño recorre el CECATI 31 de Coatzacoalcos para fortalecer la capacitación laboral de las nuevas generaciones",
+        textoPrevio: "El director general de los Centros de Formación para el Trabajo de la SEP constató las condiciones de los talleres y dialogó con docentes y personal administrativo para conocer las necesidades del plantel.",
+        textoCompleto: "El Círculo Noticias CoatzaSur<br><br><strong>Ariel Hernández Diaz</strong><br><br><strong>Coatzacoalcos, Veracruz</strong>, Ni las condiciones climatológicas adversas detuvieron la agenda de trabajo del doctor Francisco Garduño Yáñez, director general de Centros de Formación para el Trabajo de la Secretaría de Educación Pública (SEP), quien este miércoles realizó una visita y recorrido por las instalaciones del Centro de Capacitación para el Trabajo Industrial (CECATI) número 31 de Coatzacoalcos, con el propósito de conocer de primera mano las condiciones en las que se desarrollan las actividades de capacitación técnica y las necesidades que enfrenta el plantel.<br><br>Acompañado por la maestra Diana Patricia Laubarraque López, directora de Apoyo a la Operación Nacional de los CECATI, el funcionario federal continuó su gira de trabajo por el sur de Veracruz, reafirmando la importancia de mantener el acercamiento con las comunidades educativas y fortalecer los espacios destinados a la formación de jóvenes y personas que buscan nuevas oportunidades de desarrollo laboral.<br><br>A su llegada, Garduño Yáñez fue recibido por la maestra Lila Inurrata Fernández, responsable de las funciones directivas del CECATI 31, así como por integrantes del personal docente y administrativo, con quienes sostuvo un diálogo directo en un ambiente de colaboración e intercambio de ideas.<br><br>Durante el encuentro, el director general saludó a los trabajadores de la institución y escuchó sus planteamientos, para posteriormente realizar un recorrido por las distintas áreas de capacitación, donde pudo conocer las actividades prácticas que forman parte de la preparación técnica de los estudiantes.<br><br><strong>CAPACITACIÓN TÉCNICA PARA ABRIR NUEVAS OPORTUNIDADES</strong><br>En su recorrido por los talleres de electricidad; refrigeración y aire acondicionado; máquinas y herramientas, incluido el torno; soldadura; informática e inteligencia artificial; artes gráficas; administración; mercadotecnia; instrumentación e inglés, el funcionario constató la diversidad de especialidades que ofrece el plantel para quienes buscan aprender un oficio, perfeccionar sus conocimientos o adquirir experiencia que les permita incorporarse al mercado laboral.<br><br>Más allá de una visita protocolaria, el recorrido permitió un acercamiento con el personal que diariamente participa en la enseñanza y preparación de los alumnos, así como conocer las condiciones operativas de los espacios donde se desarrolla la capacitación.<br><br>La revisión de estas áreas representa una oportunidad para identificar necesidades y valorar acciones de fortalecimiento que contribuyan a mantener y mejorar los procesos de enseñanza práctica, fundamentales para que los estudiantes desarrollen habilidades acordes con las exigencias del sector productivo.<br><br><strong>FORMAR A LOS JÓVENES ANTE LOS NUEVOS RETOS DEL SUR DE VERACRUZ</strong><br>La capacitación para el trabajo adquiere especial relevancia en Coatzacoalcos y la región sur de Veracruz, donde los proyectos estratégicos impulsados por el Gobierno de México, entre ellos el Corredor Interoceánico del Istmo de Tehuantepec y las obras previstas por Petróleos Mexicanos (Pemex), representan oportunidades para el desarrollo económico y la generación de empleos.<br><br>Ante este panorama, los centros de formación técnica tienen el reto de preparar a nuevas generaciones con conocimientos, habilidades y experiencia práctica que les permitan responder a las necesidades de una región con vocación industrial, energética, comercial y de servicios.<br><br>En ese contexto, la visita de Francisco Garduño Yáñez al CECATI 31 pone en perspectiva la importancia de mantener una comunicación cercana con los planteles, conocer sus condiciones reales de operación y dar seguimiento a las necesidades que permitan fortalecer la capacitación.<br><br>Este esfuerzo se vincula con la visión de la presidenta de México, Claudia Sheinbaum Pardo, de impulsar la educación, la formación técnica y las oportunidades de desarrollo para las juventudes, de manera que la preparación académica y laboral contribuya al bienestar de las familias y al crecimiento del país.<br><br>La jornada de este miércoles dejó como elemento central el acercamiento del funcionario federal con maestros y personal administrativo, así como el reconocimiento de la importancia que tienen los talleres y las especialidades técnicas en la construcción de mejores oportunidades para quienes buscan abrirse camino en el mundo laboral.<br><br>En Coatzacoalcos, donde el desarrollo industrial demanda cada vez más conocimientos especializados, fortalecer la capacitación significa apostar por el talento de los jóvenes y por una fuerza laboral mejor preparada para los desafíos y oportunidades que vienen para el sur de Veracruz y ese es el compromiso del doctor Francisco Garduño Yáñez, director general de Centros de Formación para el Trabajo de la Secretaría de Educación Pública (SEP) en seguir impulsando la capacitación para el área laboral",
+        imagen: "imagenes/noticias/noticia41-video.webp",
+        imagenesAdicionales: [
+        {
+        tipo: "video",
+        miniatura: "imagenes/noticias/noticia41-video.webp",
+        enlace: "https://www.facebook.com/61579316799896/videos/4231351223821620"
+        },
+        ],
+        fecha: "21-10-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 40,
+        titulo: "CECATI 31 fortalece las habilidades técnicas de sus alumnos mediante prácticas de Máquinas-Herramienta",
+        textoPrevio: "La formación práctica permite a los estudiantes desarrollar precisión, conocimientos técnicos y experiencia en el manejo de máquinas y herramientas, fortaleciendo sus competencias para el ámbito laboral.",
+        textoCompleto: "<strong>Coatzacoalcos, Veracruz.</strong> En el <strong>CECATI 31</strong>, los alumnos de la especialidad de <strong>Máquinas-Herramienta</strong> fortalecen sus conocimientos mediante prácticas en el taller, donde desarrollan precisión, técnica y destreza en el manejo de máquinas y herramientas.<br><br>A través del aprendizaje práctico, los estudiantes transforman los conocimientos adquiridos en experiencia, fortaleciendo sus competencias técnicas y preparándose para responder a las necesidades del sector productivo.<br><br>La capacitación para el trabajo ofrece oportunidades para adquirir habilidades especializadas que contribuyen al desarrollo profesional y a la incorporación al mercado laboral.<br><br><strong>¿Te gustaría desarrollar tus habilidades técnicas?</strong> El CECATI 31 invita al público interesado a inscribirse en sus capacitaciones de Máquinas-Herramienta y formar parte de su comunidad educativa.<br><br><strong>Informes y WhatsApp:</strong> 921 218 5115.",
+        imagen: "imagenes/noticias/noticia40-video.webp",
+        imagenesAdicionales: [
+        {
+        tipo: "video",
+        miniatura: "imagenes/noticias/noticia40-video.webp",
+        enlace: "https://www.facebook.com/reel/2105325303402770"
+        },
+        ],
+        fecha: "15-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 39,
+        titulo: "DGCFT supervisa el CECATI 170 y fortalece la vinculación con el sector productivo en Veracruz",
+        textoPrevio: "La visita de supervisión en Orizaba permitió escuchar las propuestas y necesidades de la comunidad educativa y reafirmar la importancia de coordinar esfuerzos con los ICAT para impulsar la capacitación y el desarrollo económico regional.",
+        textoCompleto: "<strong>Orizaba, Veracruz.</strong> Como parte de las acciones de supervisión y seguimiento a los servicios de Formación para el Trabajo, el <strong>Lic. Francisco Garduño Yáñez, Director General de la Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>, realizó una visita al <strong>CECATI No. 170</strong>, con el propósito de conocer de primera mano las propuestas, necesidades y áreas de oportunidad de su comunidad educativa.<br><br>Durante la jornada, se generó un espacio de diálogo con estudiantes, docentes y personal del plantel, destacando la importancia de mantener una comunicación cercana que permita fortalecer los servicios de capacitación y atender las necesidades de quienes forman parte de la comunidad escolar.<br><br>Entre los ejes prioritarios se destacó la importancia de fortalecer la coordinación con los <strong>Institutos de Capacitación para el Trabajo (ICAT) del estado</strong>, a fin de articular esfuerzos y promover una mayor vinculación entre la capacitación y las necesidades del sector productivo de la región.<br><br>Esta coordinación busca impulsar una <strong>Formación para el Trabajo pertinente y de calidad</strong>, que contribuya al desarrollo de competencias laborales, fortalezca a las micro, pequeñas y medianas empresas (MIPYMES) y genere mayores oportunidades de empleo y emprendimiento.<br><br>La visita reafirma el compromiso de la <strong>DGCFT y del SCEO Veracruz</strong> con el fortalecimiento de los planteles, la atención a su comunidad educativa y la consolidación de alianzas estratégicas que contribuyan al desarrollo económico y social de la entidad.<br><br>Con estas acciones, los CECATI continúan trabajando para que la capacitación responda a las necesidades reales de la población y del sector productivo, convirtiéndose en una herramienta para ampliar las oportunidades laborales y promover el desarrollo regional.",
+        imagen: "imagenes/noticias/noticia39-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia39-1.webp",
+            "imagenes/noticias/noticia39-2.webp",
+            "imagenes/noticias/noticia39-3.webp",
+            "imagenes/noticias/noticia39-4.webp",
+            "imagenes/noticias/noticia39-5.webp",
+            "imagenes/noticias/noticia39-6.webp",
+            "imagenes/noticias/noticia39-7.webp",
+        ],
+        fecha: "21-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 38,
+        titulo: "CECATI 170 y Fundación Doctor Hernández Zurita impulsan alianzas para fortalecer la capacitación en optometría",
+        textoPrevio: "La visita del titular de la DGCFT a Orizaba fortalece el acercamiento entre instituciones educativas, el sector empresarial y la Fundación Doctor Hernández Zurita para promover oportunidades de formación técnica y desarrollo profesional.",
+        textoCompleto: "<strong>Orizaba, Veracruz.</strong> Con el propósito de fortalecer los vínculos entre la educación, la capacitación para el trabajo y el sector productivo, la <strong>Fundación Doctor Hernández Zurita, I.B.P.</strong> destacó la importancia de impulsar alianzas institucionales que contribuyan a generar mayores oportunidades de formación y desarrollo profesional para la sociedad.<br><br>En este contexto, se recibió la visita del <strong>Lic. Francisco Garduño Yáñez, Director General de la Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>, quien acudió a Orizaba por invitación de la <strong>Lic. Jacqueline Jiménez Torres, directora del CECATI No. 170</strong>.<br><br>El encuentro propició un espacio de diálogo entre el titular de la DGCFT y el <strong>Dr. Marco Antonio Hernández Olguín, presidente del Consejo Directivo de la Fundación</strong>, con quien comparte una relación de amistad de varios años y el interés por promover iniciativas que contribuyan al bienestar y desarrollo de la sociedad.<br><br>Asimismo, estuvieron presentes autoridades municipales del Ayuntamiento de Orizaba, así como representantes de los sectores educativo y empresarial, quienes coincidieron en la importancia de sumar esfuerzos para fortalecer la preparación de las personas y ampliar sus oportunidades de incorporación al ámbito laboral.<br><br>En este marco, se destacó la posibilidad de fortalecer la colaboración entre la <strong>Fundación Doctor Hernández Zurita</strong> y el <strong>CECATI No. 170</strong>, vinculando la experiencia de la Fundación en el campo de la salud visual con la formación técnica especializada, particularmente en iniciativas relacionadas con la <strong>capacitación de auxiliares en optometría</strong>.<br><br>Este tipo de alianzas permite compartir conocimientos, aprovechar las capacidades de ambas instituciones y promover proyectos que vinculen la formación técnica con las necesidades del entorno, favoreciendo el desarrollo de nuevas competencias y oportunidades profesionales.<br><br>La <strong>DGCFT, a través de los CECATI</strong>, continúa impulsando la vinculación con instituciones y organizaciones comprometidas con la educación y el desarrollo social, con el propósito de ofrecer una capacitación pertinente que contribuya a mejorar las perspectivas laborales y la calidad de vida de la población.<br><br>Bajo esta visión, la colaboración institucional reafirma que la <strong>capacitación para el trabajo es también una herramienta de desarrollo social</strong>, al brindar conocimientos y habilidades que favorecen la autonomía de las personas y generan beneficios para sus familias y comunidades.",
+        imagen: "imagenes/noticias/noticia38-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia38-1.webp",
+            "imagenes/noticias/noticia38-2.webp",
+            "imagenes/noticias/noticia38-3.webp",
+            "imagenes/noticias/noticia38-4.webp",
+            "imagenes/noticias/noticia38-5.webp",
+            "imagenes/noticias/noticia38-6.webp",
+            "imagenes/noticias/noticia38-7.webp",
+            "imagenes/noticias/noticia38-8.webp",
+            "imagenes/noticias/noticia38-9.webp",
+            "imagenes/noticias/noticia38-10.webp",
+        ],
+        fecha: "20-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 37,
+        titulo: "DGCFT fortalece la supervisión y la calidad de la capacitación en el CECATI 103 de Poza Rica",
+        textoPrevio: "La visita de supervisión permitió conocer de cerca el trabajo de estudiantes, docentes y directivos, y reafirmar el compromiso institucional con una capacitación de calidad vinculada con las oportunidades laborales.",
+        textoCompleto: "<strong>Poza Rica, Veracruz.</strong> Como parte de las acciones de seguimiento y supervisión de los servicios de Formación para el Trabajo, se realizó una visita al <strong>CECATI No. 103</strong>, ubicado en el municipio de Poza Rica, Veracruz, con el propósito de conocer de cerca las actividades que se desarrollan en el plantel.<br><br>Durante el recorrido por las aulas y talleres, se constató el talento y la dedicación de las y los estudiantes, así como la vocación y el compromiso del personal docente y directivo, quienes contribuyen diariamente a la formación de personas con conocimientos y habilidades para incorporarse al ámbito laboral.<br><br>Este acercamiento permite reconocer la importancia de mantener una supervisión cercana a los planteles, identificar sus necesidades y fortalecer las acciones orientadas a ofrecer una <strong>capacitación pertinente, de calidad y vinculada con las oportunidades de empleo</strong>.<br><br>En esta etapa de transformación, la <strong>Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong> refrenda su compromiso de impulsar una formación que contribuya al desarrollo de las competencias de la población y que se traduzca en oportunidades reales de crecimiento personal, laboral y productivo.<br><br>Con estas acciones, se fortalece el trabajo de los CECATI en Veracruz para continuar brindando servicios de capacitación que respondan a las necesidades de la sociedad y del sector productivo.",
+        imagen: "imagenes/noticias/noticia37-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia37-1.webp",
+            "imagenes/noticias/noticia37-2.webp",
+            "imagenes/noticias/noticia37-3.webp",
+        ],
+        fecha: "19-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 36,
+        titulo: "SCEO Veracruz e ICATVER fortalecen la coordinación institucional ante próxima visita de la DGCFT",
+        textoPrevio: "La reunión de trabajo permitió establecer acuerdos y coordinar acciones entre ambas instituciones, previo a la visita de autoridades de la DGCFT y de los ICAT del país.",
+        textoCompleto: "<strong>Veracruz, Veracruz.</strong> Con el propósito de fortalecer la coordinación interinstitucional y dar seguimiento a las acciones de colaboración en materia de <strong>Formación para el Trabajo</strong>, se llevó a cabo una reunión de trabajo entre el <strong>Ing. Sergio López Hernández, Subdirector de la Coordinación de Enlace Operativo de los CECATI en el Estado de Veracruz (SCEO Veracruz)</strong>, y la <strong>Mtra. Adriana Esther Martínez Sánchez, Directora General del ICATVER</strong>, acompañada por parte de su equipo de trabajo.<br><br>Durante el encuentro se abordaron diversos temas de interés y se establecieron <strong>acuerdos y acciones de coordinación</strong> como parte de los preparativos ante la próxima visita de la <strong>Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong>.<br><br>La visita estará encabezada por el <strong>Dr. Francisco Garduño Yáñez, Director General de la DGCFT</strong>, y contará con la participación del <strong>Dr. Héctor L. Martínez Castuera</strong>, responsable de la coordinación de los Institutos de Capacitación para el Trabajo (ICAT) del país.<br><br>Este tipo de reuniones permiten fortalecer los canales de comunicación entre las instituciones responsables de la capacitación para el trabajo en la entidad, así como establecer acciones conjuntas que contribuyan a una mejor coordinación y atención de los temas relacionados con la <strong>Formación para el Trabajo en Veracruz</strong>.<br><br>El <strong>SCEO Veracruz</strong> refrenda su compromiso de mantener una coordinación permanente con el <strong>ICATVER</strong> y con las instancias vinculadas con la Formación para el Trabajo, impulsando acuerdos que fortalezcan la atención de las necesidades de capacitación de la población veracruzana.",
+        imagen: "imagenes/noticias/noticia36-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia36-1.webp",
+            "imagenes/noticias/noticia36-2.webp",
+            "imagenes/noticias/noticia36-3.webp",
+            "imagenes/noticias/noticia36-4.webp",
+            "imagenes/noticias/noticia36-5.webp",
+        ],
+        fecha: "01-10-2026",
+        mes: "Octubre",
+        anio: "2026"
+    },
+    {
+        id: 35,
+        titulo: "CECATI 72 e IVEA fortalecen la vinculación para impulsar la educación y la capacitación",
+        textoPrevio: "La colaboración permitió acercar a estudiantes del CECATI 72 información sobre los servicios gratuitos del IVEA para jóvenes y adultos que desean concluir su educación básica.",
+        textoCompleto: "<strong>Cosoleacaque, Veracruz.</strong> Como parte de las acciones para fortalecer la <strong>vinculación interinstitucional</strong> en beneficio de la comunidad, el <strong>CECATI No. 72</strong> recibió en sus instalaciones al personal del <strong>Instituto Veracruzano de Educación para los Adultos (IVEA), Coordinación Minatitlán</strong>, encabezado por la <strong>Lic. Alba Erika González Bautista, Coordinadora de Zona</strong>.<br><br>Durante la visita, se brindó a las y los estudiantes información sobre los servicios <strong>gratuitos</strong> que ofrece el IVEA a jóvenes y adultos de 15 años en adelante que desean iniciar, continuar o concluir su educación básica.<br><br>Entre los servicios disponibles se encuentran la <strong>alfabetización, educación primaria, educación secundaria y Lengua de Señas Mexicana</strong>, además de asesorías y materiales didácticos que acompañan el proceso educativo, así como la posibilidad de obtener la certificación oficial correspondiente.<br><br>Como parte de esta actividad, personal del IVEA realizó la <strong>colocación de carteles informativos y distribución de folletos</strong> en las aulas y talleres del plantel, con el propósito de acercar esta información a la comunidad educativa y facilitar el acceso a las opciones de educación básica para jóvenes y adultos.<br><br>La colaboración entre ambas instituciones representa una oportunidad para fortalecer la formación integral de la comunidad, al vincular la <strong>capacitación para el trabajo con el acceso a la educación básica</strong> y contribuir así al desarrollo académico y personal de las personas.<br><br>El <strong>CECATI No. 72</strong> agradece al <strong>IVEA</strong> su disposición para sumar esfuerzos y refrenda su compromiso de impulsar alianzas que generen mayores oportunidades de aprendizaje y desarrollo para la población.<br><br>Con estas acciones, el <strong>SCEO Veracruz</strong> continúa fortaleciendo la vinculación interinstitucional para acercar servicios educativos y de capacitación a las comunidades de la entidad.",
+        imagen: "imagenes/noticias/noticia35-4.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia35-1.webp",
+            "imagenes/noticias/noticia35-2.webp",
+            "imagenes/noticias/noticia35-3.webp",
+            "imagenes/noticias/noticia35-4.webp",
+            "imagenes/noticias/noticia35-5.webp",
+            "imagenes/noticias/noticia35-6.webp",
+        ],
+        fecha: "23-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 34,
+        titulo: "CECATI 170 fortalece la capacitación para mujeres de Tlanecatilpam en alianza con Fundación Corazón Raíz",
+        textoPrevio: "La alianza permitirá acercar conocimientos de informática a 25 mujeres de la comunidad de Tlanecatilpam, en el municipio de Zongolica, fortaleciendo sus oportunidades de desarrollo y capacitación.",
+        textoCompleto: "<strong>Zongolica, Veracruz.</strong> Como parte de las acciones para acercar la <strong>Formación para el Trabajo</strong> a las comunidades de la región, el <strong>CECATI No. 170</strong> inició un proceso de capacitación en el área de <strong>Informática dirigido a 25 mujeres</strong> de la comunidad de Tlanecatilpam, en el municipio de Zongolica.<br><br>Esta iniciativa se desarrolla en coordinación con la <strong>Fundación Corazón Raíz, A.C.</strong>, nuevo aliado estratégico del CECATI 170, con el propósito de generar oportunidades de capacitación que contribuyan al desarrollo de conocimientos y habilidades útiles para las participantes.<br><br>El acercamiento de los servicios de capacitación a las comunidades representa una oportunidad para fortalecer las competencias de la población y favorecer el acceso a herramientas que pueden ser de utilidad tanto en el ámbito personal como laboral y productivo.<br><br>La colaboración con la <strong>Fundación Corazón Raíz, A.C.</strong> refrenda la importancia de sumar esfuerzos entre instituciones y organizaciones de la sociedad civil para ampliar el alcance de la Formación para el Trabajo y atender las necesidades de las comunidades.<br><br>El <strong>CECATI No. 170</strong> agradece a la <strong>Fundación Corazón Raíz, A.C.</strong> la confianza y disposición para trabajar de manera conjunta en favor de la capacitación, fortaleciendo alianzas que permiten acercar nuevas oportunidades de aprendizaje a la población.<br><br>Con acciones como esta, el <strong>SCEO Veracruz</strong> y los CECATI de la entidad continúan impulsando una capacitación cercana a las comunidades y orientada al desarrollo de habilidades que contribuyan a mejorar las oportunidades de las personas.",
+        imagen: "imagenes/noticias/noticia34-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia34-1.webp",
+            "imagenes/noticias/noticia34-2.webp",
+            "imagenes/noticias/noticia34-3.webp",
+            "imagenes/noticias/noticia34-4.webp",
+            "imagenes/noticias/noticia34-5.webp",
+        ],
+        fecha: "23-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 33,
+        titulo: "CECATI de Veracruz fortalecen la cultura de la prevención con Simulacro Nacional 2026",
+        textoPrevio: "Los 10 CECATI del Estado de Veracruz participaron en el ejercicio de simulacro para fortalecer la capacidad de respuesta de la comunidad educativa ante una emergencia.",
+        textoCompleto: "<strong>Veracruz, Veracruz.</strong> En el marco de las acciones de prevención y protección civil, los <strong>CECATI del Estado de Veracruz, en coordinación con el SCEO Veracruz</strong>, participaron este viernes 18 de septiembre de 2026 en un ejercicio de simulacro, con el propósito de fortalecer la cultura de la prevención y la capacidad de respuesta de la comunidad educativa ante una eventual emergencia sísmica.<br><br>La hipótesis planteada para el ejercicio correspondió a un <strong>sismo de magnitud 7.7</strong>, con una profundidad de 67 kilómetros y epicentro ubicado a 15 kilómetros al sur-suroeste de Tehuacán, Puebla.<br><br><strong>11:00 horas</strong>, activación de la alarma sísmica, personal docente, administrativo y alumnado suspendieron sus actividades para aplicar los protocolos establecidos de repliegue y evacuación.<br><br><strong>11:01 a 11:03 </strong>La comunidad educativa siguió las <strong>rutas de evacuación señalizadas</strong> y se trasladó de manera ordenada y con calma hacia los puntos de reunión establecidos en cada plantel, atendiendo las indicaciones de seguridad y evitando correr, gritar o empujar.<br><br><strong>11:05 </strong>Posteriormente, los responsables de cada área realizaron el <strong>pase de lista y censo del personal y alumnado</strong>, confirmándose saldo blanco y sin novedad. El tiempo aproximado de evacuación fue de <strong>3 minutos con 30 segundos</strong>, con la participación del 100 % de la comunidad presente en los planteles.<br><br><strong>11:10 horas</strong>Como parte de la retroalimentación, se reforzaron recomendaciones relacionadas con la <strong>mochila de emergencia, la identificación de zonas de menor riesgo y la importancia de mantener la calma</strong> ante una situación de emergencia.<br><br>El ejercicio permitió evaluar los protocolos de evacuación, comunicación y repliegue, así como identificar áreas de oportunidad para continuar fortaleciendo la cultura de la prevención en los CECATI de Veracruz.",
+        imagen: "imagenes/noticias/noticia33.webp",
+        imagenesAdicionales: [
+            {
+                tipo: "video",
+                miniatura: "imagenes/noticias/noticia33-video.webp",
+                enlace: "https://www.facebook.com/reel/1108532198403889"
+            },
+            "imagenes/noticias/noticia33.webp",
+            "imagenes/noticias/noticia33-1.webp",
+            "imagenes/noticias/noticia33-2.webp",
+            "imagenes/noticias/noticia33-3.webp",
+            "imagenes/noticias/noticia33-4.webp",
+            "imagenes/noticias/noticia33-5.webp",
+            "imagenes/noticias/noticia33-6.webp",
+            "imagenes/noticias/noticia33-7.webp",
+            "imagenes/noticias/noticia33-8.webp",
+            "imagenes/noticias/noticia33-9.webp",
+        ],
+        fecha: "18-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 32,
+        titulo: "DGCFT y Mercado Libre clausuran la primera generación de la Escuela de Automatización",
+        textoPrevio: "La iniciativa conjunta fortaleció las competencias del personal de Mercado Libre mediante 120 horas de formación teórica y práctica, con la participación de los CECATI 135 y 92.",
+        textoCompleto: "<strong>Ciudad de México.</strong> La <strong>Dirección General de Centros de Formación para el Trabajo (DGCFT)</strong> y <strong>Mercado Libre</strong> llevaron a cabo la clausura de la <strong>primera generación de la Escuela de Automatización</strong>, iniciativa desarrollada de manera conjunta para fortalecer las competencias del personal de la empresa y atender las necesidades actuales de sus plantas.<br><br>En este proyecto participaron el <strong>CECATI No. 135</strong> y el <strong>CECATI No. 92</strong>, contribuyendo con los procesos de capacitación orientados al desarrollo de conocimientos y habilidades vinculados con la automatización y las necesidades del entorno laboral.<br><br>Durante <strong>tres semanas y con una duración de 120 horas</strong>, las y los participantes realizaron actividades teóricas y prácticas enfocadas en el fortalecimiento de competencias aplicables a los retos tecnológicos y productivos de la industria.<br><br>Durante el acto de clausura, la <strong>Mtra. Diana Álvarez Maury, Directora Técnica de la DGCFT</strong>, en representación del <strong>Dr. Francisco Garduño Yáñez, Titular de la DGCFT</strong>, realizó la entrega de las constancias correspondientes y reconoció el compromiso del personal docente y de quienes participaron en el desarrollo de esta primera generación.<br><br>Asimismo, se destacó la coordinación y seguimiento del <strong>Dr. Eduardo Calderón Cuevas</strong>, cuya participación permitió articular los esfuerzos institucionales necesarios para la puesta en marcha y desarrollo de este proyecto de colaboración.<br><br>Como parte del evento, integrantes de la primera generación compartieron sus experiencias, destacando que el proceso formativo les permitió <strong>reafirmar conocimientos, recuperar aprendizajes previos y adquirir nuevas herramientas</strong> para fortalecer su desempeño laboral. También resaltaron la creación de una red de apoyo entre participantes que continuará más allá del proceso formativo.",
+        imagen: "imagenes/noticias/noticia32-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia32-1.webp",
+            "imagenes/noticias/noticia32-2.webp",
+            "imagenes/noticias/noticia32-3.webp",
+        ],
+        fecha: "18-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 31,
+        titulo: "CECATI 170 fortalece la vinculación institucional con el Voluntariado del IMSS Veracruz Sur",
+        textoPrevio: "El acuerdo de colaboración permitirá impulsar acciones de capacitación que contribuyan a la elaboración de pelucas oncológicas y al fortalecimiento de la labor social del Voluntariado del IMSS Veracruz Sur.",
+        textoCompleto: "<strong>Ixtaczoquitlán, Veracruz.</strong> Con el propósito de fortalecer la vinculación institucional y contribuir, desde la capacitación para el trabajo, a iniciativas de beneficio social, se llevó a cabo la <strong>firma de un Acuerdo de Colaboración entre el CECATI No. 170 y el Voluntariado del IMSS Veracruz Sur</strong>.<br><br>Este acuerdo tiene entre sus principales objetivos establecer acciones conjuntas que permitan apoyar la importante labor que realiza el <strong>Voluntariado del IMSS Veracruz Sur</strong> en la elaboración de <strong>pelucas oncológicas</strong>, mediante procesos de capacitación que fortalezcan las habilidades y conocimientos necesarios para esta actividad.<br><br>La colaboración representa una oportunidad para vincular la <strong>Formación para el Trabajo</strong> con acciones de carácter social, poniendo las capacidades y conocimientos adquiridos a través de la capacitación al servicio de quienes más lo necesitan.<br><br>Asimismo, este tipo de alianzas permite ampliar el alcance de los servicios que ofrecen los CECATI, al generar espacios de colaboración con instituciones que desarrollan actividades de impacto directo en la comunidad.<br><br>El <strong>SCEO Veracruz</strong> reconoce y agradece al <strong>Voluntariado del IMSS Veracruz Sur</strong> la confianza y disposición para sumar esfuerzos con el CECATI No. 170, refrendando el compromiso de fortalecer la vinculación institucional y promover una capacitación que contribuya al desarrollo de las personas y al bienestar de la sociedad.",
+        imagen: "imagenes/noticias/noticia31.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia31.webp",
+        ],
+        fecha: "15-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 30,
+        titulo: "SCEO Veracruz fortalece la coordinación con directores de los 10 CECATI para el ciclo escolar 2026-2027",
+        textoPrevio: "La reunión de trabajo permitió establecer acuerdos y estrategias para fortalecer los servicios de capacitación y atender las necesidades de la población durante el nuevo ciclo escolar.",
+        textoCompleto: "<strong>Xalapa, Veracruz.</strong> Con el propósito de coordinar las acciones correspondientes al nuevo ciclo escolar <strong>2026-2027</strong>, se llevó a cabo la <strong>Reunión de Trabajo de Directores de los CECATI del Estado de Veracruz</strong>, con la participación de los directores de los 10 planteles que conforman la entidad.<br><br>El encuentro, realizado el pasado <strong>3 de septiembre</strong> en las instalaciones del <strong>CECATI No. 151 de Xalapa</strong>, constituyó un espacio de diálogo, coordinación y colaboración para fortalecer las acciones de la <strong>Formación para el Trabajo</strong> en el estado.<br><br>Durante la reunión se abordaron temas relacionados con la <strong>oferta educativa y los trayectos formativos</strong>, proyectos estatales, la próxima <strong>Muestra de Prototipos</strong>, así como estrategias y acciones orientadas a fortalecer los servicios de capacitación que ofrecen los planteles.<br><br>Asimismo, se analizaron otros temas de interés para el desarrollo y crecimiento de los CECATI, con la finalidad de establecer acuerdos y coordinar esfuerzos que permitan atender de manera pertinente las necesidades de las comunidades a las que brindan sus servicios.<br><br>Estos encuentros fortalecen la comunicación y el trabajo conjunto entre los planteles, al permitir compartir experiencias, identificar áreas de oportunidad y generar estrategias para ofrecer una <strong>capacitación pertinente, innovadora y de calidad</strong>, acorde con las necesidades del entorno.<br><br>De esta manera, el <strong>SCEO Veracruz</strong> continúa impulsando la coordinación entre los 10 CECATI de la entidad, con miras a consolidar las acciones y proyectos que marcarán el desarrollo de la Formación para el Trabajo durante el ciclo escolar <strong>2026-2027</strong>.",
+        imagen: "imagenes/noticias/noticia30.png",
+        imagenesAdicionales: [
+        {
+        tipo: "video",
+        miniatura: "imagenes/noticias/noticia30-video.png",
+        enlace: "https://www.facebook.com/reel/1601197661804996"
+        },
+            "imagenes/noticias/noticia30.png",
+        ],
+        fecha: "15-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 29,
+        titulo: "DGCFT fortalece la vinculación con CANALAVA para impulsar la capacitación y el emprendimiento",
+        textoPrevio: "La colaboración busca alinear la capacitación de los CECATI con las necesidades de la industria de lavanderías, planchado y tintorería, además de generar nuevas oportunidades de autoempleo y emprendimiento.",
+        textoCompleto: "<strong>Ciudad de México.</strong> Por indicaciones del <strong>Dr. Francisco Garduño Yáñez, Director General de la DGCFT</strong>, se llevó a cabo una reunión de trabajo entre la <strong>Mtra. Diana P. Laurrabaquio Flores, Directora de Apoyo a la Operación</strong>; los titulares de las Subdirecciones de la Coordinación de Enlace Operativo (SCEO) de la Ciudad de México y Veracruz, <strong>Citlali Camus Caracas</strong> y <strong>Ing. Sergio López Hernández</strong>, respectivamente; y representantes de la <strong>Cámara Nacional de la Industria de Lavanderías (CANALAVA)</strong>, encabezados por su Presidenta del Consejo, <strong>Marcela Espinoza</strong>, y su Directora General, <strong>Montserrat Hernández</strong>.<br><br>El encuentro tuvo como propósito establecer las bases para una colaboración e intercambio de experiencias que permita fortalecer las áreas de <strong>capacitación para el trabajo</strong> relacionadas con la industria del lavado, planchado y tintorería, así como identificar nuevas oportunidades de emprendimiento para la población atendida en los <strong>CECATI</strong>.<br><br>A través de esta vinculación se busca impulsar acciones que permitan <strong>atender las necesidades reales del sector productivo</strong>, desarrollar programas de estudio pertinentes y generar oportunidades de <strong>autoempleo y creación de microempresas</strong> para las y los egresados de los CECATI.<br><br>Asimismo, se contempla fortalecer la posibilidad de <strong>certificar competencias laborales</strong> en un sector que demanda personal capacitado y que representa una alternativa para el desarrollo de proyectos productivos.<br><br>Con este tipo de alianzas, la <strong>DGCFT</strong> refrenda su compromiso de vincular la Formación para el Trabajo con las necesidades del sector empresarial, contribuyendo a que las personas egresadas no solo adquieran conocimientos y habilidades, sino que encuentren en la capacitación una herramienta para su desarrollo personal y profesional.",
+        imagen: "imagenes/noticias/noticia29.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia29.webp",
+        ],
+        fecha: "11-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 28,
+        titulo: "SCEO Veracruz fortalece la vinculación institucional con el Ayuntamiento de Veracruz",
+        textoPrevio: "La reunión de trabajo con el Ayuntamiento de Veracruz fortalece las alianzas estratégicas para impulsar acciones de capacitación para el trabajo en beneficio de la región.",
+        textoCompleto: "<strong>Veracruz, Veracruz.</strong> Como parte de las acciones de vinculación con el sector productivo y las instituciones públicas, el <strong>Ing. Sergio López Hernández, Subdirector de la Coordinación de Enlace Operativo de la DGCFT en el Estado de Veracruz</strong>, sostuvo una reunión de trabajo con el <strong>Lic. Pedro Bustos, Director de Catastro del H. Ayuntamiento de Veracruz</strong>.<br><br>Durante este encuentro se abordaron temas de interés común y oportunidades de colaboración, con el propósito de fortalecer la coordinación institucional y generar alianzas que contribuyan al desarrollo de acciones en materia de <strong>capacitación para el trabajo</strong>.<br><br>Este tipo de acercamientos permite consolidar vínculos entre la <strong>DGCFT, los gobiernos municipales y los distintos sectores de la sociedad</strong>, favoreciendo la generación de estrategias que respondan a las necesidades de la región y contribuyan al desarrollo de las competencias de la población.<br><br>Con estas acciones, el <strong>SCEO Veracruz</strong> refrenda su compromiso de impulsar la vinculación institucional y fortalecer las oportunidades de capacitación para el trabajo en beneficio de las comunidades veracruzanas.",
+        imagen: "imagenes/noticias/noticia28.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia28.webp",
+        ],
+        fecha: "07-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 27,
+        titulo: "CECATI 72 fortalece la formación en Soldadura y Pailería con donación de equipo industrial",
+        textoPrevio: "La colaboración con el sector privado permitirá fortalecer la formación práctica de las y los estudiantes del CECATI 72 y ampliar sus oportunidades de incorporación al sector industrial.",
+        textoCompleto: "<strong>CECATI 72 fortalece la formación en Soldadura y Pailería con donación de equipo industrial</strong><br><br><strong>Cosoleacaque, Veracruz.</strong> El Centro de Capacitación para el Trabajo Industrial (CECATI) No. 72, de la Dirección General de Centros de Formación para el Trabajo (DGCFT), recibió una importante <strong>donación de equipo industrial por parte de la empresa ContourGlobal</strong>, en beneficio de la especialidad de Soldadura y Pailería.<br><br>A nombre del plantel, el responsable de las funciones de la Dirección, <strong>Lic. Mateo Sinuhe Peña Morales</strong>, expresó su agradecimiento a ContourGlobal por este valioso apoyo, que permitirá fortalecer las prácticas de las y los estudiantes mediante el uso de herramientas y equipos con características profesionales.<br><br>La incorporación de este equipamiento contribuirá al desarrollo de <strong>habilidades y competencias técnicas</strong>, fortaleciendo la preparación de las y los estudiantes y ampliando sus oportunidades de incorporación al sector industrial y al mercado laboral.<br><br>Esta colaboración refrenda la importancia de fortalecer la <strong>vinculación entre los Centros de Formación para el Trabajo y el sector productivo</strong>, con el propósito de impulsar una oferta de capacitación pertinente y acorde con las necesidades actuales de la industria.<br><br>Con acciones como esta, el CECATI No. 72 reafirma su compromiso con una formación de calidad, mientras que la participación del sector privado demuestra que <strong>sumar esfuerzos en favor de la capacitación es invertir en el talento, el empleo y el futuro de las nuevas generaciones</strong>.",
+        imagen: "imagenes/noticias/noticia27-1.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia27-1.webp",
+            "imagenes/noticias/noticia27-2.webp",
+            "imagenes/noticias/noticia27-3.webp",
+            "imagenes/noticias/noticia27-4.webp",
+            "imagenes/noticias/noticia27-5.webp",
+            "imagenes/noticias/noticia27-6.webp",
+        ],
+        fecha: "03-09-2026",
+        mes: "Septiembre",
+        anio: "2026"
+    },
+    {
+        id: 26,
+        titulo: "SCEO Veracruz e ICATVER fortalecen la coordinación para impulsar la capacitación para el trabajo",
+        textoPrevio: "El Mtro. Sergio López Hernández, subdirector de la Coordinación de Enlace Operativo (SCEO) Veracruz, sostuvo una reunión de trabajo con la directora general del ICATVER, Mtra. Adriana Esther Martínez Sánchez, para fortalecer la colaboración institucional en materia de capacitación y desarrollo de competencias.",
+        textoCompleto: "<strong>DGCFT e ICATVER fortalecen vínculos para impulsar la capacitación en Veracruz</strong><br><br><strong>Veracruz, Ver.</strong> El <strong>Mtro. Sergio López Hernández</strong>, subdirector de la Subdirección de la Coordinación de Enlace Operativo (SCEO) Veracruz, sostuvo una reunión de trabajo con la <strong>Mtra. Adriana Esther Martínez Sánchez</strong>, directora general del Instituto de Capacitación para el Trabajo del Estado de Veracruz (ICATVER).<br><br>Durante el encuentro se abordaron temas relacionados con el fortalecimiento de la coordinación y vinculación entre ambas instituciones, con el propósito de impulsar acciones conjuntas que contribuyan al desarrollo de la capacitación para el trabajo en el estado de Veracruz.<br><br>La reunión permitió refrendar la importancia de sumar esfuerzos institucionales para ampliar las oportunidades de formación, fortalecer las competencias de las y los veracruzanos y responder de manera pertinente a las necesidades del sector productivo.<br><br>Con este acercamiento, la <strong>SCEO Veracruz</strong> y el <strong>ICATVER</strong> refrendan su disposición para continuar trabajando de manera coordinada en favor de la educación, la capacitación y el desarrollo económico y social de Veracruz.",
+        imagen: "imagenes/noticias/noticia26-2.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia26-1.webp",
+            "imagenes/noticias/noticia26-2.webp",
+            "imagenes/noticias/noticia26-3.webp",
+        ],
+        fecha: "23-07-2026",
+        mes: "Julio",
+        anio: "2026"
+    },
+    {
+        id: 25,
+        titulo: "CECATI celebra 63 años de transformar vidas con la Primera Muestra Museográfica de Creaciones Educativas",
+        textoPrevio: "En el marco del 63 aniversario de los CECATI, se inauguró la Primera Muestra Museográfica de Creaciones Educativas, un espacio que reúne el talento, la creatividad y las competencias desarrolladas por estudiantes de los Centros de Capacitación para el Trabajo Industrial de todo el país.",
+        textoCompleto: "<strong>CECATI celebra 63 años de transformar a México con la Primera Muestra Museográfica de Creaciones Educativas</strong><br><br><strong>Ciudad de México.</strong> En el marco de la celebración por el <strong>63 aniversario de los Centros de Capacitación para el Trabajo Industrial (CECATI)</strong>, se llevó a cabo la inauguración de la <strong>Primera Muestra Museográfica de Creaciones Educativas de los CECATI</strong>, un espacio dedicado a mostrar el talento, la creatividad y las competencias que desarrollan las y los estudiantes en los talleres de los planteles.<br><br>Acompañado por la subsecretaria de Educación Media Superior, <strong>Mtra. Tania Rodríguez Mora</strong>, se realizó el corte del listón inaugural de esta exposición, que reúne una muestra representativa del trabajo realizado por la comunidad educativa de los CECATI.<br><br>Durante el recorrido se pudieron apreciar proyectos de <strong>tecnología sustentable, mecánica automotriz, artes y diversas áreas de formación</strong>, cada uno como reflejo de los conocimientos, habilidades, creatividad e innovación que las y los estudiantes desarrollan durante su proceso de capacitación.<br><br>Asimismo, se realizó un reconocimiento especial a las y los estudiantes que destacaron en esta muestra por la calidad, creatividad y dedicación demostradas en sus proyectos, convirtiéndose en ejemplo e inspiración para toda la comunidad educativa.<br><br>De igual manera, se destacó la importante labor de <strong>docentes, directivos y personal de los planteles</strong>, quienes con compromiso, vocación y trabajo en equipo contribuyen diariamente a la formación de personas preparadas para enfrentar los retos del sector productivo.<br><br>La Primera Muestra Museográfica representa una oportunidad para visibilizar el talento que se genera en los CECATI y reafirma que la capacitación para el trabajo no solo proporciona conocimientos y competencias laborales, sino que también forma personas con valores, creatividad y compromiso con su comunidad.",
+        imagen: "imagenes/noticias/noticia25-7.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia25-1.webp",
+            "imagenes/noticias/noticia25-2.webp",
+            "imagenes/noticias/noticia25-3.webp",
+            "imagenes/noticias/noticia25-4.webp",
+            "imagenes/noticias/noticia25-5.webp",
+            "imagenes/noticias/noticia25-6.webp",
+            "imagenes/noticias/noticia25-7.webp",
+            "imagenes/noticias/noticia25-8.webp",
+            "imagenes/noticias/noticia25-9.webp",
+            "imagenes/noticias/noticia25-10.webp"
+        ],
+        fecha: "02-08-2026",
+        mes: "Agosto",
+        anio: "2026"
+    },
+    {
+        id: 24,
+        titulo: "CECATI 170 y Ayuntamiento de Ixtaczoquitlán fortalecen la capacitación para el trabajo mediante convenio de colaboración",
+        textoPrevio: "Con el propósito de ampliar las oportunidades de capacitación y fortalecer el desarrollo de la población, el CECATI 170 y el Ayuntamiento de Ixtaczoquitlán firmaron un convenio de colaboración que beneficiará tanto a la ciudadanía como al personal del gobierno municipal.",
+        textoCompleto: "<strong>Ixtaczoquitlán, Veracruz.</strong><br>Con el objetivo de fortalecer la capacitación para el trabajo y generar mayores oportunidades de desarrollo para la población, el Centro de Capacitación para el Trabajo Industrial <strong>(CECATI) No. 170</strong> y el Ayuntamiento de Ixtaczoquitlán formalizaron un convenio de colaboración que permitirá ampliar la oferta de formación en beneficio de las y los habitantes del municipio.<br><br>Gracias a este acuerdo, la ciudadanía podrá acceder a cursos de capacitación orientados al desarrollo de competencias laborales, el emprendimiento y la adquisición de nuevas habilidades que favorezcan su incorporación al mercado laboral y contribuyan a su crecimiento personal y profesional. Asimismo, las y los servidores públicos del Ayuntamiento recibirán capacitación continua para fortalecer sus conocimientos y brindar una atención más eficiente, cercana y de calidad a la población.<br><br>La firma del convenio contó con la participación del presidente municipal, <strong>José Luis Cortés Gutiérrez</strong>; la síndica única, <strong>Sandra Raquel Xotlanihua González</strong>; y la directora del <strong>CECATI 170, Jaqueline Jiménez Torres</strong>, quienes refrendaron su compromiso de trabajar de manera coordinada en favor del desarrollo educativo, económico y social del municipio.<br><br>Con acciones como esta, la Dirección General de Centros de Formación para el Trabajo (DGCFT) fortalece la vinculación entre las instituciones educativas y los gobiernos municipales, impulsando una capacitación pertinente y de calidad que contribuya a mejorar las oportunidades de empleo, el emprendimiento y el bienestar de las comunidades.",
+        imagen: "imagenes/noticias/noticia24.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia24.webp",
+        ],
+        fecha: "29-07-2026",
+        mes: "Julio",
+        anio: "2026"
+    },
+    {
+        id: 23,
+        titulo: "DGCFT y Gobierno de Veracruz fortalecen alianza para impulsar la capacitación y el desarrollo laboral",
+        textoPrevio: "El Director General de la DGCFT sostuvo una reunión de trabajo con el titular de la Secretaría del Trabajo, Previsión Social y Productividad del Estado de Veracruz para impulsar nuevos cursos de capacitación y fortalecer la vinculación de los CECATI con el sector productivo.",
+        textoCompleto: "<strong>Veracruz, Ver.</strong><br>Con el propósito de fortalecer la capacitación para el trabajo y ampliar las oportunidades de desarrollo profesional en la entidad, el director general de la Dirección General de Centros de Formación para el Trabajo (DGCFT) sostuvo una reunión de trabajo con el secretario del Trabajo, Previsión Social y Productividad del Estado de Veracruz, <strong>Lic. Luis Arturo Santiago Martínez</strong>.<br><br>Durante el encuentro se abordaron estrategias orientadas a impulsar la apertura de nuevos cursos acordes con las tendencias y necesidades del mercado laboral, así como a fortalecer la vinculación de los Centros de Capacitación para el Trabajo Industrial (CECATI) con el sector productivo de la región.<br><br>Ambas instancias coincidieron en la importancia de consolidar acciones conjuntas que permitan acercar una oferta educativa pertinente y de calidad, capaz de responder a las demandas actuales de los sectores productivos y contribuir al desarrollo económico y social del estado.<br><br>La DGCFT refrenda su compromiso de trabajar de manera coordinada con los gobiernos estatales para ampliar las oportunidades de capacitación, impulsar el empleo, fomentar el emprendimiento y fortalecer la formación de capital humano que contribuya al crecimiento y bienestar de las comunidades.",
+        imagen: "imagenes/noticias/noticia23.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia23.webp",
+        ],
+        fecha: "28-07-2026",
+        mes: "Julio",
+        anio: "2026"
+    },
+    {
+        id: 22,
+        titulo: "Presentan \"CECATÍN, el héroe del oficio\", una iniciativa que impulsa el emprendimiento y la identidad de los CECATI en Veracruz",
+        textoPrevio: "Como parte de las estrategias para fortalecer el emprendimiento, la creatividad y la vinculación con el sector productivo, la Subdirección de la Coordinación de Enlace Operativo en Veracruz presenta el primer número de la historieta \"CECATÍN, el héroe del oficio\", un proyecto innovador que promueve la formación para el trabajo a través de los medios digitales.",
+        textoCompleto: "<strong>Veracruz, Ver.</strong> Como parte de las acciones estratégicas para fortalecer el emprendimiento, la innovación y la vinculación con el sector productivo, la Subdirección de la Coordinación de Enlace Operativo (SCEO) de la Dirección General de Centros de Formación para el Trabajo (DGCFT) en el estado de Veracruz presenta el primer número de la historieta <strong>\"CECATÍN, el héroe del oficio\"</strong>, una iniciativa que busca promover la formación para el trabajo mediante contenidos creativos y de alto impacto.<br><br>Este proyecto forma parte de las estrategias estatales orientadas a responder a las necesidades actuales de la capacitación, colocando al estudiante como protagonista de su propio proceso formativo y fomentando el desarrollo de habilidades relacionadas con el emprendimiento, la creatividad y la innovación.<br><br>La historieta <strong>\"CECATÍN, el héroe del oficio\"</strong> nace como una propuesta original con proyección estatal y nacional, diseñada para difundirse a través de medios digitales y acercar a la comunidad educativa contenidos que fortalezcan la identidad institucional de los CECATI, además de resaltar el valor de los oficios y la capacitación para el trabajo.<br><br>La creación, ilustración y diseño de esta publicación estuvo a cargo de la <strong>C. María de Jesús González Cruz</strong>, con la participación y coordinación de la <strong>Subdirección de la Coordinación de Enlace Operativo en Veracruz</strong>, reafirmando el compromiso institucional de impulsar proyectos innovadores que promuevan la educación, el talento y el desarrollo integral de las y los estudiantes.<br><br>Con iniciativas como esta, la DGCFT y la SCEO Veracruz continúan fortaleciendo la cultura del emprendimiento y la difusión de proyectos que inspiran a las nuevas generaciones a descubrir en la capacitación una oportunidad para transformar su futuro y contribuir al desarrollo de su comunidad.",
+        imagen: "imagenes/noticias/noticia22.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia22.webp",
+            "imagenes/noticias/noticia22-1.webp",
+            "imagenes/noticias/noticia22-2.webp",
+            "imagenes/noticias/noticia22-3.webp",
+            "imagenes/noticias/noticia22-4.webp",
+            "imagenes/noticias/noticia22-5.webp",
+            "imagenes/noticias/noticia22-6.webp",
+            "imagenes/noticias/noticia22-7.webp"
+        ],
+        fecha: "23-07-2026",
+        mes: "Julio",
+        anio: "2026"
+    },
+    {
+        id: 21,
+        titulo: "Talento CECATI fortalece la identidad institucional en todo el país",
+        textoPrevio: "La Dirección General de Centros de Formación para el Trabajo (DGCFT) recibió la primera entrega de astas bandera y banderas institucionales elaboradas por alumnas, alumnos y docentes de los CECATI de Nuevo León y Veracruz, un proyecto que refleja la calidad de la formación para el trabajo, el compromiso con la excelencia y el orgullo de pertenecer a la comunidad CECATI.",
+        textoCompleto: "<strong>¡Orgullo CECATI desde Nuevo León y Veracruz para todo México!</strong><br><br>La Dirección General de Centros de Formación para el Trabajo (DGCFT) recibió en el Centro de Convenciones la primera entrega de <strong>500 astas bandera</strong>, elaboradas por estudiantes de la especialidad de <strong>Máquinas Herramientas</strong> de los CECATI del estado de Nuevo León, así como <strong>400 banderas de pedestal y escritorio</strong>, confeccionadas por alumnas y alumnos de las especialidades de <strong>Confección Industrial de Ropa</strong> y <strong>Artes Gráficas</strong> de los CECATI del estado de Veracruz.<br><br>Este importante proyecto representa la primera entrega del material cívico que será distribuido en las oficinas de la Dirección General de Centros de Formación para el Trabajo en todo el país, donde las banderas de <strong>México</strong>, la <strong>Secretaría de Educación Pública (SEP)</strong> y la <strong>DGCFT</strong> serán portadas con orgullo y respeto.<br><br>Cada asta y cada bandera son el resultado del talento, la disciplina, la creatividad y el compromiso de las y los estudiantes, quienes aplicaron los conocimientos adquiridos en su formación para desarrollar productos de alta calidad que hoy fortalecen la identidad institucional de los CECATI.<br><br>Este logro demuestra que en los Centros de Formación para el Trabajo no solo se desarrollan competencias laborales, sino que también se promueven valores como el compromiso, la responsabilidad, el trabajo en equipo y el amor por México.<br><br>La DGCFT expresa su más sincero reconocimiento a las alumnas, alumnos, docentes y personal de los CECATI de <strong>Nuevo León</strong> y <strong>Veracruz</strong>, cuya dedicación hizo posible este proyecto que hoy se convierte en un símbolo del orgullo, la calidad y la vocación de servicio que distinguen a la comunidad CECATI en todo el país.",
+        imagen: "imagenes/noticias/noticia21.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia21-1.webp",
+            "imagenes/noticias/noticia21-2.webp",
+            "imagenes/noticias/noticia21-3.webp"
+        ],
+        fecha: "13-07-2026",
+        mes: "Julio",
+        anio: "2026"
+    },
+    {
+        id: 20,
+        titulo: "CECATI No. 72 celebra la graduación del ciclo escolar 2025–2026",
+        textoPrevio: "La institución reconoció el esfuerzo de sus egresados y reafirmó su compromiso con la formación para el trabajo y el desarrollo de competencias laborales.",
+        textoCompleto: "<strong>Cosoleacaque, Veracruz; julio de 2026.</strong><br><br>El Centro de Capacitación para el Trabajo Industrial (CECATI) No. 72 realizó la ceremonia de graduación del ciclo escolar 2025–2026, en la que se reconoció el esfuerzo, la dedicación y el compromiso de las y los alumnos que concluyeron satisfactoriamente su proceso de formación en las diferentes especialidades que ofrece el plantel.<br><br>La ceremonia fue presidida por el Lic. Mateo Sinoé Peña Morales, responsable de las funciones de la Dirección del CECATI No. 72, acompañado por la Mtra. Esmeralda Zárate Chávez, auxiliar de Vinculación con el Sector Productivo de la Subdirección de Enlace Operativo de la DGCFT en el estado de Veracruz, así como por autoridades municipales, educativas y representantes de diversas instituciones de la región.<br><br>Durante el evento se destacó la importancia de la capacitación para el trabajo como una herramienta que fortalece las competencias de las y los egresados, favoreciendo su incorporación al sector productivo y el desarrollo de proyectos de emprendimiento que contribuyen al crecimiento económico y social de la región.<br><br>Al concluir la ceremonia, el CECATI No. 72 felicitó a las y los graduados por este importante logro académico y los invitó a continuar preparándose con responsabilidad, compromiso y vocación de servicio, reafirmando su compromiso de brindar una educación de calidad, incluyente y orientada al desarrollo de las comunidades.",
+        imagen: "imagenes/noticias/noticia20.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia20-1.webp",
+            "imagenes/noticias/noticia20-2.webp",
+            "imagenes/noticias/noticia20-3.webp",
+            "imagenes/noticias/noticia20-4.webp",
+            "imagenes/noticias/noticia20-5.webp",
+            "imagenes/noticias/noticia20-6.webp",
+            "imagenes/noticias/noticia20.webp"
+        ],
+        fecha: "04-07-2026",
+        mes: "Julio",
+        anio: "2026"
+    },
+    {
+        id: 19,
+        titulo: "DGCFT fortalece el diálogo con la Sección X del SNTE en reunión de trabajo",
+        textoPrevio: "Autoridades de la DGCFT y representantes sindicales refrendan su compromiso de impulsar acciones en favor del personal de los Centros de Formación para el Trabajo.",
+        textoCompleto: "La Dirección General de Centros de Formación para el Trabajo (DGCFT) llevó a cabo una reunión de trabajo encabezada por el director general, **Dr. Francisco Garduño Yáñez**, quien, acompañado de su equipo directivo, sostuvo un encuentro con representantes de la Sección X del SNTE, liderados por el **Mtro. Arturo Alejandro Salazar Lara** y el **Prof. José Nieves**, coordinador del Colegiado Nacional de Asuntos Laborales.<br><br>El encuentro se desarrolló en un ambiente de respeto, apertura y diálogo constructivo, con el propósito de fortalecer la comunicación institucional, escuchar propuestas y avanzar en acciones que contribuyan al bienestar de las y los trabajadores de los Centros de Formación para el Trabajo.<br><br>Durante la reunión, ambas partes coincidieron en la importancia de mantener el trabajo colaborativo como una vía para impulsar mejores condiciones laborales y fortalecer la calidad educativa que distingue a los CECATI en todo el país.<br><br>Con este tipo de encuentros, la DGCFT reafirma su compromiso con el diálogo permanente y la construcción de acuerdos que favorezcan el desarrollo de su comunidad educativa y el fortalecimiento de la Educación para y en el Trabajo.",
+        imagen: "imagenes/noticias/noticia19.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia19-1.jpg",
+            "imagenes/noticias/noticia19.jpg"
+        ],
+        fecha: "03-07-2026",
+        mes: "Julio",
+        anio: "2026"
+    },
+    {
+        id: 18,
+        titulo: "CECATI 103 celebra la clausura del ciclo escolar 2025–2026 y reconoce el compromiso con la educación y la sociedad",
+        textoPrevio: "Con la presencia de autoridades de los ámbitos educativo, gubernamental y empresarial, el CECATI 103 realizó la ceremonia de clausura del ciclo escolar 2025–2026, destacando los logros académicos de sus estudiantes y reconociendo a quienes, con solidaridad y vocación de servicio, fortalecen el desarrollo de la comunidad.",
+        textoCompleto: "Poza Rica, Veracruz.<br><br>En representación de la directora del CECATI 103, Dra. María Silvia Mujica Ramírez, se llevó a cabo la ceremonia de clausura de cursos correspondiente al ciclo escolar 2025–2026, un evento que reunió a distinguidas autoridades, docentes, personal administrativo, estudiantes, familiares e invitados especiales para celebrar la culminación de una importante etapa en la formación de las y los alumnos.<br><br>La institución agradeció la distinguida presencia de las autoridades que integraron el presídium, entre ellas el Ing. Eduardo Rodríguez Azueta, supervisor de la Subdirección de Enlace Operativo en el Estado de Veracruz; la Lic. Raquel Bonilla Herrera, senadora por el estado de Veracruz; la Dra. Diana Luz González Escudero, directora del CBTis No. 78; el Mtro. Roberto Carlos Mar Pérez, secretario de Desarrollo Integral del H. Ayuntamiento de Coatzintla; el Mtro. Marcos Isauro Ramírez Rocha, director académico del Tecnológico Superior de Poza Rica; el Mtro. Juan Daniel Jiménez Cristóbal, coordinador de Vinculación de la Universidad Veracruzana, Región Poza Rica–Tuxpan; el Lic. Jesús Uenseslao Jiménez, representante de la Asociación de Hoteles y Restaurantes PRESERUR; el L.A.E. Pedro Pablo Olmedo Rosas, director administrativo del Laboratorio Biomatraz; y la Mtra. Karla Oyuki Rubio Garrido, rectora de la Universidad de Oriente, Campus Poza Rica.<br><br>Durante el acto protocolario se destacó que esta ceremonia representa mucho más que el término de un ciclo académico; simboliza el esfuerzo, la perseverancia y el compromiso de quienes integran la comunidad educativa del CECATI 103 para formar ciudadanos preparados, responsables y comprometidos con su entorno.<br><br>Como parte de la ceremonia, se entregaron diversos reconocimientos a personas e instituciones que han contribuido significativamente al desarrollo de la comunidad educativa. Se expresó un especial agradecimiento al personal docente, administrativo y de servicios por su dedicación y compromiso con la formación de las y los estudiantes.",
+        imagen: "imagenes/noticias/noticia18.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia18-1.jpg",
+            "imagenes/noticias/noticia18-2.jpg",
+            "imagenes/noticias/noticia18-3.jpg",
+            "imagenes/noticias/noticia18-4.jpg",
+            "imagenes/noticias/noticia18-5.jpg",
+            "imagenes/noticias/noticia18-6.jpg",
+            "imagenes/noticias/noticia18-7.jpg",
+            "imagenes/noticias/noticia18-8.jpg",
+            "imagenes/noticias/noticia18-9.jpg",
+            "imagenes/noticias/noticia18-10.jpg",
+            "imagenes/noticias/noticia18-11.jpg",
+            "imagenes/noticias/noticia18-12.jpg",
+
+        ],
+        fecha: "30-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 17,
+        titulo: "CECATI 49 celebra con éxito la ceremonia de clausura del ciclo escolar",
+        textoPrevio: "Con un emotivo acto académico, el CECATI 49 reconoció el esfuerzo, la dedicación y el compromiso de las y los alumnos que concluyeron satisfactoriamente su formación durante el ciclo escolar.",
+        textoCompleto: "El pasado martes 30 de junio, el CECATI 49 llevó a cabo la ceremonia de clausura correspondiente al cierre del ciclo escolar, en un evento que reunió a autoridades educativas, personal docente, familiares e invitados especiales para reconocer el esfuerzo y la perseverancia de las y los estudiantes que culminaron exitosamente su preparación.<br><br>Durante la ceremonia se destacó la importancia de la capacitación para el trabajo como una herramienta que fortalece el desarrollo profesional y personal de las y los egresados, quienes hoy cuentan con nuevos conocimientos y habilidades para enfrentar los retos del ámbito laboral y contribuir al desarrollo de su comunidad.<br><br>El CECATI 49 expresa una sincera felicitación a todas y todos los egresados por el compromiso, la disciplina y la dedicación demostrados a lo largo de su proceso formativo. Asimismo, reconoce el invaluable apoyo de las familias y del personal docente, quienes hicieron posible el logro de esta importante meta.<br><br>¡Enhorabuena a la generación que hoy concluye una etapa e inicia un nuevo camino lleno de oportunidades y éxito!",
+        imagen: "imagenes/noticias/noticia17.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia17-1.jpg",
+            "imagenes/noticias/noticia17-2.jpg",
+            "imagenes/noticias/noticia17-3.jpg",
+        ],
+        fecha: "30-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 16,
+        titulo: "CECATI 72 celebra la creatividad y la innovación estudiantil en la Fase Estatal de \"Creaciones Educativas\"",
+        textoPrevio: "El talento, la dedicación y el compromiso de las y los estudiantes fueron protagonistas de este encuentro, que fortaleció los vínculos entre la educación para el trabajo, las autoridades locales y el sector productivo.",
+        textoCompleto: "Con gran entusiasmo y orgullo, el CECATI 72 llevó a cabo el evento \"Creaciones Educativas\", Fase Estatal, una jornada dedicada a reconocer y promover la creatividad, la innovación y el talento de las y los estudiantes que se forman en las distintas especialidades que ofrece la institución.<br><br>Durante el evento, las y los alumnos presentaron diversos proyectos que evidenciaron el impacto de la formación para el trabajo en el desarrollo de competencias técnicas, habilidades creativas y capacidades emprendedoras. Cada propuesta reflejó el esfuerzo, la dedicación y el acompañamiento permanente de las y los instructores, quienes contribuyen de manera decisiva a la formación integral del alumnado.<br><br>La ceremonia contó con la distinguida presencia de autoridades municipales, entre ellas la Lic. Nereyda Jiménez Cruz, Síndica Única del Honorable Ayuntamiento de Cosoleacaque, y el Lic. Juan Antonio Tena Galván, Regidor Octavo del Honorable Ayuntamiento de Minatitlán, Veracruz, cuya participación reafirma la importancia de fortalecer los lazos entre las instituciones educativas y su entorno social.<br><br>Asimismo, se reconoció la presencia y el respaldo del Ing. Sergio López Hernández, Subdirector de la Coordinación de Enlace Operativo de la DGCFT en el estado de Veracruz, así como de la Mtra. Esmeralda Zárate Chávez, Auxiliar de Vinculación con el Sector Productivo de la misma Subdirección, quienes acompañaron esta actividad como muestra de su compromiso con el fortalecimiento de la educación para el trabajo y la vinculación con los sectores productivos.<br><br>El CECATI 72 agradeció la participación de directivos, docentes, personal administrativo, estudiantes, autoridades, personal de apoyo y aliados estratégicos que hicieron posible la realización de este importante encuentro académico, el cual contribuye a fortalecer la calidad educativa y a generar mayores oportunidades de desarrollo para las comunidades.",
+        imagen: "imagenes/noticias/noticia16.jpg",
+        imagenesAdicionales: [
+            {
+                tipo: "video",
+                miniatura: "imagenes/noticias/noticia16-video.jpg",
+                enlace: "https://www.facebook.com/reel/1493867121950721"
+            },
+            "imagenes/noticias/noticia16-1.jpg",
+            "imagenes/noticias/noticia16-2.jpg",
+            "imagenes/noticias/noticia16-3.jpg",
+            "imagenes/noticias/noticia16-4.jpg",
+            "imagenes/noticias/noticia16-5.jpg",
+            "imagenes/noticias/noticia16-6.jpg",
+            "imagenes/noticias/noticia16-7.jpg",
+            "imagenes/noticias/noticia16-8.jpg",
+            "imagenes/noticias/noticia16-9.jpg",
+            "imagenes/noticias/noticia16-10.jpg",
+            "imagenes/noticias/noticia16-11.jpg",
+            "imagenes/noticias/noticia16-12.jpg",
+            "imagenes/noticias/noticia16-13.jpg",
+            "imagenes/noticias/noticia16-14.jpg",
+            "imagenes/noticias/noticia16-15.jpg",
+            "imagenes/noticias/noticia16-16.jpg",
+            "imagenes/noticias/noticia16-17.jpg",
+            "imagenes/noticias/noticia16-18.jpg",
+            "imagenes/noticias/noticia16-19.jpg",
+            "imagenes/noticias/noticia16-20.jpg",
+            "imagenes/noticias/noticia16-21.jpg",
+            "imagenes/noticias/noticia16-22.jpg",
+            "imagenes/noticias/noticia16-23.jpg",
+            "imagenes/noticias/noticia16-24.jpg",
+        ],
+        fecha: "23-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 15,
+        titulo: "DGCFT avanza hacia el cumplimiento total de visitas de supervisión en planteles de la Ciudad de México",
+        textoPrevio: "El Director General, Dr. Francisco Garduño Yáñez, encabezó una visita de trabajo al CECATI 128 como parte de la estrategia de supervisión y fortalecimiento de la capacitación para el trabajo en la capital del país.",
+        textoCompleto: "Como parte de la Jornada Nacional de Visita a Planteles, el Director General de la Dirección General de Centros de Formación para el Trabajo (DGCFT), Dr. Francisco Garduño Yáñez, realizó una visita de supervisión y vinculación al CECATI 128, reafirmando el compromiso institucional de fortalecer la calidad de la formación para el trabajo en la Ciudad de México.<br><br>Con esta visita, la DGCFT continúa avanzando de manera firme hacia el cumplimiento del 100 por ciento de los recorridos programados en los 32 planteles de la capital, una estrategia que permite mantener un contacto directo con las comunidades educativas y conocer de primera mano sus necesidades, avances y áreas de oportunidad.<br><br>Durante la jornada, se reconoció la labor que diariamente realizan docentes, personal administrativo y directivo para brindar servicios de capacitación pertinentes y de calidad, contribuyendo al desarrollo de competencias laborales que favorecen la empleabilidad y el crecimiento profesional de las y los estudiantes.<br><br>Asimismo, estos encuentros fortalecen los mecanismos de diálogo y colaboración entre la autoridad educativa y los planteles, impulsando acciones que contribuyan a la mejora continua de los espacios formativos.<br><br>La DGCFT agradece la cálida recepción de la comunidad del CECATI 128 y refrenda su compromiso de seguir trabajando en territorio para impulsar el talento, la capacitación y el desarrollo integral de las y los mexicanos.",
+        imagen: "imagenes/noticias/noticia15.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia15-1.jpg",
+            "imagenes/noticias/noticia15-2.jpg",
+            "imagenes/noticias/noticia15-3.jpg",
+            "imagenes/noticias/noticia15-4.jpg",
+            "imagenes/noticias/noticia15-5.jpg"
+        ],
+        fecha: "23-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 14,
+        titulo: "Jornada Nacional de Visita a Planteles fortalece la formación para el trabajo en la Ciudad de México",
+        textoPrevio: "El Director General de la DGCFT, Dr. Francisco Garduño Yáñez, visitó el CECATI 171 para dar continuidad a las acciones de supervisión y fortalecimiento de los espacios de capacitación en la capital del país.",
+        textoCompleto: "Como parte de la recta final de la Jornada Nacional de Visita a Planteles en la Ciudad de México, el Director General de la Dirección General de Centros de Formación para el Trabajo (DGCFT), Dr. Francisco Garduño Yáñez, encabezó una visita de trabajo al CECATI 171, reafirmando el compromiso institucional con la mejora continua de la capacitación para el trabajo.<br><br>Durante el recorrido por las instalaciones, se destacó la importancia de mantener una presencia cercana en los planteles, escuchando de manera directa a la comunidad escolar y verificando las condiciones que permiten ofrecer una formación pertinente y de calidad.<br><br>La visita permitió fortalecer el diálogo con directivos, docentes, personal administrativo y estudiantes, con el objetivo de identificar áreas de oportunidad y consolidar acciones que contribuyan al desarrollo integral de los centros de capacitación.<br><br>La DGCFT mantiene la convicción de que el trabajo en territorio y el fortalecimiento de los espacios educativos son fundamentales para transformar vidas, impulsar el desarrollo de competencias laborales y generar mayores oportunidades para las y los mexicanos.",
+        imagen: "imagenes/noticias/noticia14.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia14-1.jpg",
+        ],
+        fecha: "23-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 13,
+        titulo: "Director General de la DGCFT supervisa y fortalece acciones de formación para el trabajo en la Ciudad de México",
+        textoPrevio: "Durante una gira de trabajo por los CECATI 2 y 194, el Dr. Francisco Garduño Yáñez reafirmó el compromiso institucional de impulsar espacios educativos de calidad que respondan a las necesidades del sector productivo y contribuyan al desarrollo laboral del país.",
+        textoCompleto: "Como parte de las acciones orientadas al fortalecimiento de la formación para el trabajo en el territorio, el Director General de la Dirección General de Centros de Formación para el Trabajo (DGCFT), Dr. Francisco Garduño Yáñez, realizó un recorrido de supervisión y diálogo en los Centros de Capacitación para el Trabajo Industrial (CECATI) 2 y 194, ubicados en la Ciudad de México.<br><br>Durante la visita, sostuvo encuentros con directivos, docentes, personal administrativo y estudiantes, con quienes intercambió experiencias y reflexiones sobre los retos y oportunidades para continuar elevando la calidad de los servicios educativos que ofrecen estos planteles.<br><br>En este marco, se refrendó el compromiso de trabajar de manera coordinada para consolidar espacios formativos de excelencia, fortalecer las competencias laborales de las y los estudiantes y contribuir al desarrollo económico y social del país.<br><br>Con acciones de cercanía y colaboración institucional, la DGCFT continúa impulsando una capacitación pertinente y de calidad, orientada a fortalecer el futuro laboral de México.",
+        imagen: "imagenes/noticias/noticia13.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia13-1.jpg",
+            "imagenes/noticias/noticia13-2.jpg",
+            "imagenes/noticias/noticia13-3.jpg"
+        ],
+        fecha: "23-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 12,
+        titulo: "\"Macha Gourmet\", el emprendimiento que lleva el talento de Telebachillerato Cosamaloapan a la etapa estatal",
+        textoPrevio: "​​Estudiantes del Telebachillerato Cosamaloapan representaron con orgullo a su institución en el encuentro estatal \"TEBAEV Conecta\", celebrado en Coatzacoalcos, donde presentaron una innovadora línea de salsas artesanales desarrollada con el acompañamiento del CECATI No. 159.",
+        textoCompleto: "Con creatividad, innovación y espíritu emprendedor, estudiantes de cuarto semestre del Telebachillerato Cosamaloapan (clave 30ETH0427Z) participaron en el encuentro estatal \"TEBAEV Conecta\", realizado en la ciudad de Coatzacoalcos, Veracruz, donde presentaron su proyecto gastronómico denominado \"Macha Gourmet\", una línea de salsas machas artesanales elaboradas con ingredientes naturales y procesos de producción orientados a su comercialización.<br><br>El proyecto fue desarrollado en el marco del taller de Alimentos y Bebidas que se imparte en el plantel, gracias al trabajo coordinado entre el Telebachillerato Cosamaloapan y el CECATI No. 159, a través de las Acciones Móviles, estrategia mediante la cual personal especializado se traslada al municipio para fortalecer las competencias técnicas y prácticas de los estudiantes.<br><br>En este proceso destacó la participación del Lic. Irving Obed Delcompare Garnica, instructor de la especialidad de Alimentos y Bebidas del CECATI No. 159, quien brindó capacitación, asesoría y acompañamiento a los alumnos para la consolidación de este emprendimiento escolar.<br><br>Durante la demostración, los jóvenes presentaron cuatro variedades de salsa macha: ajo con ajonjolí, cacahuate, arándano y pepita de calabaza, productos que despertaron el interés de asistentes, docentes y autoridades educativas por su calidad, sabor e innovación.<br><br>La exhibición reunió a representantes de diversas zonas escolares del subsistema de Telebachillerato de la región sur del estado, convirtiéndose en un espacio para impulsar el emprendimiento juvenil, el intercambio de experiencias y la aplicación práctica de los conocimientos adquiridos en el aula.<br><br>El stand de \"Macha Gourmet\" recibió la visita de autoridades del Telebachillerato de Veracruz, encabezadas por el Oscar Guzmán de Paz, quien reconoció el talento, la iniciativa y el compromiso de los estudiantes participantes.",
+        imagen: "imagenes/noticias/noticia12.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia12-1.jpg",
+            "imagenes/noticias/noticia12-2.jpg",
+            "imagenes/noticias/noticia12-3.jpg",
+            "imagenes/noticias/noticia12-4.jpg",
+            "imagenes/noticias/noticia12-5.jpg"
+        ],
+        fecha: "17-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 11,
+        titulo: "Sumando esfuerzos por la capacitación y el bienestar en la Gustavo A. Madero",
+        textoPrevio: "​​El día de hoy, el Director General de la DGCFT, el Dr. Francisco Garduño Yáñez, sostuvo una exitosa y productiva reunión de trabajo con la Diputada Local por la Alcaldía Gustavo A. Madero, Yuriri Ayala Zúñiga.",
+        textoCompleto: "Sumando esfuerzos por la capacitación y el bienestar en la Gustavo A. Madero. <br>El día de hoy, el Director General de la DGCFT, el Dr. Francisco Garduño Yáñez, sostuvo una exitosa y productiva reunión de trabajo con la Diputada Local por la Alcaldía Gustavo A. Madero, Yuriri Ayala Zúñiga.<br>​Durante este encuentro, se acordó trazar una ruta de acciones conjuntas para impulsar la capacitación formal para el trabajo en beneficio directo de la población de la alcaldía.<br>​Con estas alianzas estratégicas, reafirmamos nuestro compromiso de transformar vidas a través de la educación y el empleo formal, acercando las herramientas de los centros de formación a quienes más lo necesitan.",
+        imagen: "imagenes/noticias/noticia11.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia11-1.jpg",
+        ],
+        fecha: "15-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 10,
+        titulo: "Primera Sesión Ordinaria 2026 del Comité Directivo de la Educación Dual Media Superior",
+        textoPrevio: "​En esta reunión de trabajo contamos con la destacada participación de la representación de la SEMS, los titulares de la DGCFT, DGETI, DGTAyCM, así como del sector empresarial y las instituciones que integran este comité.",
+        textoCompleto: "Hoy se realizó la 1ª Sesión Ordinaria 2026 del Comité Directivo de la Educación Dual en el Tipo Media Superior, teniendo como escenario el Centro de Convenciones de la DGCFT.<br>​En esta reunión de trabajo contamos con la destacada participación de la representación de la SEMS, los titulares de la DGCFT, DGETI, DGTAyCM, así como del sector empresarial y las instituciones que integran este comité.<br>​El objetivo es claro: dar continuidad y fortalecer las estrategias que permiten a nuestros jóvenes estudiar y adquirir experiencia real en las empresas. ¡El futuro de la Educación Dual avanza con paso firme!",
+        imagen: "imagenes/noticias/noticia10.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia10-1.jpg",
+            "imagenes/noticias/noticia10-2.jpg",
+            "imagenes/noticias/noticia10-3.jpg"
+        ],
+        fecha: "10-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 9,
+        titulo: "Visita de reunión de trabajo en el CECATI 72",
+        textoPrevio: "El CECATI 72 recibió la visita de personal de la Coordinación de Enlace Operativo de la D.G.C.F.T. en el Estado de Veracruz, refrendando con acciones concretas el compromiso institucional que mantenemos con la capacitación para el trabajo.",
+        textoCompleto: "CECATI 72: LA CAPACITACIÓN SE VIVE, SE RECORRE Y SE FORTALECE <br><br>El CECATI 72 recibió la visita de personal de la Coordinación de Enlace Operativo de la D.G.C.F.T. en el Estado de Veracruz, refrendando con acciones concretas el compromiso institucional que mantenemos con la capacitación para el trabajo.<br><br>Durante esta visita, encabezada por el Ing. Sergio López Hernández, Subdirector de la Coordinación de Enlace Operativo de la D.G.C.F.T. en el Estado de Veracruz, acompañado de su asistente, la Lic. María de Jesús González Cruz; y la Mtra. Esmeralda Zárate Chávez, Auxiliar de Vinculación con el Sector Productivo de la S.C.E.O. de la D.G.C.F.T. en el Estado de Veracruz, se llevó a cabo una reunión de trabajo con el personal del plantel.<br><br>Además del diálogo estratégico, el Subdirector realizó un recorrido por nuestras instalaciones, donde conversó directamente con el personal docente, administrativo y de servicios.<br><br>Nuestro director, Lic. Mateo Sinuhe Peña Morales, junto con la Mtra. Mayte Lara Escobar, responsable de Vinculación con el Sector Productivo, y el C.P. Héctor Isaac Zamudio Tenorio, jefe de Capacitación, acompañaron esta jornada.<br><br>Aquí no solo hablamos de capacitación. La mostramos en cada taller, la escuchamos en cada testimonio y la fortalecemos con cada acuerdo.<br><br>A todo el equipo del CECATI 72: gracias por poner el corazón en lo que hacen. Ustedes son la razón por la que los CECATIS transforman vidas.<br><br>Seguimos trabajando en territorio, con resultados que se ven y se sienten.",
+        imagen: "imagenes/noticias/noticia1.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia1-1.jpg",
+            "imagenes/noticias/noticia1-2.jpg",
+            "imagenes/noticias/noticia1-3.jpg",
+            "imagenes/noticias/noticia1-4.jpg",
+            "imagenes/noticias/noticia1-5.jpg",
+            "imagenes/noticias/noticia1-6.jpg"
+        ],
+        fecha: "03-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 8,
+        titulo: "Segunda Reunión de Evaluación Nacional.",
+        textoPrevio: "Desde la bella capital de Tlaxcala, damos inicio a los trabajos de la 2da. Reunión de Evaluación Nacional.",
+        textoCompleto: "Este ejercicio de mejora continua se da luego de recorrer y evaluar de cerca las actividades de nuestros planteles: CECATI 29, CECATI 46 y CECATI 82.<br><br>​Agradecemos a todo el personal docente y administrativo por su entrega. ¡Juntos fortalecemos la capacitación laboral en el país! Ver menos.",
+        imagen: "imagenes/noticias/noticia2.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia2-1.jpg",
+            "imagenes/noticias/noticia2-2.jpg"
+        ],
+        fecha: "08-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 7,
+        titulo: "Gira de Trabajo Nacional",
+        textoPrevio: "El Director General, Dr. Francisco Garduño Yáñez, continúa recorriendo los CECATI de todo el país.",
+        textoCompleto: "Hoy tocó el turno al CECATI 14 y al CECATI 73 en la CDMX, espacios donde se están generando nuevas estrategias para fortalecer nuestro servicio educativo. ¡Todo esto con el firme compromiso de beneficiar a la población y brindarles herramientas para el futuro!",
+        imagen: "imagenes/noticias/noticia3.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia3-1.jpg",
+            "imagenes/noticias/noticia3-2.jpg",
+            "imagenes/noticias/noticia3-3.jpg",
+            "imagenes/noticias/noticia3-4.jpg"
+        ],
+        fecha: "04-06-2026",
+        mes: "Junio",
+        anio: "2026"
+    },
+    {
+        id: 6,
+        titulo: "visita a las instalaciones del CECATI No. 151 ",
+        textoPrevio: "El Subdirector de la Coordinación de Enlace Operativo el C. Sergio López Hernández, visitó las instalaciones del CECATI No. 151 para realizar un recorrido de evaluación.",
+        textoCompleto: "Nuestro Subdirector de la Coordinación de Enlace Operativo el C. Sergio López Hernández ,visitó las instalaciones del CECATI No. 151 ubicado en la capital del Estado en Xalapa, Ver. para realizar un recorrido de evaluación🪖🥽 derivado de la incidencia que se presentó el pasado 21 de mayo del presente año.<br><br>Un evento meteorológico inusual de tipo tromba el cual provoco  la caída de árboles y corte de energía eléctrica⛈️⚡dejando diversas afectaciones a dicho plantel. En el recorrido fue acompañado por la responsable de las funciones de la Dirección, la C. Maribel López Hernández, la Jefa de Vinculación, Claudia Patricia Cruz y la Jefa de Servicios Administrativos, Belén Hernández Martínez. 💯 con estas acciones se logra cumplir con los procesos del plan de atención a siniestros, atendido las indicaciones de Protección Civil.",
+        imagen: "imagenes/noticias/noticia4.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia4-1.jpg"
+        ],
+        fecha: "29-05-2026",
+        mes: "Mayo",
+        anio: "2026"
+    },
+    {
+        id: 5,
+        titulo: "Primera Reunión de Evaluación Estatal.",
+        textoPrevio: "Gira de trabajo del Director General, el Dr. Francisco Garduño Yáñez y su equipo directivo, por el estado de Nuevo León.",
+        textoCompleto: "Como cierre de la intensa y productiva gira de trabajo del Director General, el Dr. Francisco Garduño Yáñez y su equipo directivo, por el estado de Nuevo León, se llevó a cabo la Primera Reunión de Evaluación Estatal.<br><br>​En este espacio de diálogo participa el personal directivo de los 6 planteles del estado, la Subdirección de la Coordinación de Enlace Operativo y, de manera remota, de más de 250 directivos de todo el país.<br><br>​🔍 ¿Cuál es el objetivo?<br><br>​Retroalimentación objetiva: Analizar los resultados de las visitas para fortalecer el quehacer educativo.<br><br>​Mejora continua: Implementar estrategias que beneficien directamente a nuestros estudiantes y docentes.<br><br>​Alcance nacional: Gracias a la tecnología, este ejercicio se está compartiendo de manera remota con todo el país, uniendo esfuerzos a nivel nacional.<br><br>​Con estas acciones, reafirmamos el compromiso de los CECATI de seguir ofreciendo una formación para el trabajo de la más alta calidad.",
+        imagen: "imagenes/noticias/noticia5.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia5-1.jpg",
+            "imagenes/noticias/noticia5-2.jpg",
+            "imagenes/noticias/noticia5-3.jpg"
+        ],
+        fecha: "28-05-2026",
+        mes: "Mayo",
+        anio: "2026"
+    },
+    {
+        id: 4,
+        titulo: "Concurso de Muestra Museográfica, proyecto plantel 72",
+        textoPrevio: "Con estas acciones se realiza la vinculación con los planteles promocionando la participación al concurso fomentando la transformación educativa y la capacitación.",
+        textoCompleto: "Hoy recibimos con mucho gusto a la Mtra. Esmeralda Zárate Chávez, Auxiliar de Vinculación con el Sector Productivo de la S.C.E.O. de la D.G.C.F.T. en el Estado de Veracruz, quien vino al CECATI 72 de Cosoleacaque Veracruz a supervisar y ajustar detalles para nuestra participación en la Muestra Museográfica Estatal.<br><br>Gracias Licenciada por su apoyo y por impulsar nuestro trabajo.<br><br>De parte de la Dirección, se agradece a los docentes, al área administrativa y de servicios por hacer posible esta visita tan productiva. 👏",
+        imagen: "imagenes/noticias/noticia6.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia6-1.jpg",
+            "imagenes/noticias/noticia6-2.jpg",
+            "imagenes/noticias/noticia6-3.jpg"
+        ],
+        fecha: "26-05-2026",
+        mes: "Mayo",
+        anio: "2026"
+    },
+    {
+        id: 3,
+        titulo: "Reunión de trabajo con el equipo del plantel CECATI 170",
+        textoPrevio: "visita de presentación y reunión de trabajo con el equipo que conforma el plantel 170 ubicado en Orizaba",
+        textoCompleto: "En fecha 20 de mayo del presente año, se llevo a cabo la visita de presentación y reunión de trabajo con el equipo que conforma el plantel 170 ubicado en Orizaba, Veracruz con estas acciones se fortalece la vinculación educativa impulsando la transformación educativa y la capacitación",
+        imagen: "imagenes/noticias/noticia7.jpg",
+        fecha: "26-05-2026",
+        mes: "Mayo",
+        anio: "2026"
+    },
+    {
+        id: 2,
+        titulo: "Graduación del personal de Educación Básica del Estado de Nuevo León",
+        textoPrevio: "Hoy celebró con gran orgullo el ​Dr. Francisco Garduño Yáñez, Director General de los Centros de Formación para el Trabajo.  la graduación del personal de Educación Básica del Estado de Nuevo León,",
+        textoCompleto: "Hoy celebró con gran orgullo el ​Dr. Francisco Garduño Yáñez, Director General de los Centros de Formación para el Trabajo.  la graduación del personal de Educación Básica del Estado de Nuevo León, quienes concluyeron con éxito su capacitación en los planteles CECATI del estado.<br><br>​Este logro es el resultado del esfuerzo conjunto y la valiosa colaboración con la Sección 21 del SNTE.<br><br>Fui acompañado en  evento con la distinguida presencia de la Dra. Rosario Nolasco Fonseca, Subsecretaria de Educación Media Superior y Superior de Nuevo León, Prof. Francisco Martínez Calderón, Secretario General de la Sección 21 del SNTE, Mtra. Maricela Margarita Hernández Rodríguez, Enlace Operativo de la SEP en el Estado, Ing. Jesús Guadalupe Castañeda Marroquín, SCEO en Nuevo León y por supuesto por 120 felices graduados de diferentes cursos.<br><br>A las y los graduados: su preparación transforma las aulas y fortalece el futuro. ¡Que sigan los éxitos!",
+        imagen: "imagenes/noticias/noticia8.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia8-1.jpg",
+            "imagenes/noticias/noticia8-2.jpg",
+            "imagenes/noticias/noticia8-3.jpg"
+        ],
+        fecha: "26-05-2026",
+        mes: "Mayo",
+        anio: "2026"
+    },
+    {
+        id: 1,
+        titulo: "Gira de trabajo por el interior de la República",
+        textoPrevio: "Francisco Garduño Yáñez, visita las instalaciones del CECATI 45, marcando el primer punto de un recorrido de 3 días en el que supervisará los 6 planteles del estado.",
+        textoCompleto: "Damos inicio a una intensa gira de trabajo por el interior de la República, comenzando en el estado de Nuevo León. Nuestro Director General, Francisco Garduño Yáñez, visita las instalaciones del CECATI 45, marcando el primer punto de un recorrido de 3 días en el que supervisará los 6 planteles del estado.<br><br>​Para transformar la educación y la capacitación, es indispensable escuchar a la comunidad escolar en las aulas y talleres. Esta jornada en Nuevo León es el primer paso de una ruta que continuará por todo el país, con el firme compromiso de fortalecer la formación para el trabajo desde el territorio",
+        imagen: "imagenes/noticias/noticia9.jpg",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia9-1.jpg",
+            "imagenes/noticias/noticia9-2.jpg"
+        ],
+        fecha: "25-05-2026",
+        mes: "Mayo",
+        anio: "2026"
+    },
+
+];
+
+// Función para mostrar detalle de noticia
+function mostrarDetalleNoticia(id) {
+    const noticia = noticias.find(n => n.id === id);
+    if (!noticia) return;
+
+    const esIndex = !!document.getElementById('contenido-principal');
+
+    if (esIndex && typeof window.activarVista === 'function') {
+        window.activarVista('noticia');
+    } else {
+        // Fallback manual si no existe activarVista o en boletines.html / historico.html
+        const seccionesAocultar = [
+            'contenido-principal',
+            'seccion-accesos-rapidos',
+            'especialidades-contenido',
+            'requisitos-inscripcion',
+            'plantel-info',
+            'especialidad-info',
+            'banner-marquesina'
+        ];
+        seccionesAocultar.forEach(function (secId) {
+            const el = document.getElementById(secId);
+            if (el) {
+                el.style.display = 'none';
+                el.classList.remove('seccion-visible');
+                el.classList.add('seccion-oculta');
+            }
+        });
+
+        const contenedorBoletines = document.getElementById('contenedor-boletines');
+        if (contenedorBoletines && contenedorBoletines.parentElement) {
+            contenedorBoletines.parentElement.style.display = 'none';
+        }
+        const contenedorHistorico = document.getElementById('contenedor-historico');
+        if (contenedorHistorico && contenedorHistorico.parentElement) {
+            contenedorHistorico.parentElement.style.display = 'none';
+        }
+
+        const detalleNoticia = document.getElementById("noticia-detalle");
+        if (detalleNoticia) {
+            detalleNoticia.style.display = 'block';
+            detalleNoticia.classList.remove('seccion-oculta');
+            detalleNoticia.classList.add('seccion-visible');
+        }
+    }
+
+    const detalleNoticia = document.getElementById("noticia-detalle");
+    if (!detalleNoticia) return;
+
+    // Texto dinámico para el botón de regreso (esIndex ya está declarada arriba)
+    const esHistorico = !!document.getElementById('contenedor-historico');
+    let textoBoton = '← Regresar a Boletines';
+    if (esHistorico) {
+        textoBoton = '← Regresar al Histórico';
+    }
+
+    // Filtrar y deduplicar fotos adicionales para que NUNCA se dupliquen imágenes
+    const fotosExtras = [];
+    const fotosVistas = new Set();
+    if (noticia.imagen) {
+        fotosVistas.add(String(noticia.imagen).trim().toLowerCase());
+    }
+
+    (noticia.imagenesAdicionales || []).forEach(item => {
+        if (typeof item === 'string') {
+            const clave = item.trim().toLowerCase();
+            if (!fotosVistas.has(clave)) {
+                fotosVistas.add(clave);
+                fotosExtras.push(item);
+            }
+        } else if (item && item.tipo === 'video') {
+            const claveVideo = String(item.enlace || item.miniatura || '').trim().toLowerCase();
+            if (!fotosVistas.has(claveVideo)) {
+                fotosVistas.add(claveVideo);
+                fotosExtras.push(item);
+            }
+        }
+    });
+
+    // Lista de fotos de ESTA noticia para navegar con flechas en el visor
+    window._galeriaActual = fotosExtras.filter(function (it) { return typeof it === 'string'; });
+
+    // Generar galería de imágenes adicionales si existen
+    let galeriaHTML = '';
+    if (fotosExtras.length > 0) {
+        galeriaHTML = `
+            <div class="galeria-noticia-seccion">
+                <h3 class="galeria-noticia-titulo">📸 Galería de Fotografías</h3>
+                <div class="galeria-noticia-grid">
+                    ${fotosExtras.map(item => {
+                        if (typeof item === "string") {
+                            return `
+                                <div class="galeria-foto-card" onclick="abrirImagenEnGrande('${item}')">
+                                    <img loading="lazy" src="${item}" alt="Fotografía adicional" class="galeria-foto-img">
+                                    <div class="galeria-foto-overlay">
+                                        <span>🔍 Ampliar imagen</span>
+                                    </div>
+                                </div>
+                            `;
+                        }
+
+                        if (item.tipo === "video") {
+                            return `
+                                <div onclick="window.open('${item.enlace}','_blank', 'noopener')" class="galeria-video-card">
+                                    <img loading="lazy" src="${item.miniatura}" alt="Video" class="galeria-foto-img">
+                                    <div class="galeria-play-badge">
+                                        <svg width="28" height="28" viewBox="0 0 24 24" fill="white"><polygon points="5 3 19 12 5 21 5 3"/></svg>
+                                    </div>
+                                    <span class="galeria-video-label">Ver video en Facebook</span>
+                                </div>
+                            `;
+                        }
+                    }).join('')}
+                </div>
+            </div>
+        `;
+    }
+
+    detalleNoticia.innerHTML = `
+        <article class="noticia-detalle-articulo">
+            <div class="noticia-detalle-acciones">
+                <button type="button" onclick="regresarBoletines()" class="btn-regresar-3d">
+                    ${textoBoton}
+                </button>
+            </div>
+
+            <header class="noticia-detalle-encabezado">
+                <div class="noticia-detalle-meta">
+                    <span class="meta-badge-fecha">📅 ${noticia.fecha}</span>
+                    <span class="meta-badge-categoria">Boletín Informativo</span>
+                </div>
+                <h1 class="noticia-detalle-titulo">${noticia.titulo}</h1>
+                <div class="divisor-dorado-3d"></div>
+            </header>
+
+            <div class="noticia-detalle-portada-wrap">
+                <img loading="lazy" src="${noticia.imagen}" alt="${noticia.titulo}" class="noticia-detalle-portada">
+            </div>
+
+            <div class="noticia-detalle-contenido">
+                ${noticia.textoCompleto}
+            </div>
+
+            ${galeriaHTML}
+
+            <div class="noticia-detalle-footer-acciones">
+                <button type="button" onclick="regresarBoletines()" class="btn-regresar-3d">
+                    ${textoBoton}
+                </button>
+            </div>
+        </article>
+    `;
+
+    // Actualizar hash URL de forma limpia
+    history.pushState(null, document.title, window.location.pathname + '#noticia-' + id);
+
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+// Función para regresar a boletines o vista anterior
+function regresarBoletines() {
+    const esIndex = !!document.getElementById('contenido-principal');
+    if (esIndex) {
+        // Desde una nota abierta en la pantalla de inicio, "Regresar a Boletines"
+        // lleva a la página de Boletines.
+        window.location.href = 'boletines.html';
+    } else {
+        // Estamos en boletines.html o historico.html
+        const contenedorBoletines = document.getElementById('contenedor-boletines');
+        if (contenedorBoletines && contenedorBoletines.parentElement) {
+            contenedorBoletines.parentElement.style.display = 'block';
+        }
+        const contenedorHistorico = document.getElementById('contenedor-historico');
+        if (contenedorHistorico && contenedorHistorico.parentElement) {
+            contenedorHistorico.parentElement.style.display = 'block';
+        }
+        const detalleNoticia = document.getElementById("noticia-detalle");
+        if (detalleNoticia) detalleNoticia.style.display = 'none';
+        history.pushState(null, document.title, window.location.pathname + window.location.search);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+}
+
+// ---------- Visor de imágenes con flechas ----------
+window._galeriaActual = window._galeriaActual || [];
+let _indiceVisor = 0;
+
+function _asegurarControlesVisor() {
+    const modal = document.getElementById('modal-imagen');
+    if (!modal || modal.dataset.controles) return;
+    modal.dataset.controles = '1';
+    modal.classList.add('visor-imagen');
+    modal.removeAttribute('onclick');
+
+    function boton(clase, etiqueta, html, accion) {
+        const bt = document.createElement('button');
+        bt.type = 'button';
+        bt.className = 'visor-btn ' + clase;
+        bt.setAttribute('aria-label', etiqueta);
+        bt.innerHTML = html;
+        bt.addEventListener('click', function (e) { e.stopPropagation(); accion(); });
+        modal.appendChild(bt);
+        return bt;
+    }
+    boton('visor-cerrar', 'Cerrar', '&#10005;', cerrarModalImagen);
+    boton('visor-ant', 'Imagen anterior', '&#10094;', function () { navegarVisor(-1); });
+    boton('visor-sig', 'Imagen siguiente', '&#10095;', function () { navegarVisor(1); });
+    const cont = document.createElement('div');
+    cont.className = 'visor-contador';
+    modal.appendChild(cont);
+
+    // Clic en el fondo cierra; clic en la imagen no.
+    modal.addEventListener('click', function (e) { if (e.target === modal) cerrarModalImagen(); });
+    const img = document.getElementById('modal-img');
+    if (img) img.addEventListener('click', function (e) { e.stopPropagation(); });
+
+    // Teclado
+    document.addEventListener('keydown', function (e) {
+        if (modal.style.display === 'none') return;
+        if (e.key === 'Escape') cerrarModalImagen();
+        else if (e.key === 'ArrowLeft') navegarVisor(-1);
+        else if (e.key === 'ArrowRight') navegarVisor(1);
+    });
+
+    // Deslizar con el dedo (móvil)
+    let x0 = null;
+    modal.addEventListener('touchstart', function (e) { x0 = e.touches[0].clientX; }, { passive: true });
+    modal.addEventListener('touchend', function (e) {
+        if (x0 === null) return;
+        const dx = e.changedTouches[0].clientX - x0;
+        x0 = null;
+        if (Math.abs(dx) > 50) navegarVisor(dx < 0 ? 1 : -1);
+    }, { passive: true });
+}
+
+function _pintarVisor() {
+    const modal = document.getElementById('modal-imagen');
+    const img = document.getElementById('modal-img');
+    const lista = window._galeriaActual;
+    if (!modal || !img || !lista.length) return;
+    img.src = lista[_indiceVisor];
+    const hay = lista.length > 1;
+    modal.querySelectorAll('.visor-ant, .visor-sig, .visor-contador').forEach(function (el) {
+        el.style.display = hay ? '' : 'none';
+    });
+    const cont = modal.querySelector('.visor-contador');
+    if (cont) cont.textContent = (_indiceVisor + 1) + ' / ' + lista.length;
+}
+
+function navegarVisor(paso) {
+    const n = window._galeriaActual.length;
+    if (n < 2) return;
+    _indiceVisor = (_indiceVisor + paso + n) % n;
+    _pintarVisor();
+}
+
+// Función para abrir imagen en tamaño grande
+function abrirImagenEnGrande(src) {
+    const modal = document.getElementById('modal-imagen');
+    const modalImg = document.getElementById('modal-img');
+    if (!modal || !modalImg) return;
+    _asegurarControlesVisor();
+    let idx = window._galeriaActual.indexOf(src);
+    if (idx === -1) { window._galeriaActual = [src]; idx = 0; }
+    _indiceVisor = idx;
+    modal.style.display = 'flex';
+    _pintarVisor();
+}
+
+// Función para cerrar modal
+function cerrarModalImagen() {
+    const modal = document.getElementById('modal-imagen');
+    if (modal) modal.style.display = 'none';
+}
+
+// Hacer funciones disponibles globalmente
+window.mostrarDetalleNoticia = mostrarDetalleNoticia;
+window.regresarBoletines = regresarBoletines;
+window.abrirImagenEnGrande = abrirImagenEnGrande;
+window.cerrarModalImagen = cerrarModalImagen;
+window.navegarVisor = navegarVisor;
+window.generarNoticiasIndex = generarNoticiasIndex;
+window.generarBoletines = generarBoletines;
+window.generarHistoricoNoticias = generarHistoricoNoticias;
+
+// Función para generar boletines dinámicamente en boletines.html
+function generarBoletines() {
+    console.log('generarBoletines llamada');
+    const contenedor = document.getElementById('contenedor-boletines');
+    console.log('Contenedor boletines encontrado:', contenedor);
+    if (!contenedor) {
+        console.log('No se encontró contenedor-boletines');
+        return;
+    }
+
+    // Mostrar solo las 9 más recientes (el resto está en el Histórico)
+    contenedor.innerHTML = noticias.slice(0, 9).map(noticia => `
+        <article class="tarjeta-boletin-item" onclick="mostrarDetalleNoticia(${noticia.id})">
+            <div class="tarjeta-boletin-img-wrap">
+                <img loading="lazy" class="tarjeta-boletin-img" src="${noticia.imagen}" alt="${noticia.titulo}">
+            </div>
+            <div class="tarjeta-boletin-cuerpo">
+                <span class="tarjeta-boletin-fecha">📅 ${noticia.fecha}</span>
+                <h3 class="tarjeta-boletin-titulo">${noticia.titulo}</h3>
+                <p class="tarjeta-boletin-resumen">${noticia.textoPrevio}</p>
+                <span class="tarjeta-boletin-btn">Leer nota completa →</span>
+            </div>
+        </article>
+    `).join('');
+    console.log('Boletines generados');
+}
+
+// Función para generar noticias en index.html (muestra la nota directamente al hacer clic)
+function generarNoticiasIndex() {
+    console.log('generarNoticiasIndex llamada');
+    const contenedor = document.getElementById('contenedor-noticias-index');
+    console.log('Contenedor encontrado:', contenedor);
+    if (!contenedor) {
+        console.log('No se encontró contenedor-noticias-index');
+        return;
+    }
+
+    // Tomar las 2 noticias más recientes
+    const noticiasRecientes = noticias.slice(0, 2);
+    console.log('Noticias recientes:', noticiasRecientes.length);
+
+    contenedor.innerHTML = noticiasRecientes.map(noticia => `
+        <article class="tarjeta-noticia-home" onclick="mostrarDetalleNoticia(${noticia.id})">
+            <div class="tarjeta-noticia-img-wrap">
+                <img loading="lazy" src="${noticia.imagen}" alt="${noticia.titulo}" class="tarjeta-noticia-img">
+                <span class="tarjeta-noticia-badge">Noticia Reciente</span>
+            </div>
+            <div class="tarjeta-noticia-cuerpo">
+                <div class="tarjeta-noticia-fecha">📅 ${noticia.fecha}</div>
+                <h3 class="tarjeta-noticia-titulo">${noticia.titulo}</h3>
+                <p class="tarjeta-noticia-resumen">${noticia.textoPrevio}</p>
+                <div class="tarjeta-noticia-cta">
+                    <span class="tarjeta-noticia-btn">Leer nota completa →</span>
+                </div>
+            </div>
+        </article>
+    `).join('');
+    console.log('Noticias generadas en contenedor');
+}
+
+// Inicialización de noticias e histórico
+document.addEventListener('DOMContentLoaded', function () {
+    console.log('Boletines.js cargado - DOMContentLoaded');
+    // Pequeño delay para asegurar que el DOM esté completamente listo
+    setTimeout(function () {
+        console.log('Intentando generar noticias index...');
+        generarNoticiasIndex();
+
+        const esPaginaBoletines = !!document.getElementById('contenedor-boletines');
+        console.log('Es página boletines:', esPaginaBoletines);
+        if (esPaginaBoletines) {
+            generarBoletines();
+        }
+        if (document.getElementById('contenedor-historico')) {
+            generarHistoricoNoticias();
+        }
+
+        // Verificar si hay noticia en Hash URL o localStorage
+        const match = window.location.hash.match(/^#noticia-(\d+)$/);
+        const noticiaIdLocal = localStorage.getItem('mostrarNoticia');
+
+        if (match) {
+            mostrarDetalleNoticia(parseInt(match[1], 10));
+        } else if (noticiaIdLocal) {
+            localStorage.removeItem('mostrarNoticia');
+            mostrarDetalleNoticia(parseInt(noticiaIdLocal, 10));
+        }
+    }, 100);
+});
+
+window.addEventListener('hashchange', function () {
+    const match = window.location.hash.match(/^#noticia-(\d+)$/);
+    if (match) {
+        mostrarDetalleNoticia(parseInt(match[1], 10));
+    } else if (window.location.hash === '') {
+        // Botón "atrás" del navegador: en index vuelve a la portada (sin redirigir)
+        if (document.getElementById('contenido-principal')) {
+            if (typeof window.activarVista === 'function') window.activarVista('inicio');
+        } else if (typeof regresarBoletines === 'function') {
+            regresarBoletines();
+        }
+    }
+});
+
+// Función para generar histórico de noticias
+function generarHistoricoNoticias() {
+    console.log('generarHistoricoNoticias llamada');
+    const contenedor = document.getElementById('contenedor-historico');
+    console.log('Contenedor histórico encontrado:', contenedor);
+    if (!contenedor) {
+        console.log('No se encontró contenedor-historico');
+        return;
+    }
+
+    // Agrupar noticias por año y mes
+    const noticiasPorAnioMes = {};
+    noticias.forEach(noticia => {
+        const anio = noticia.anio;
+        const mes = noticia.mes;
+        const clave = `${anio}-${mes}`;
+
+        if (!noticiasPorAnioMes[anio]) {
+            noticiasPorAnioMes[anio] = {};
+        }
+        if (!noticiasPorAnioMes[anio][mes]) {
+            noticiasPorAnioMes[anio][mes] = [];
+        }
+        noticiasPorAnioMes[anio][mes].push(noticia);
+    });
+
+    // Ordenar años de forma descendente
+    const aniosOrdenados = Object.keys(noticiasPorAnioMes).sort((a, b) => b - a);
+
+    // Generar HTML
+    let html = '';
+    aniosOrdenados.forEach(anio => {
+        html += `
+            <div class="u-style-22">
+                <h3 class="u-style-23">${anio}</h3>
+        `;
+
+        // Ordenar meses (de actual a más viejo)
+        const mesesOrden = Object.keys(noticiasPorAnioMes[anio]).sort((a, b) => {
+            const ordenMeses = ['Enero', 'Febrero', 'Marzo', 'Abril', 'Mayo', 'Junio', 'Julio', 'Agosto', 'Septiembre', 'Octubre', 'Noviembre', 'Diciembre'];
+            return ordenMeses.indexOf(b) - ordenMeses.indexOf(a);
+        });
+
+        mesesOrden.forEach(mes => {
+            html += `
+                <div class="u-style-24">
+                    <h4 class="u-style-25">* ${mes}</h4>
+                    <ul class="u-style-26">
+            `;
+
+            noticiasPorAnioMes[anio][mes].forEach(noticia => {
+                html += `
+                    <li class="u-style-27" onclick="mostrarDetalleNoticia(${noticia.id})" style="cursor:pointer;">
+                        <strong>${noticia.titulo}</strong>
+                    </li>
+                `;
+            });
+
+            html += `
+                    </ul>
+                </div>
+            `;
+        });
+
+        html += `
+            </div>
+        `;
+    });
+
+    contenedor.innerHTML = html;
+    console.log('Histórico generado');
+}
+
+// Generar histórico al cargar la página
+document.addEventListener('DOMContentLoaded', function () {
+    setTimeout(generarHistoricoNoticias, 150);
+});
+// ------------------------------------------------------------
+// Respaldo de imágenes de noticias: si "noticiaNN.webp" no carga
+// (otra extensión, mayúsculas...), prueba variantes y, como último
+// recurso, muestra el logo en lugar de un recuadro roto.
+// ------------------------------------------------------------
+document.addEventListener('error', function (e) {
+    var img = e.target;
+    if (!img || img.tagName !== 'IMG') return;
+    var src = img.getAttribute('src') || '';
+    if (src.indexOf('imagenes/noticias/') === -1) return;
+
+    var base = src.replace(/\.[A-Za-z0-9]+(\?.*)?$/, '');
+    var exts = ['.webp', '.jpg', '.jpeg', '.png', '.WEBP', '.JPG', '.JPEG', '.PNG'];
+    var intento = parseInt(img.dataset.fbIntento || '0', 10);
+
+    while (intento < exts.length) {
+        var candidata = base + exts[intento];
+        intento++;
+        if (candidata !== src) {
+            img.dataset.fbIntento = String(intento);
+            img.src = candidata;
+            return;
+        }
+    }
+    if (!img.dataset.fbFinal) {
+        img.dataset.fbFinal = '1';
+        img.src = 'imagenes/cecatin.png';
+        img.style.objectFit = 'contain';
+        img.style.background = '#f3f4f7';
+    }
+}, true);
