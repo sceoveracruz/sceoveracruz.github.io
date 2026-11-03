@@ -1,117 +1,123 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 <head>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-FV0WM3D19C"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-FV0WM3D19C');
+    </script>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
     <meta http-equiv="Pragma" content="no-cache">
     <meta http-equiv="Expires" content="0">
-    <meta name="version" content="1.0">
-    <title>Boletines - SUBDIRECCIÓN DE ENLACE OPERATIVO DEL ESTADO DE VERACRUZ</title>
+
+    <title>Histórico de Noticias | SCEO Veracruz DGCFT</title>
+
+    <meta name="description" content="Histórico oficial de boletines informativos y actividades de la Subdirección de la Coordinación de Enlace Operativo en el Estado de Veracruz.">
+    <link rel="icon" href="imagenes/favicon.ico">
     <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/favicon.ico" rel="shortcut icon">
-    <link href="https://framework-gb.cdn.gob.mx/gm/v3/assets/styles/main.css" rel="stylesheet">
-    <script>
-        document.write('<link rel="stylesheet" href="css/styles.css?v=' + Date.now() + '">');
-        document.write('<link rel="stylesheet" href="css/inline.css?v=' + Date.now() + '">');
-    </script>
+
+    <!-- Fuente alternativa similar a Patria (Montserrat) -->
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Estilos 3D Maestros Unificados -->
+    <script>document.write('<link rel="stylesheet" href="css/index.css?v='+Math.floor(Date.now()/60000)+'">');</script>
+    <script>document.write('<link rel="stylesheet" href="css/efectos-3d.css?v='+Math.floor(Date.now()/60000)+'">');</script>
 </head>
 
-
 <body>
-    <!-- Encabezado principal -->
-    <!-- Banner de subdirección -->
+    <!-- 0. Barra Fallback de Gobierno de México -->
+    <header class="gobmx-header-fallback" id="gobmx-header-fallback">
+        <div class="gobmx-container">
+            <a href="https://www.gob.mx/" target="_blank" rel="noopener" class="gobmx-brand">
+                <img src="https://framework-gb.cdn.gob.mx/gm/v3/assets/images/gobmxlogo.svg" alt="Gobierno de México" onerror="this.onerror=null; this.src='imagenes/DGCFTB.png';">
+            </a>
+            <div class="gobmx-links">
+                <a href="https://www.gob.mx/tramites" target="_blank" rel="noopener">Trámites</a>
+                <a href="https://www.gob.mx/gobierno" target="_blank" rel="noopener">Gobierno</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- 1. Barra Institucional de la Fecha (CERO empalmes con Gob.mx) -->
+    <div class="barra-fecha" id="barra-fecha">
+        <div class="barra-fecha-container">
+            <div class="fecha-hoy">
+                <span class="icono-reloj">🕒</span>
+                <span id="fecha-texto-dinamica">Cargando fecha...</span>
+            </div>
+            <div class="institucion-sede">
+                <span>Veracruz, Ver. | Dirección General de Centros de Formación para el Trabajo</span>
+                <span class="badge-estado">SCEO</span>
+            </div>
+        </div>
+    </div>
+
+    <!-- 2. Banner de Subdirección (Cabecera 3D) -->
     <div class="nav-subtitle">
         <h1>SUBDIRECCIÓN DE LA COORDINACIÓN DE ENLACE OPERATIVO DEL ESTADO DE VERACRUZ</h1>
     </div>
 
-    <!-- Barra de navegación principal -->
-    <nav class="nav-main">
+    <!-- 3. Barra de Navegación Principal Unificada -->
+    <nav class="nav-main" aria-label="Navegación principal">
         <ul>
             <li>
-                <a href="index.html" onclick="localStorage.removeItem('mostrarNoticia'); window.location.href='index.html'; return false;">
+                <a href="index.html">
                     <div class="nav-item-with-icon">
                         <span>INICIO</span>
-                        <img src="imagenes/inicio.png" alt="DGCFT" class="nav-icon">
+                        <img src="imagenes/inicio.png" alt="INICIO" class="nav-icon">
                     </div>
                 </a>
             </li>
             <li>
-                <a href="https://www.dgcft.sems.gob.mx/" target="_blank">
+                <a href="https://www.dgcft.sems.gob.mx/" target="_blank" rel="noopener">
                     <div class="nav-item-with-icon">
                         <img src="imagenes/DGCFTB.png" alt="DGCFT" class="nav-icon">
                         <span>DGCFT</span>
                     </div>
                 </a>
             </li>
+
+            <!-- OFERTA EDUCATIVA -->
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle">
+                <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
                     <div class="nav-item-with-icon">
                         <img src="imagenes/oferta.png" alt="OFERTA EDUCATIVA" class="nav-icon">
                         <span>OFERTA EDUCATIVA</span>
                     </div>
                 </a>
-                <ul class="dropdown-menu">
-                    <li><a href="Calendario_Escolar.pdf" target="_blank">CALENDARIO ESCOLAR</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarSeccion', 'especialidades');">ESPECIALIDADES</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarSeccion', 'requisitos');">REQUISITOS DE INSCRIPCIÓN</a></li>
-                </ul>
+                <!-- site.js llenará este menú dinámicamente -->
+                <ul class="dropdown-menu"></ul>
             </li>
+
+            <!-- PLANTELES — site.js llena el menú dinámicamente -->
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle">
+                <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
                     <div class="nav-item-with-icon">
                         <img src="imagenes/planteles.png" alt="PLANTELES" class="nav-icon">
                         <span>PLANTELES</span>
                     </div>
                 </a>
-                <ul class="dropdown-menu">
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'SCEO Veracruz');">SCEO Veracruz</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 31');">CECATI 31 Coatzacoalcos</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 33');">CECATI 33 Río Blanco</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 42');">CECATI 42 Veracruz</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 49');">CECATI 49 Córdoba</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 72');">CECATI 72 Cosoleacaque</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 103');">CECATI 103 Poza Rica</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 151');">CECATI 151 Xalapa</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 159');">CECATI 159 Tlacotalpan</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 168');">CECATI 168 Cd. Mendoza</a></li>
-                    <li><a href="index.html" onclick="sessionStorage.setItem('mostrarPlantel', 'CECATI 170');">CECATI 170 Orizaba</a></li>
-                </ul>
+                <ul class="dropdown-menu"></ul>
             </li>
+
+            <!-- CONTACTO — site.js llena el menú dinámicamente -->
             <li class="dropdown">
-                <a href="#" class="dropdown-toggle">
+                <a href="#" class="dropdown-toggle" role="button" aria-haspopup="true" aria-expanded="false">
                     <div class="nav-item-with-icon">
                         <img src="imagenes/contacto.png" alt="CONTACTO" class="nav-icon">
                         <span>CONTACTO</span>
                     </div>
                 </a>
-                <ul class="dropdown-menu">
-                    <li><a href="mailto:ver.sceo@dgcft.sems.gob.mx">
-                        <strong>Subdirector de la Coordinación de Enlace Operativo</strong><br>
-                        Titular: Sergio López Hernández<br>
-                        Correo electrónico: ver.sceo@dgcft.sems.gob.mx
-                    </a></li>
-                    <li><a href="mailto:ver.acade@dgcft.sems.gob.mx">
-                        <strong>Auxiliar del Área del Apoyo Técnico Académico</strong><br>
-                        Titular: José Luis Silva Romero<br>
-                        Correo electrónico: ver.acade@dgcft.sems.gob.mx
-                    </a></li>
-                    <li><a href="mailto:ver.admvo@dgcft.sems.gob.mx">
-                        <strong>Auxiliar del Área de Apoyo Administrativo</strong><br>
-                        Titular: Juan Carlos González Domínguez<br>
-                        Correo electrónico: ver.admvo@dgcft.sems.gob.mx
-                    </a></li>
-                    <li><a href="mailto:ver.plan@dgcft.sems.gob.mx">
-                        <strong>Auxiliar del Área de Planeación y Evaluación</strong><br>
-                        Titular: Eduardo Manuel Rodríguez Azueta<br>
-                        Correo electrónico: ver.plan@dgcft.sems.gob.mx
-                    </a></li>
-                    <li><a href="mailto:ver.vinc@dgcft.sems.gob.mx">
-                        <strong>Auxiliar del Área de Vinculación con el Sector Productivo</strong><br>
-                        Titular: Esmeralda<br>
-                        Correo electrónico: ver.vinc@dgcft.sems.gob.mx
-                    </a></li>
-                </ul>
+                <ul class="dropdown-menu"></ul>
             </li>
+
+            <!-- NOTICIAS -->
             <li id="nav-noticias">
                 <a href="boletines.html">
                     <div class="nav-item-with-icon">
@@ -120,54 +126,58 @@
                     </div>
                 </a>
             </li>
+
+            <!-- BUSCADOR -->
             <li class="search-container">
                 <div class="search-box">
-                    <input type="text" id="busqueda-especialidad" placeholder="BUSQUEDA DE ESPECIALIDAD" autocomplete="off">
-                    <button type="button" id="search-btn" aria-label="Buscar">
-                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <input type="text" id="busqueda-especialidad" placeholder="BUSCAR ESPECIALIDAD..." autocomplete="off">
+                    <button type="button" id="search-btn" aria-label="Buscar especialidad">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
                             <circle cx="11" cy="11" r="8"></circle>
                             <path d="m21 21-4.35-4.35"></path>
                         </svg>
                     </button>
                 </div>
-                <div id="search-results" class="search-results u-style-1"></div>
+                <div id="search-results" class="search-results" style="display: none;"></div>
             </li>
         </ul>
     </nav>
 
-
-
-
-    
-    <!-- Contenido principal -->
+    <!-- Contenido Principal del Histórico -->
     <main class="main-content">
-        <div class="u-style-2">
-            <h2 class="u-style-3"> Histórico de Noticias</h2>
-
+        <div id="seccion-lista-historico">
+            <div class="seccion-titulo-container">
+                <h2>Histórico Oficial de Noticias</h2>
+            </div>
+            
             <div id="contenedor-historico">
-                <!-- El histórico se generará dinámicamente desde boletines.js -->
+                <!-- Se genera dinámicamente desde boletines.js agrupado por año y mes -->
+            </div>
+
+            <div style="text-align: center; margin: 45px 0 20px;">
+                <a href="boletines.html" class="btn-ver-mas-noticias">
+                    <span>← Regresar a Boletines Recientes</span>
+                </a>
             </div>
         </div>
 
         <!-- Contenido de Detalle de Noticia -->
-        <div class="u-style-1" id="noticia-detalle">
-            <!-- El contenido se generará dinámicamente -->
+        <div id="noticia-detalle" style="display: none;">
+            <!-- Generado dinámicamente -->
         </div>
 
-        <!-- Modal para ver imagen en tamaño grande -->
-        <div id="modal-imagen" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; background: rgba(0,0,0,0.9); z-index: 9999; justify-content: center; align-items: center; cursor: pointer;" onclick="cerrarModalImagen()">
-            <img id="modal-img" src="" alt="Imagen en grande" style="max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 8px;">
+        <!-- Modal Lightbox para Ampliar Fotografías -->
+        <div id="modal-imagen" style="display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100%; z-index: 10090; justify-content: center; align-items: center; cursor: pointer;" onclick="window.cerrarModalImagen()">
+            <img id="modal-img" src="" alt="Imagen ampliada" style="max-width: 90%; max-height: 90%; object-fit: contain; border-radius: 12px;">
         </div>
     </main>
-    <script>
-        (function () {
-            var v = Date.now();
-            var archivos = ['js/site.js', 'js/boletines.js', 'js/historico-events.js', 'js/fixes.js'];
-            archivos.forEach(function (src) {
-                document.write('<script src="' + src + '?v=' + v + '"><\/script>');
-            });
-        })();
-    </script>
-    <script src="https://framework-gb.cdn.gob.mx/gm/v3/assets/js/gobmx.js"></script>
+
+    <!-- Scripts Modulares Unificados -->
+    <script>document.write('<script src="js/portal-data.js?v='+Math.floor(Date.now()/60000)+'"><\/script>');</script>
+    <script>document.write('<script src="js/portal.js?v='+Math.floor(Date.now()/60000)+'"><\/script>');</script>
+    <script>document.write('<script src="js/site.js?v='+Math.floor(Date.now()/60000)+'"><\/script>');</script>
+    <script>document.write('<script src="js/boletines.js?v='+Math.floor(Date.now()/60000)+'"><\/script>');</script>
+    <script>document.write('<script src="js/banner-marquesina.js?v='+Math.floor(Date.now()/60000)+'"><\/script>');</script>
+    <script>document.write('<script src="js/fixes.js?v='+Math.floor(Date.now()/60000)+'"><\/script>');</script>
 </body>
 </html>
