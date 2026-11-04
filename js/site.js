@@ -174,14 +174,16 @@ function setupDropdownsPersistentes() {
                 }
             });
         };
-        navMain.addEventListener('mouseover', function (e) {
-            cerrarOtros(e.target.closest('.dropdown'));
-        });
         navMain.addEventListener('click', function (e) {
             var dd = e.target.closest('.dropdown');
             if (!dd) cerrarOtros(null);
         });
+        // Solo con mouse real: en pantallas táctiles el "mouseover" es simulado
+        // (también al desplazar la página) y cerraría el menú recién abierto.
         if (window.matchMedia && window.matchMedia('(hover: hover)').matches) {
+            navMain.addEventListener('mouseover', function (e) {
+                cerrarOtros(e.target.closest('.dropdown'));
+            });
             navMain.addEventListener('mouseleave', function () { cerrarOtros(null); });
         }
     }
@@ -261,6 +263,54 @@ function verificarGobmxBarra() {
     setTimeout(ajustar, 1500);
 }
 
+
+// ------------------------------------------------------------
+// Menú móvil: píldora activa, posición de los desplegables y
+// desplazamiento automático hasta la sección actual
+// ------------------------------------------------------------
+function actualizarNavMovil() {
+    var nav = document.querySelector('.nav-main');
+    if (!nav) return;
+    var r = nav.getBoundingClientRect();
+    document.documentElement.style.setProperty('--nav-bottom', Math.max(0, Math.round(r.bottom)) + 'px');
+}
+
+function marcarSeccionActiva() {
+    var nav = document.querySelector('.nav-main');
+    if (!nav) return;
+    var archivo = (window.location.pathname.split('/').pop() || 'index.html').toLowerCase();
+    var destino = (archivo === 'boletines.html' || archivo === 'historico.html') ? 'boletines.html' : 'index.html';
+    var activa = null;
+    nav.querySelectorAll(':scope > ul > li > a[href]').forEach(function (a) {
+        a.classList.remove('nav-activa');
+        if ((a.getAttribute('href') || '').toLowerCase() === destino) { a.classList.add('nav-activa'); activa = a; }
+    });
+    // Centrar/mostrar la píldora activa dentro de la barra deslizable
+    var ul = nav.querySelector(':scope > ul');
+    if (activa && ul && ul.scrollWidth > ul.clientWidth) {
+        ul.scrollLeft = Math.max(0, activa.parentElement.offsetLeft - 14);
+    }
+}
+
+function setupNavMovil() {
+    marcarSeccionActiva();
+    actualizarNavMovil();
+    var nav = document.querySelector('.nav-main');
+    if (!nav || nav._navMovilBound) return;
+    nav._navMovilBound = true;
+    var pendiente = false;
+    function programar() {
+        if (pendiente) return;
+        pendiente = true;
+        requestAnimationFrame(function () { pendiente = false; actualizarNavMovil(); });
+    }
+    window.addEventListener('scroll', programar, { passive: true });
+    window.addEventListener('resize', programar);
+    nav.addEventListener('click', function () { setTimeout(actualizarNavMovil, 0); });
+    nav.addEventListener('focusin', programar);
+    nav.addEventListener('input', programar);
+}
+
 // ------------------------------------------------------------
 // Inicialización General
 // ------------------------------------------------------------
@@ -269,6 +319,7 @@ document.addEventListener('DOMContentLoaded', function () {
     sincronizarMenusCompartidos();
     setupDropdownsPersistentes();
     verificarGobmxBarra();
+    setupNavMovil();
 
     // Re-ejecutar al cambiar tamaño de pantalla
     window.addEventListener('resize', function () {
