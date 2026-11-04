@@ -184,3 +184,16 @@ body > header:not(#gobmx-header-fallback), .navbar-fixed-top, nav.gobmx-navbar {
         max-height: calc(100vh - var(--nav-bottom, 120px) - 14px) !important;
     }
 }
+
+/* ---- Línea dorada bajo el nombre del plantel ----
+   Escritorio: centrada y del mismo ancho que el texto del plantel.
+   Móvil: ocupa todo el ancho del recuadro. */
+.plantel-hero-title { margin-bottom: 4px; }
+.plantel-hero-texto { display: flex; flex-direction: column; align-items: stretch; }
+.plantel-hero-texto .divisor-dorado-3d { width: 100%; margin: 10px auto 0; }
+@media (max-width: 640px) {
+    .plantel-hero-title { flex-wrap: wrap; justify-content: center; row-gap: 0; }
+    .plantel-hero-texto { display: contents; }
+    .plantel-hero-title h1 { font-size: 1.8rem; text-align: center; }
+    .plantel-hero-texto .divisor-dorado-3d { flex: 0 0 100%; width: 100%; margin: 12px 0 0; }
+}
