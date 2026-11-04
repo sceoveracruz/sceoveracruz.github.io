@@ -112,3 +112,75 @@ body > header:not(#gobmx-header-fallback), .navbar-fixed-top, nav.gobmx-navbar {
     color: #691C32 !important; opacity: 1 !important; visibility: visible !important;
     position: relative; z-index: 1;
 }
+
+/* ============================================================
+   MENÚ MÓVIL: botones redondeados (píldoras) deslizables de lado a lado
+   ============================================================ */
+@media (max-width: 768px) {
+    .nav-main {
+        position: sticky !important; top: 0 !important; z-index: 10010;
+        background: linear-gradient(90deg, #4A1424 0%, #691C32 55%, #8A2A45 100%) !important;
+        -webkit-backdrop-filter: none !important; backdrop-filter: none !important; /* para que el desplegable fijo se mida contra la pantalla */
+        padding: 8px 0 !important;
+    }
+    .nav-main > ul {
+        flex-direction: row !important; flex-wrap: nowrap !important;
+        justify-content: flex-start !important; align-items: center !important;
+        gap: 10px; width: 100% !important; max-width: none !important; margin: 0 !important;
+        padding: 6px 14px 10px !important;
+        overflow-x: auto; overflow-y: hidden;
+        -webkit-overflow-scrolling: touch; overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity; scrollbar-width: none;
+    }
+    .nav-main > ul::-webkit-scrollbar { display: none; }
+    .nav-main > ul > li { width: auto !important; flex: 0 0 auto; scroll-snap-align: start; scroll-margin-left: 14px; }
+
+    /* Píldora */
+    .nav-main > ul > li > a {
+        width: auto !important; margin: 0 !important; padding: 10px 18px !important;
+        justify-content: center !important; white-space: nowrap;
+        border-radius: 999px !important;
+        background: rgba(255,255,255,.14) !important;
+        border: 1px solid rgba(188,149,92,.45);
+        font-size: 13px !important; font-weight: 600;
+        box-shadow: 0 3px 0 rgba(30,5,14,.55), 0 7px 12px rgba(0,0,0,.28), inset 0 1px 0 rgba(255,255,255,.25);
+        -webkit-tap-highlight-color: transparent;
+        transform: none !important;
+    }
+    .nav-main > ul > li > a:active { transform: translateY(3px) !important; box-shadow: 0 0 0 rgba(0,0,0,0), inset 0 2px 4px rgba(0,0,0,.3); }
+    .nav-main .nav-icon { display: none !important; }
+    .nav-main .nav-item-with-icon { gap: 0; }
+    .nav-main .nav-item-with-icon span { text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+
+    /* Píldora activa (página actual o menú abierto) */
+    .nav-main > ul > li > a.nav-activa,
+    .nav-main > ul > li.dropdown.is-open > a {
+        background: linear-gradient(135deg, #B8405F 0%, #8A2A45 100%) !important;
+        border-color: #D4B483; color: #fff !important;
+    }
+    .nav-main > ul > li > a.nav-activa span,
+    .nav-main > ul > li.dropdown.is-open > a span { font-weight: 800; text-decoration-thickness: 2px; }
+    .dropdown-toggle::after { margin-left: 5px; }
+
+    /* Desplegables: panel flotante que no se corta por el deslizamiento */
+    .dropdown-menu {
+        position: fixed !important; left: 10px !important; right: 10px !important;
+        top: var(--nav-bottom, 120px) !important;
+        width: auto !important; min-width: 0 !important; max-width: none !important;
+        max-height: calc(100vh - var(--nav-bottom, 120px) - 14px) !important;
+        margin: 0 !important; border-radius: 16px !important;
+        box-shadow: 0 24px 48px rgba(0,0,0,.5), 0 0 0 1px rgba(188,149,92,.6) !important;
+        -webkit-overflow-scrolling: touch;
+    }
+    .dropdown-menu::before { display: none; }
+
+    /* Buscador como una píldora más, al final */
+    .nav-main .search-container { width: auto !important; margin: 0 !important; flex: 0 0 auto; position: static; }
+    .nav-main .search-box { width: 190px !important; border-radius: 999px; padding: 2px 12px; }
+    .nav-main #busqueda-especialidad { width: 100% !important; font-size: 13px; }
+    .search-results {
+        position: fixed !important; left: 10px !important; right: 10px !important;
+        top: var(--nav-bottom, 120px) !important; width: auto !important;
+        max-height: calc(100vh - var(--nav-bottom, 120px) - 14px) !important;
+    }
+}
