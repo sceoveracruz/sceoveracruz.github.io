@@ -193,9 +193,11 @@
                 </div>
                 <div class="plantel-hero-title">
                     <img loading="lazy" src="imagenes/${iconoPlantel}" alt="Logo CECATI" class="plantel-badge-logo">
-                    <h1>${plantelNombre}</h1>
+                    <div class="plantel-hero-texto">
+                        <h1>${plantelNombre}</h1>
+                        <div class="divisor-dorado-3d"></div>
+                    </div>
                 </div>
-                <div class="divisor-dorado-3d"></div>
             </div>
 
             <div class="plantel-bloque-info">
