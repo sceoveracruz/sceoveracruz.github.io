@@ -4,7 +4,7 @@
    ============================================================ */
 
 /* Fuente Institucional Patria de gob.mx - Usamos la que carga el framework oficial */
-@import url('https://framework-gb.cdn.gob.mx/assets/fonts/patria/Patria.css');
+/* (Se eliminó el @import de Patria.css: devolvía error 404. Se usa Montserrat de Google Fonts) */
 
 :root {
     /* Paleta Institucional */
@@ -57,7 +57,7 @@ html {
 }
 
 body {
-    font-family: 'Patria', 'Montserrat', 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+    font-family: 'Noto Sans', 'Segoe UI', Roboto, -apple-system, BlinkMacSystemFont, Arial, sans-serif;
     background-color: var(--color-fondo);
     color: var(--color-texto);
     line-height: 1.6;

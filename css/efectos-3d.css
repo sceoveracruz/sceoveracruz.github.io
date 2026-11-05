@@ -197,3 +197,23 @@ body > header:not(#gobmx-header-fallback), .navbar-fixed-top, nav.gobmx-navbar {
     .plantel-hero-title h1 { font-size: 1.8rem; text-align: center; }
     .plantel-hero-texto .divisor-dorado-3d { flex: 0 0 100%; width: 100%; margin: 12px 0 0; }
 }
+
+
+/* ============================================================
+   PATRIA (fuente oficial del SND) – solo para encabezados
+   Archivos en /fonts/patria/. Cuerpo de texto = Noto Sans.
+   ============================================================ */
+@font-face { font-family: 'Patria'; font-weight: 300; font-style: normal; font-display: swap;
+  src: url('../fonts/patria/Patria_Light.woff') format('woff'), url('../fonts/patria/Patria_Light.otf') format('opentype'); }
+@font-face { font-family: 'Patria'; font-weight: 400; font-style: normal; font-display: swap;
+  src: url('../fonts/patria/Patria_Regular.woff') format('woff'), url('../fonts/patria/Patria_Regular.otf') format('opentype'); }
+@font-face { font-family: 'Patria'; font-weight: 700; font-style: normal; font-display: swap;
+  src: url('../fonts/patria/Patria_Bold.woff') format('woff'), url('../fonts/patria/Patria_Bold.otf') format('opentype'); }
+
+/* Encabezados h1–h4 en Patria; los signos que Patria no trae (« » — – ° ®) caen a Noto Sans */
+h1, h2, h3, h4, .patria {
+    font-family: 'Patria', 'Noto Sans', 'Segoe UI', Roboto, Arial, sans-serif;
+}
+
+/* Evita la barra horizontal por menús desplegables ocultos que se salen del borde (no rompe el menú fijo) */
+html, body { overflow-x: clip; }
