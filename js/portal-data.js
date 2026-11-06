@@ -405,7 +405,7 @@ const infoPlanteles = {
                         email: 'ver.sceo@dgcft.sems.gob.mx'
                     },
                     TécnicoAcadémico: {
-                        titular: 'Jose Luis Silva Romero',
+                        titular: 'VACANTE',
                         email: 'ver.acade@dgcft.sems.gob.mx'
                     },
                     PlaneaciónyEvaluación: {
@@ -417,7 +417,7 @@ const infoPlanteles = {
                         email: 'ver.vinc@dgcft.sems.gob.mx'
                     },
                     administrativo: {
-                        titular: 'Juan Carlos González Dominguez',
+                        titular: 'VACANTEz',
                         email: 'ver.admvo@dgcft.sems.gob.mx'
                     }
                 },
