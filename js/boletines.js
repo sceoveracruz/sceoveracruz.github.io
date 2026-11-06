@@ -31,6 +31,25 @@ const noticias = [
     //    mes: "Octubre",
     //    anio: "2026"
     //},
+        {
+        id: 49,
+        titulo: "CECATI 31 fomenta el hábito de la lectura a través de actividades recreativas en su Aula Lúdica",
+        textoPrevio: "El CECATI 31 promueve el desarrollo integral de sus estudiantes mediante espacios de lectura y actividades lúdicas que estimulan la imaginación, despiertan la curiosidad y fortalecen el gusto por los libros.",
+        textoCompleto: "<strong>Coatzacoalcos, Veracruz.</strong> En el <strong>CECATI 31</strong>, aprender también es disfrutar. A través de su <strong>Aula Lúdica</strong>, el plantel dedica 30 minutos a acercar a sus estudiantes al mundo de los libros mediante actividades recreativas que despiertan la curiosidad, estimulan la imaginación y fomentan el gusto por la lectura.<br><br>Este espacio representa una oportunidad para fortalecer el aprendizaje más allá de la formación técnica, promoviendo la lectura como una herramienta para adquirir conocimientos, desarrollar habilidades y enriquecer el crecimiento personal.<br><br>Con iniciativas como esta, el CECATI 31 refrenda su compromiso con una educación integral, en la que la capacitación para el trabajo se complementa con actividades que contribuyen al desarrollo cultural y personal de sus estudiantes.<br><br><strong>CECATI 31: capacitándonos para construir un mejor futuro.</strong>",
+        imagen: "imagenes/noticias/noticia49.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia49-1.webp",
+            "imagenes/noticias/noticia49-2.webp",
+            "imagenes/noticias/noticia49-3.webp",
+            "imagenes/noticias/noticia49-4.webp",
+            "imagenes/noticias/noticia49-5.webp",
+            "imagenes/noticias/noticia49-6.webp",
+            "imagenes/noticias/noticia49-7.webp",
+        ],
+        fecha: "03-11-2026",
+        mes: "Noviembre",
+        anio: "2026"
+    },
     {
         id: 48,
         titulo: "CECATI 170 fortalece la vinculación con el Ayuntamiento y el sector empresarial de Orizaba",
