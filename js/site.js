@@ -32,12 +32,12 @@ var CONTACTOS_SCEO = [
     {
         correo: 'ver.acade@dgcft.sems.gob.mx',
         cargo: 'Auxiliar del Área del Apoyo Técnico Académico',
-        titular: 'José Luis Silva Romero'
+        titular: 'VACANTE'
     },
     {
         correo: 'ver.admvo@dgcft.sems.gob.mx',
         cargo: 'Auxiliar del Área de Apoyo Administrativo',
-        titular: 'Juan Carlos González Domínguez'
+        titular: 'VACANTE'
     },
     {
         correo: 'ver.plan@dgcft.sems.gob.mx',
