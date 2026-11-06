@@ -42,17 +42,17 @@ const especialidades = [
         ];
 
 const imagenesPlanteles = {
-                'SCEO Veracruz': 'sceo.jpeg',
-                'CECATI 31': 'C31.jpeg',
-                'CECATI 33': 'C33.jpeg',
-                'CECATI 42': 'C42.jpeg',
-                'CECATI 49': 'C49.jpeg',
-                'CECATI 72': 'C72.jpeg',
-                'CECATI 103': 'C103.jpeg',
-                'CECATI 151': 'C151.jpeg',
-                'CECATI 159': 'C159.jpeg',
-                'CECATI 168': 'C168.jpeg',
-                'CECATI 170': 'C170.jpeg'
+                'SCEO Veracruz': 'sceo.webp',
+                'CECATI 31': 'C31.webp',
+                'CECATI 33': 'C33.webp',
+                'CECATI 42': 'C42.webp',
+                'CECATI 49': 'C49.webp',
+                'CECATI 72': 'C72.webp',
+                'CECATI 103': 'C103.webp',
+                'CECATI 151': 'C151.webp',
+                'CECATI 159': 'C159.webp',
+                'CECATI 168': 'C168.webp',
+                'CECATI 170': 'C170.webp'
             };
 
 const imagenesEspecialidades = {
