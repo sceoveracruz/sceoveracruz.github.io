@@ -23,7 +23,7 @@ const SLIDES_BANNER = [
     },
     {
         imagen: 'imagenes/banner2.jpg',
-        link: 'ROCO_2025.pdf',
+        link: 'ROCO.pdf',
         alt: 'Obten tu reconocimiento oficial ROCO en 3 pasos'
     },
     {
