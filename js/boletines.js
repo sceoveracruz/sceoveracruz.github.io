@@ -41,8 +41,8 @@ const noticias = [
         imagenesAdicionales: [
             "imagenes/noticias/noticia51-1.webp",
             "imagenes/noticias/noticia51-2.webp",
-            "imagenes/noticias/noticia51-3.webp",
             "imagenes/noticias/noticia51.webp",
+            "imagenes/noticias/noticia51-3.webp",
         ],
         fecha: "10-11-2026",
         mes: "Noviembre",
