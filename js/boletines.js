@@ -31,6 +31,24 @@ const noticias = [
     //    mes: "Octubre",
     //    anio: "2026"
     //},
+    {
+        id: 50,
+        titulo: "CECATI 72 promueve la prevención de adicciones y la cultura de paz entre su comunidad educativa",
+        textoPrevio: "En el marco de la Jornada Nacional por la Paz y ABC de las Emociones, el CECATI 72 realizó una plática de sensibilización sobre la prevención de las adicciones, el cuidado de la salud mental y la importancia de tomar decisiones responsables.",
+        textoCompleto: "<strong>Cosoleacaque, Veracruz.</strong> Como parte de las actividades de la <strong>Jornada Nacional por la Paz y ABC de las Emociones</strong>, el <strong>CECATI 72</strong> llevó a cabo la plática <strong>“Hablemos de drogas, hablemos de prevención”</strong>, impartida por la Mtra. <strong>Flor Karina González Pérez</strong> y el Psic. <strong>Alberto Baños Márquez</strong>, especialistas del Centro Comunitario de Salud Mental y Adicciones (CECOSAMA) Minatitlán.<br><br>Durante esta actividad, las y los participantes reflexionaron sobre la importancia de prevenir las adicciones, cuidar la salud mental y fortalecer la toma de decisiones responsables, contribuyendo a la construcción de una cultura de paz y bienestar dentro de la comunidad educativa.<br><br>El plantel agradeció al <strong>CECOSAMA Minatitlán</strong> por su valiosa colaboración y por compartir información y herramientas que favorecen el desarrollo integral de las y los estudiantes, además de promover entornos más saludables y seguros.<br><br>Con estas acciones, el CECATI 72 refrenda su compromiso con la formación integral de su comunidad, reconociendo que la prevención comienza con la información, el diálogo y el acompañamiento.<br><br><strong>CECATI 72: capacitación para el trabajo y formación para la vida.</strong>",
+        imagen: "imagenes/noticias/noticia50.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia50-1.webp",
+            "imagenes/noticias/noticia50-2.webp",
+            "imagenes/noticias/noticia50-3.webp",
+            "imagenes/noticias/noticia50-4.webp",
+            "imagenes/noticias/noticia50-5.webp",
+            "imagenes/noticias/noticia50-6.webp",
+        ],
+        fecha: "09-11-2026",
+        mes: "Noviembre",
+        anio: "2026"
+    },
         {
         id: 49,
         titulo: "CECATI 31 fomenta el hábito de la lectura a través de actividades recreativas en su Aula Lúdica",
