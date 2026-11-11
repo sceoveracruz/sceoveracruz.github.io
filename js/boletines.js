@@ -31,6 +31,23 @@ const noticias = [
     //    mes: "Octubre",
     //    anio: "2026"
     //},
+
+    {
+        id: 51,
+        titulo: "CECATI 170 y Fundación Corazón Raíz impulsan la capacitación en Informática en comunidades de la sierra de Zongolica",
+        textoPrevio: "En coordinación con Fundación Corazón Raíz, A.C., el CECATI 170 puso en marcha una trayectoria ocupacional básica en Informática en la comunidad de Xochitla, municipio de Mixtla de Altamirano, beneficiando a 28 personas mediante oportunidades de formación para el trabajo.",
+        textoCompleto: "<strong>Xochitla, Mixtla de Altamirano, Veracruz.</strong> Con el propósito de acercar oportunidades de capacitación para el trabajo a comunidades de la sierra de Zongolica, el <strong>CECATI 170</strong>, en coordinación con <strong>Fundación Corazón Raíz, A.C.</strong>, inauguró la capacitación correspondiente a la <strong>Trayectoria Ocupacional Básica en Informática</strong> en la comunidad de Xochitla, municipio de Mixtla de Altamirano.<br><br>Esta iniciativa permitirá que <strong>28 personas</strong> de la comunidad fortalezcan sus conocimientos y desarrollen habilidades en el área de Informática, ampliando sus oportunidades de aprendizaje y participación en el ámbito laboral y social.<br><br>La colaboración representa un esfuerzo conjunto para acercar la formación para el trabajo a localidades en situación de vulnerabilidad, contribuyendo a reducir las brechas de acceso a la capacitación y favoreciendo el desarrollo de capacidades en las comunidades de la región.<br><br>El CECATI 170 expresó su agradecimiento a <strong>Fundación Corazón Raíz, A.C.</strong> y a su directora, la <strong>Lic. Fernanda de la Cerda</strong>, por la confianza y disposición para hacer posible esta iniciativa de colaboración en beneficio de la población.<br><br>Con estas acciones, el CECATI 170 refrenda su compromiso de llevar capacitación de calidad a más comunidades, impulsando el desarrollo de habilidades y la generación de mejores oportunidades para todas y todos.<br><br><strong>CECATI 170: me capacita.</strong>",
+        imagen: "imagenes/noticias/noticia51.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia51-1.webp",
+            "imagenes/noticias/noticia51-2.webp",
+            "imagenes/noticias/noticia51-3.webp",
+            "imagenes/noticias/noticia51.webp",
+        ],
+        fecha: "10-11-2026",
+        mes: "Noviembre",
+        anio: "2026"
+    },
     {
         id: 50,
         titulo: "CECATI 72 promueve la prevención de adicciones y la cultura de paz entre su comunidad educativa",
