@@ -737,50 +737,148 @@
 
         <!-- 6.5 Contenido de Requisitos de Inscripción -->
         <div id="requisitos-inscripcion" style="display: none;">
-            <div class="requisitos-card-3d">
-                <h2>🎓 Todo lo que necesitas saber para inscribirte</h2>
-                
-                <h3>📌 Requisitos de inscripción</h3>
-                <p>Para formar parte de nuestros cursos, solo necesitas presentar la siguiente documentación:</p>
-                <ul>
-                    <li>Tener 15 años cumplidos o más</li>
-                    <li>Saber leer y escribir</li>
-                    <li>Copia certificada del acta de nacimiento o documento legal equivalente</li>
-                    <li>Constancia de la Clave Única de Registro de Población (CURP)</li>
-                    <li>Comprobante del último grado de estudios</li>
-                    <li>Comprobante de domicilio (máximo 3 meses de antigüedad)</li>
-                    <li>INE (si eres mayor de edad)</li>
-                    <li>Dos fotografías tamaño infantil, recientes e iguales, en papel mate</li>
-                    <li>En caso de ser extranjero: documento migratorio vigente </li>
-                    <li>Comprobante de pago de derechos</li>
-                </ul>
+            <div class="req">
 
-                <h3>💳 Pago en el Plantel</h3>
-                <ul>
-                    <li>1.- Acude a Control Escolar con tus documentos</li>
-                    <li>2.- Recibirás la información bancaria específica</li>
-                    <li>3.- Realiza el pago en el banco o transferencia</li>
-                    <li>4.- Regresa con el comprobante para completar tu inscripción</li>
-                </ul>
-                
-                <h3>⏱️ Duración de los cursos</h3>
-                <p>Nuestros programas están diseñados para adaptarse a tus tiempos:</p>
-                <ul>
-                    <li>Duración: entre 40 y 600 horas</li>
-                    <li>Periodo estimado: de 3 a 6 meses</li>
-                </ul>
-                <p>Esto permite una formación práctica, eficiente y enfocada en el desarrollo de habilidades reales.</p>
-                
-                <h3>📅 Inicio de cursos</h3>
-                <p>Cada centro educativo (CECATI) organiza su propio calendario.</p>
-                <p>👉 Te recomendamos consultar directamente en el plantel de tu interés para conocer fechas específicas de inicio.</p>
-                
-                <h3>👨‍🏫 Calidad académica</h3>
-                <p>Contamos con profesores altamente capacitados y especialistas en cada área de formación con enfoque práctico y actualizado.</p>
-                
-                <h3>📜 Certificación oficial</h3>
-                <p>Al concluir y acreditar tu curso, recibirás un <strong>Diploma oficial avalado por la SEP</strong> que respalda tus conocimientos en todo el país.</p>
-                
+                <div class="req-hero">
+                    <div class="req-hero__texto">
+                        <h2>Todo lo que necesitas saber para inscribirte</h2>
+                        <p>Revisa los documentos, el pago y los tiempos antes de acudir a tu plantel.</p>
+                    </div>
+                    <div class="req-hero__arte" aria-hidden="true">
+                        <span class="req-papel req-papel--1">📄</span>
+                        <span class="req-papel req-papel--2">🎓</span>
+                        <span class="req-papel req-papel--3">✅</span>
+                    </div>
+                </div>
+
+                <section class="req-bloque">
+                    <h3 class="req-titulo">Requisitos de inscripción</h3>
+                    <p class="req-intro">Para formar parte de nuestros cursos, solo necesitas presentar la siguiente documentación. Toca cada tarjeta para marcar lo que ya tienes.</p>
+
+                    <div class="req-progreso">
+                        <div class="req-progreso__fila">
+                            <span id="req-contador">Llevas 0 de 10</span>
+                            <span id="req-mensaje">Marca lo que ya tienes listo</span>
+                        </div>
+                        <div class="req-barra" role="progressbar" aria-valuemin="0" aria-valuemax="10" aria-valuenow="0" aria-label="Requisitos que ya tienes">
+                            <div class="req-barra__relleno" id="req-barra-relleno"></div>
+                        </div>
+                    </div>
+
+                    <div class="req-lista">
+                    <label class="req-doc c-guinda">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">🎂</span>
+                        <span class="req-doc__texto"><strong>Tener 15 años cumplidos o más</strong></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    <label class="req-doc c-azul">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">✍️</span>
+                        <span class="req-doc__texto"><strong>Saber leer y escribir</strong></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    <label class="req-doc c-dorado">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">📄</span>
+                        <span class="req-doc__texto"><strong>Copia certificada del acta de nacimiento</strong><small>o documento legal equivalente</small></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    <label class="req-doc c-verde">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">🆔</span>
+                        <span class="req-doc__texto"><strong>Constancia de la CURP</strong><small>Clave Única de Registro de Población</small></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    <label class="req-doc c-morado">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">🎓</span>
+                        <span class="req-doc__texto"><strong>Comprobante del último grado de estudios</strong></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    <label class="req-doc c-naranja">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">🏠</span>
+                        <span class="req-doc__texto"><strong>Comprobante de domicilio</strong><small>Máximo 3 meses de antigüedad</small></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    <label class="req-doc c-teal">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">🪪</span>
+                        <span class="req-doc__texto"><strong>INE</strong><small>Si eres mayor de edad</small></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    <label class="req-doc c-rosa">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">📸</span>
+                        <span class="req-doc__texto"><strong>Dos fotografías tamaño infantil</strong><small>Recientes e iguales, en papel mate</small></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    <label class="req-doc c-azul">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">🌎</span>
+                        <span class="req-doc__texto"><strong>Documento migratorio vigente</strong><small>En caso de ser extranjero</small></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    <label class="req-doc c-guinda">
+                        <input type="checkbox">
+                        <span class="req-doc__icono" aria-hidden="true">🧾</span>
+                        <span class="req-doc__texto"><strong>Comprobante de pago de derechos</strong></span>
+                        <span class="req-doc__check" aria-hidden="true"></span>
+                    </label>
+                    </div>
+                </section>
+
+                <section class="req-bloque">
+                    <h3 class="req-titulo">Pago en el Plantel</h3>
+                    <ol class="req-pasos">
+                        <li class="req-paso c-guinda"><span class="req-paso__num">1</span><span class="req-paso__icono" aria-hidden="true">🏫</span><span>Acude a Control Escolar con tus documentos</span></li>
+                        <li class="req-paso c-azul"><span class="req-paso__num">2</span><span class="req-paso__icono" aria-hidden="true">🏦</span><span>Recibirás la información bancaria específica</span></li>
+                        <li class="req-paso c-naranja"><span class="req-paso__num">3</span><span class="req-paso__icono" aria-hidden="true">💳</span><span>Realiza el pago en el banco o transferencia</span></li>
+                        <li class="req-paso c-verde"><span class="req-paso__num">4</span><span class="req-paso__icono" aria-hidden="true">✅</span><span>Regresa con el comprobante para completar tu inscripción</span></li>
+                    </ol>
+                </section>
+
+                <section class="req-bloque">
+                    <h3 class="req-titulo">Duración de los cursos</h3>
+                    <p class="req-intro">Nuestros programas están diseñados para adaptarse a tus tiempos:</p>
+                    <div class="req-datos">
+                        <div class="req-dato c-guinda">
+                            <span class="req-dato__icono" aria-hidden="true">⏱️</span>
+                            <span class="req-dato__cifra">40 a 600</span>
+                            <span class="req-dato__etiqueta">horas de duración</span>
+                        </div>
+                        <div class="req-dato c-verde">
+                            <span class="req-dato__icono" aria-hidden="true">🗓️</span>
+                            <span class="req-dato__cifra">3 a 6</span>
+                            <span class="req-dato__etiqueta">meses de periodo estimado</span>
+                        </div>
+                    </div>
+                    <p class="req-nota">Esto permite una formación práctica, eficiente y enfocada en el desarrollo de habilidades reales.</p>
+                </section>
+
+                <div class="req-info">
+                    <article class="req-info__card c-azul">
+                        <span class="req-info__icono" aria-hidden="true">📅</span>
+                        <h3>Inicio de cursos</h3>
+                        <p>Cada centro educativo (CECATI) organiza su propio calendario.</p>
+                        <p class="req-info__tip">👉 Te recomendamos consultar directamente en el plantel de tu interés para conocer fechas específicas de inicio.</p>
+                    </article>
+                    <article class="req-info__card c-teal">
+                        <span class="req-info__icono" aria-hidden="true">👨‍🏫</span>
+                        <h3>Calidad académica</h3>
+                        <p>Contamos con profesores altamente capacitados y especialistas en cada área de formación con enfoque práctico y actualizado.</p>
+                    </article>
+                </div>
+
+                <article class="req-certificado">
+                    <span class="req-certificado__sello" aria-hidden="true">📜</span>
+                    <div>
+                        <h3>Certificación oficial</h3>
+                        <p>Al concluir y acreditar tu curso, recibirás un <strong>Diploma oficial avalado por la SEP</strong> que respalda tus conocimientos en todo el país.</p>
+                    </div>
+                </article>
+
                 <div style="text-align: center; margin-top: 30px;">
                     <button type="button" class="btn-regresar-3d" onclick="window.mostrarInicio()">
                         ← Regresar al Inicio
@@ -788,6 +886,30 @@
                 </div>
             </div>
         </div>
+        <script>
+        (function () {
+            var cont = document.getElementById('requisitos-inscripcion');
+            if (!cont) return;
+            var cajas = cont.querySelectorAll('.req-doc input');
+            var contador = document.getElementById('req-contador');
+            var mensaje = document.getElementById('req-mensaje');
+            var relleno = document.getElementById('req-barra-relleno');
+            var barra = cont.querySelector('.req-barra');
+            function actualizar() {
+                var n = 0;
+                for (var i = 0; i < cajas.length; i++) if (cajas[i].checked) n++;
+                var total = cajas.length;
+                contador.textContent = 'Llevas ' + n + ' de ' + total;
+                relleno.style.width = (n / total * 100) + '%';
+                barra.setAttribute('aria-valuenow', n);
+                cont.classList.toggle('req-completo', n === total);
+                mensaje.textContent = n === total ? '¡Listo! Ya puedes acudir a tu plantel' :
+                                      n === 0 ? 'Marca lo que ya tienes listo' : 'Sigue así, ya casi';
+            }
+            for (var i = 0; i < cajas.length; i++) cajas[i].addEventListener('change', actualizar);
+            actualizar();
+        })();
+        </script>
 
         <!-- 6.6 Contenido de Información del Plantel -->
         <div id="plantel-info" style="display: none;">
