@@ -186,110 +186,132 @@
         const imagenPlantel = imgMap[plantelNombre] || 'cecatin.png';
         const iconoPlantel = 'cecatin.png';
 
+        // Icono y color para cada especialidad (por palabra clave en el nombre)
+        const coloresPl = ['c-guinda', 'c-azul', 'c-verde', 'c-naranja', 'c-morado', 'c-teal', 'c-rosa', 'c-dorado'];
+        function iconoEspecialidad(nombre) {
+            const n = String(nombre).toLowerCase();
+            const reglas = [
+                [/artesan/, '🎨'], [/carrocer|autom[oó]vil|automotriz|di[eé]sel/, '🚗'],
+                [/inform|computacion|soporte/, '💻'], [/ingl/, '🗣️'], [/enfermer/, '🩺'],
+                [/cosmetolog|estilism/, '💄'], [/moda|confecc|sastrer/, '🧵'], [/madera|mueble/, '🪑'],
+                [/electr/, '⚡'], [/soldadura|m[aá]quinas/, '🔧'], [/refriger/, '❄️'],
+                [/admin|contab|ejecutiv/, '📊'], [/alimentos/, '🍽️'], [/hoteler/, '🏨'], [/tur[ií]stic/, '✈️'],
+                [/dibujo|gr[aá]fic/, '📐'], [/educativa|preescolar/, '🧸'], [/discapac|adultas mayores/, '🤝']
+            ];
+            for (let i = 0; i < reglas.length; i++) if (reglas[i][0].test(n)) return reglas[i][1];
+            return '🛠️';
+        }
+
+        const dir = plantel.directorio || {};
+        const roles = [
+            ['Subdireccion', '🏢', 'Subdirección', 'c-guinda'],
+            ['TécnicoAcadémico', '🎓', 'Técnico Académico', 'c-morado'],
+            ['PlaneaciónyEvaluación', '📊', 'Planeación y Evaluación', 'c-azul'],
+            ['direccion', '🏛️', 'Dirección', 'c-dorado'],
+            ['capacitacion', '💼', 'Jefatura de Capacitación', 'c-naranja'],
+            ['vinculacion', '🤝', 'Jefatura de Vinculación', 'c-teal'],
+            ['administrativo', '📋', 'Servicios Administrativos', 'c-verde']
+        ];
+        const tarjetasDirectorio = roles.filter(function (r) { return dir[r[0]]; }).map(function (r) {
+            const d = dir[r[0]];
+            return `
+                    <div class="pl-persona ${r[3]}">
+                        <span class="pl-icono" aria-hidden="true">${r[1]}</span>
+                        <div class="pl-persona__texto">
+                            <h3>${r[2]}</h3>
+                            <p class="pl-persona__nombre">${d.titular}</p>
+                            <a href="mailto:${d.email}">${d.email}</a>
+                        </div>
+                    </div>`;
+        }).join('');
+
+        const datos = [
+            ['🏫', 'c-guinda', 'Plantel', plantelNombre],
+            ['🔖', 'c-dorado', 'CCT', plantel.cct || 'N/A'],
+            ['🛣️', 'c-azul', 'Calle', plantel.direccion || 'N/A'],
+            ['🏘️', 'c-naranja', 'Colonia', plantel.colonia || 'N/A'],
+            ['📮', 'c-rosa', 'C.P.', plantel.cp || 'N/A'],
+            ['🗺️', 'c-verde', 'Municipio', plantel.municipio || 'N/A'],
+            ['🧭', 'c-morado', 'Región', plantel.region || 'N/A']
+        ].map(function (d) {
+            return `
+                    <div class="pl-dato ${d[1]}">
+                        <span class="pl-icono" aria-hidden="true">${d[0]}</span>
+                        <div><span class="pl-dato__etiqueta">${d[2]}</span><span class="pl-dato__valor">${d[3]}</span></div>
+                    </div>`;
+        }).join('') + `
+                    <div class="pl-dato c-teal">
+                        <span class="pl-icono" aria-hidden="true">📞</span>
+                        <div><span class="pl-dato__etiqueta">Teléfono</span><span class="pl-dato__valor"><a href="tel:${plantel.telefono}" class="enlace-telefono">${plantel.telefono || 'N/A'}</a></span></div>
+                    </div>`;
+
+        const mostrarEsp = plantelNombre !== 'SCEO Veracruz' && plantel.especialidades && plantel.especialidades.length > 0;
+        const totalEsp = mostrarEsp ? plantel.especialidades.length : 0;
+
         let html = `
-            <div class="plantel-hero-card">
-                <div class="plantel-hero-img-wrap">
-                    <img loading="lazy" src="imagenes/${imagenPlantel}" alt="${plantelNombre}" class="plantel-hero-img" onerror="this.onerror=null; this.src='imagenes/cecatin.png';">
-                </div>
-                <div class="plantel-hero-title">
-                    <img loading="lazy" src="imagenes/${iconoPlantel}" alt="Logo CECATI" class="plantel-badge-logo">
-                    <div class="plantel-hero-texto">
+        <div class="pl">
+            <div class="pl-hero">
+                <img loading="lazy" src="imagenes/${imagenPlantel}" alt="${plantelNombre}" class="pl-hero__img" onerror="this.onerror=null; this.src='imagenes/cecatin.png';">
+                <div class="pl-hero__velo"></div>
+                <div class="pl-hero__contenido">
+                    <div class="pl-hero__titulo">
+                        <img loading="lazy" src="imagenes/${iconoPlantel}" alt="Logo CECATI" class="pl-hero__logo">
                         <h1>${plantelNombre}</h1>
-                        <div class="divisor-dorado-3d"></div>
+                    </div>
+                    <div class="pl-chips">
+                        ${plantel.municipio ? `<span class="pl-chip">📍 ${plantel.municipio}</span>` : ''}
+                        ${plantel.cct ? `<span class="pl-chip">🔖 CCT ${plantel.cct}</span>` : ''}
+                        ${totalEsp ? `<span class="pl-chip">📚 ${totalEsp} especialidades</span>` : ''}
                     </div>
                 </div>
             </div>
 
-            <div class="plantel-bloque-info">
-                <h2>📍 Datos de Ubicación y Contacto</h2>
-                <div class="plantel-info-grid">
-                    <div>
-                        <p><strong>Plantel:</strong> ${plantelNombre}</p>
-                        <p><strong>CCT:</strong> ${plantel.cct || 'N/A'}</p>
-                        <p><strong>Calle:</strong> ${plantel.direccion || 'N/A'}</p>
-                        <p><strong>Colonia:</strong> ${plantel.colonia || 'N/A'}</p>
-                    </div>
-                    <div>
-                        <p><strong>C.P.:</strong> ${plantel.cp || 'N/A'}</p>
-                        <p><strong>Municipio:</strong> ${plantel.municipio || 'N/A'}</p>
-                        <p><strong>Región:</strong> ${plantel.region || 'N/A'}</p>
-                        <p><strong>Teléfono:</strong> <a href="tel:${plantel.telefono}" class="enlace-telefono">${plantel.telefono || 'N/A'}</a></p>
-                    </div>
+            <section class="pl-bloque">
+                <h2 class="pl-titulo"><span class="pl-icono pl-icono--sm c-guinda" aria-hidden="true">📍</span>Datos de Ubicación y Contacto</h2>
+                <div class="pl-datos">${datos}
                 </div>
-            </div>
+            </section>
 
-            <div class="plantel-bloque-info">
-                <h2>👥 Directorio del Plantel</h2>
-                <div class="plantel-directorio-grid">
-                    ${plantel.directorio && plantel.directorio.Subdireccion ? `
-                    <div class="directorio-card-3d">
-                        <h3>🏢 Subdirección</h3>
-                        <p><strong>Titular:</strong> ${plantel.directorio.Subdireccion.titular}</p>
-                        <p><strong>Correo:</strong> <a href="mailto:${plantel.directorio.Subdireccion.email}">${plantel.directorio.Subdireccion.email}</a></p>
-                    </div>` : ''}
-
-                    ${plantel.directorio && plantel.directorio.TécnicoAcadémico ? `
-                    <div class="directorio-card-3d">
-                        <h3>🎓 Técnico Académico</h3>
-                        <p><strong>Titular:</strong> ${plantel.directorio.TécnicoAcadémico.titular}</p>
-                        <p><strong>Correo:</strong> <a href="mailto:${plantel.directorio.TécnicoAcadémico.email}">${plantel.directorio.TécnicoAcadémico.email}</a></p>
-                    </div>` : ''}
-
-                    ${plantel.directorio && plantel.directorio.PlaneaciónyEvaluación ? `
-                    <div class="directorio-card-3d">
-                        <h3>📊 Planeación y Evaluación</h3>
-                        <p><strong>Titular:</strong> ${plantel.directorio.PlaneaciónyEvaluación.titular}</p>
-                        <p><strong>Correo:</strong> <a href="mailto:${plantel.directorio.PlaneaciónyEvaluación.email}">${plantel.directorio.PlaneaciónyEvaluación.email}</a></p>
-                    </div>` : ''}
-
-                    ${plantel.directorio && plantel.directorio.direccion ? `
-                    <div class="directorio-card-3d">
-                        <h3>🏢 Dirección</h3>
-                        <p><strong>Titular:</strong> ${plantel.directorio.direccion.titular}</p>
-                        <p><strong>Correo:</strong> <a href="mailto:${plantel.directorio.direccion.email}">${plantel.directorio.direccion.email}</a></p>
-                    </div>` : ''}
-
-                    ${plantel.directorio && plantel.directorio.capacitacion ? `
-                    <div class="directorio-card-3d">
-                        <h3>💼 Jefatura de Capacitación</h3>
-                        <p><strong>Titular:</strong> ${plantel.directorio.capacitacion.titular}</p>
-                        <p><strong>Correo:</strong> <a href="mailto:${plantel.directorio.capacitacion.email}">${plantel.directorio.capacitacion.email}</a></p>
-                    </div>` : ''}
-
-                    ${plantel.directorio && plantel.directorio.vinculacion ? `
-                    <div class="directorio-card-3d">
-                        <h3>🤝 Jefatura de Vinculación</h3>
-                        <p><strong>Titular:</strong> ${plantel.directorio.vinculacion.titular}</p>
-                        <p><strong>Correo:</strong> <a href="mailto:${plantel.directorio.vinculacion.email}">${plantel.directorio.vinculacion.email}</a></p>
-                    </div>` : ''}
-
-                    ${plantel.directorio && plantel.directorio.administrativo ? `
-                    <div class="directorio-card-3d">
-                        <h3>📋 Servicios Administrativos</h3>
-                        <p><strong>Titular:</strong> ${plantel.directorio.administrativo.titular}</p>
-                        <p><strong>Correo:</strong> <a href="mailto:${plantel.directorio.administrativo.email}">${plantel.directorio.administrativo.email}</a></p>
-                    </div>` : ''}
+            <section class="pl-bloque">
+                <h2 class="pl-titulo"><span class="pl-icono pl-icono--sm c-azul" aria-hidden="true">👥</span>Directorio del Plantel</h2>
+                <div class="pl-directorio">${tarjetasDirectorio}
                 </div>
-            </div>
+            </section>
 
-            ${plantelNombre !== 'SCEO Veracruz' && plantel.especialidades && plantel.especialidades.length > 0 ? `
-            <div class="plantel-bloque-info">
-                <h2>📚 Especialidades que se Imparten en este Plantel</h2>
-                <div class="plantel-especialidades-grid">
-                    ${plantel.especialidades.map(function (esp) {
-                        return `<button type="button" onclick="window.mostrarDetalleEspecialidad('${esp}', '${plantelNombre}')" class="plantel-especialidad-btn">
-                            <span>${esp}</span>
-                            <span class="btn-arrow">→</span>
+            ${mostrarEsp ? `
+            <section class="pl-bloque">
+                <h2 class="pl-titulo"><span class="pl-icono pl-icono--sm c-verde" aria-hidden="true">📚</span>Especialidades que se Imparten en este Plantel</h2>
+                ${totalEsp > 8 ? `<input type="search" class="pl-buscador" placeholder="Buscar especialidad en este plantel..." aria-label="Buscar especialidad en este plantel" oninput="window.filtrarEspecialidadesPlantel(this.value)">` : ''}
+                <div class="pl-especialidades" id="pl-especialidades">
+                    ${plantel.especialidades.map(function (esp, i) {
+                        return `<button type="button" onclick="window.mostrarDetalleEspecialidad('${esp}', '${plantelNombre}')" class="pl-esp ${coloresPl[i % coloresPl.length]}" data-nombre="${String(esp).toLowerCase()}">
+                            <span class="pl-icono" aria-hidden="true">${iconoEspecialidad(esp)}</span>
+                            <span class="pl-esp__nombre">${esp}</span>
+                            <span class="pl-esp__flecha" aria-hidden="true">→</span>
                         </button>`;
                     }).join('')}
                 </div>
-            </div>` : ''}
-
+                <p class="pl-vacio" id="pl-vacio" hidden>No encontramos esa especialidad en este plantel.</p>
+            </section>` : ''}
+        </div>
         `;
 
         plantelDetalle.innerHTML = html;
         activarVista('plantel');
     }
+
+    // Filtro de especialidades dentro de la página de un plantel
+    window.filtrarEspecialidadesPlantel = function (texto) {
+        const q = String(texto || '').toLowerCase().trim();
+        let visibles = 0;
+        document.querySelectorAll('#pl-especialidades .pl-esp').forEach(function (b) {
+            const ok = !q || b.getAttribute('data-nombre').indexOf(q) !== -1;
+            b.style.display = ok ? '' : 'none';
+            if (ok) visibles++;
+        });
+        const vacio = document.getElementById('pl-vacio');
+        if (vacio) vacio.hidden = visibles !== 0;
+    };
 
     window.mostrarInfoPlantel = mostrarInfoPlantel;
 
