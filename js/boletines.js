@@ -31,7 +31,24 @@ const noticias = [
     //    mes: "Octubre",
     //    anio: "2026"
     //},
-
+    
+    {
+        id: 52,
+        titulo: "CECATI 103 fortalece la vinculación académica con la Universidad Veracruzana en Poza Rica",
+        textoPrevio: "El CECATI 103 participó en el Foro de Vinculación: Difusión de los Cursos Disciplinares, organizado en la Facultad de Ingeniería Mecánica y Eléctrica de la Universidad Veracruzana, campus Poza Rica-Tuxpan, donde presentó su oferta de capacitación y compartió alternativas de formación para fortalecer las competencias técnicas y profesionales de los estudiantes universitarios.",
+        textoCompleto: "<strong>Poza Rica, Veracruz.</strong> Con el propósito de fortalecer los vínculos entre instituciones educativas y ampliar las oportunidades de formación, el <strong>CECATI 103</strong> participó en el <strong>Foro de Vinculación: Difusión de los Cursos Disciplinares</strong>, realizado en la Facultad de Ingeniería Mecánica y Eléctrica de la Universidad Veracruzana, campus Poza Rica-Tuxpan.<br><br>Durante este encuentro, el plantel dio a conocer su oferta de capacitación, compartió conocimientos y presentó alternativas de formación orientadas al fortalecimiento de las competencias técnicas y profesionales de las y los estudiantes universitarios, acercándolos a nuevas oportunidades de aprendizaje y desarrollo laboral.<br><br>El CECATI 103 agradeció a las autoridades universitarias la invitación, las atenciones y el recibimiento, así como el espacio brindado para difundir los servicios de capacitación que ofrece la institución.<br><br>Este tipo de encuentros permite estrechar la colaboración entre instituciones educativas, promover el intercambio de conocimientos y generar oportunidades que contribuyan al desarrollo del talento y al fortalecimiento de la formación profesional.<br><br>Con su participación, el <strong>CECATI 103</strong> refrenda su compromiso de impulsar la vinculación académica y acercar la capacitación para el trabajo a más sectores de la sociedad, contribuyendo a la construcción de nuevas oportunidades de crecimiento y desarrollo.<br><br><strong>CECATI 103: capacitación para el trabajo, oportunidades para crecer.</strong>",
+        imagen: "imagenes/noticias/noticia52.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia52-1.webp",
+            "imagenes/noticias/noticia52-2.webp",
+            "imagenes/noticias/noticia52-3.webp",
+            "imagenes/noticias/noticia52-4.webp",
+            "imagenes/noticias/noticia52-5.webp",
+        ],
+        fecha: "13-11-2026",
+        mes: "Noviembre",
+        anio: "2026"
+    },
     {
         id: 51,
         titulo: "CECATI 170 y Fundación Corazón Raíz impulsan la capacitación en Informática en comunidades de la sierra de Zongolica",
