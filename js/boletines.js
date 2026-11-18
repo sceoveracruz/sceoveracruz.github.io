@@ -31,7 +31,32 @@ const noticias = [
     //    mes: "Octubre",
     //    anio: "2026"
     //},
-    
+
+    {
+        id: 53,
+        titulo: "Fundación Doctor Hernández Zurita y CECATI 170 fortalecen colaboración para impulsar la formación en optometría",
+        textoPrevio: "El Ing. Sergio López Hernández, Subdirector de la Coordinación de Enlace Operativo de la DGCFT en Veracruz, y la Lic. Jacqueline Jiménez Torres, Directora del CECATI 170, realizaron una visita de trabajo a la Fundación Doctor Hernández Zurita, I.B.P., para dar seguimiento al proyecto del primer Centro de Capacitación Auxiliar en Optometría, una iniciativa que busca fortalecer la formación técnica especializada en salud visual.",
+        textoCompleto: "<strong>Orizaba, Veracruz.</strong> Como parte de las acciones para fortalecer la vinculación institucional y ampliar las oportunidades de capacitación especializada, la <strong>Fundación Doctor Hernández Zurita, I.B.P.</strong> recibió la visita del <strong>Ing. Sergio López Hernández</strong>, Subdirector de la Coordinación de Enlace Operativo de la Dirección General de Centros de Formación para el Trabajo (DGCFT) en el Estado de Veracruz; la <strong>Lic. Jacqueline Jiménez Torres</strong>, Directora del CECATI No. 170, así como integrantes del personal administrativo del plantel.<br><br>El encuentro fue encabezado por el <strong>Dr. Marco Antonio Hernández Olguín</strong>, Presidente del Consejo Directivo de la Fundación, quien guio un recorrido por las nuevas instalaciones del <strong>Centro de Capacitación Auxiliar en Optometría</strong>, proyecto desarrollado mediante la colaboración entre ambas instituciones, con el propósito de fortalecer la formación técnica especializada en el campo de la salud visual.<br><br>Posteriormente, los representantes educativos visitaron las instalaciones de la Fundación en Torre Diez, donde sostuvieron una reunión de trabajo para revisar los avances y aspectos relacionados con el desarrollo del proyecto, así como los preparativos para la próxima inauguración de este centro de capacitación.<br><br>Esta alianza representa un importante esfuerzo de colaboración que vincula la experiencia de la Fundación en materia de salud visual con los programas de formación para el trabajo del <strong>CECATI 170</strong>, generando nuevas oportunidades para la preparación técnica y el desarrollo profesional.<br><br>Con estas acciones, la DGCFT, a través del CECATI 170, continúa impulsando alianzas estratégicas con instituciones y organizaciones que contribuyen al fortalecimiento de la capacitación especializada y al desarrollo de personal calificado, en beneficio de la sociedad veracruzana.<br><br><strong>CECATI 170: me capacita.</strong>",
+        imagen: "imagenes/noticias/noticia53.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia53-1.webp",
+            "imagenes/noticias/noticia53-2.webp",
+            "imagenes/noticias/noticia53-3.webp",
+            "imagenes/noticias/noticia53-4.webp",
+            "imagenes/noticias/noticia53-5.webp",
+            "imagenes/noticias/noticia53-6.webp",
+            "imagenes/noticias/noticia53-7.webp",
+            "imagenes/noticias/noticia53-8.webp",
+            "imagenes/noticias/noticia53-9.webp",
+            "imagenes/noticias/noticia53-10.webp",
+            "imagenes/noticias/noticia53-11.webp",
+            "imagenes/noticias/noticia53-12.webp",
+            "imagenes/noticias/noticia53-13.webp",
+        ],
+        fecha: "18-11-2026",
+        mes: "Noviembre",
+        anio: "2026"
+    },
     {
         id: 52,
         titulo: "CECATI 103 fortalece la vinculación académica con la Universidad Veracruzana en Poza Rica",
