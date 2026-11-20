@@ -31,7 +31,28 @@ const noticias = [
     //    mes: "Octubre",
     //    anio: "2026"
     //},
-
+    {
+        id: 54,
+        titulo: "CECATI No. 42 realiza la EXPO CECATI 2026 para impulsar la formación técnica e industrial en Veracruz",
+        textoPrevio: "La jornada reunió a ciudadanos y autoridades en un espacio de encuentro que permitió dar a conocer la oferta educativa y las diferentes áreas de capacitación del centro de estudios, con el propósito de impulsar el desarrollo de habilidades y acercar nuevas oportunidades de formación y crecimiento laboral a la población.",
+        textoCompleto: "Veracruz, Ver. — Con el objetivo de acercar alternativas de formación para el trabajo a la ciudadanía, el <strong>CECATI No. 42</strong> llevó a cabo este 19 de noviembre la <strong>EXPO CECATI 42</strong>, un espacio de encuentro en el que diversos asistentes conocieron de cerca la oferta educativa y los programas de especialización técnica e industrial que brinda la institución.<br><br>Durante la jornada, los participantes recorrieron las áreas de capacitación diseñadas para impulsar el desarrollo de habilidades prácticas, actualizar competencias laborales y abrir nuevas oportunidades de superación personal en el mercado actual.<br><br>El evento protocolario de inauguración contó con la asistencia de autoridades e invitados especiales, entre los que destacaron <strong>Esaú Hernández Hernández</strong>, Regidor Sexto; <strong>Zoraya Villacís Palacios</strong>, Diputada Federal; <strong>Joynnery Vergara Luna</strong>, Supervisora Escolar de Telebachilleratos de la Zona Escolar Veracruz; <strong>Lorena Redondo Delgado</strong>, Subdirectora de Psicología del IMMujer Veracruz; y <strong>Hugo Acosta Parada</strong>, Director del Telebachillerato Adolfo Ruiz Cortines.<br><brDirectivos del <strong>CECATI No. 42</strong> expresaron su agradecimiento por el respaldo de las autoridades presentes y la respuesta de la comunidad local, subrayando que la vinculación entre instituciones educativas y gubernamentales es clave para fortalecer el tejido social y laboral de la región.<br><br>Con actividades como esta, el <strong>CECATI No. 42</strong> refrenda su compromiso con la educación y la formación para el trabajo, acercando alternativas de capacitación que contribuyen a preparar personas con mayores herramientas para enfrentar los retos productivos del ámbito laboral y participar en el desarrollo de la sociedad.<br><br><strong>CECATI No. 42: acercando oportunidades de capacitación para todas y todos.</strong> ",
+        imagen: "imagenes/noticias/noticia54.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia54-1.webp",
+            "imagenes/noticias/noticia54-2.webp",
+            "imagenes/noticias/noticia50.webp",
+            "imagenes/noticias/noticia54-3.webp",
+            "imagenes/noticias/noticia54-4.webp",
+            {
+                tipo: "video",
+                miniatura: "imagenes/noticias/noticia54-video.webp",
+                enlace: "https://www.facebook.com/reel/1181640021183637"
+            }
+        ],
+        fecha: "19-11-2026",
+        mes: "Noviembre",
+        anio: "2026"
+    },
     {
         id: 53,
         titulo: "Fundación Doctor Hernández Zurita y CECATI 170 fortalecen colaboración para impulsar la formación en optometría",
