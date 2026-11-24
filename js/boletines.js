@@ -58,7 +58,7 @@ const noticias = [
         imagenesAdicionales: [
             "imagenes/noticias/noticia54-1.webp",
             "imagenes/noticias/noticia54-2.webp",
-            "imagenes/noticias/noticia50.webp",
+            "imagenes/noticias/noticia54.webp",
             "imagenes/noticias/noticia54-3.webp",
             "imagenes/noticias/noticia54-4.webp",
             {
