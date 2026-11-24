@@ -32,6 +32,24 @@ const noticias = [
     //    anio: "2026"
     //},
     {
+        id: 55,
+        titulo: "CECATI 170 concluye curso de Inteligencia Artificial e inicia Inglés para Experiencias",
+        textoPrevio: "El CECATI 170 continúa ampliando las oportunidades de formación mediante programas de capacitación acordes con las nuevas necesidades del entorno laboral. La institución celebró la finalización de una etapa formativa y dio apertura a nuevas oportunidades de aprendizaje para su alumnado, reafirmando su compromiso con la educación continua.",
+        textoCompleto: "<strong>Orizaba, Veracruz.</strong> Como parte de su compromiso con la actualización y el desarrollo de nuevas competencias, el <strong>CECATI 170</strong> concluyó el curso de <strong>Inteligencia Artificial</strong> y dio inicio al curso de <strong>Inglés para Experiencias</strong>, dando continuidad a las acciones de capacitación dirigidas a fortalecer las habilidades de sus estudiantes.<br><br>La conclusión del curso de Inteligencia Artificial representa una oportunidad para reconocer los conocimientos adquiridos en un campo tecnológico de creciente importancia, mientras que el inicio del curso de Inglés para Experiencias abre nuevas posibilidades para desarrollar habilidades de comunicación y ampliar las herramientas de aprendizaje de las y los participantes.<br><br>El plantel expresó su agradecimiento a todas y todos sus alumnos por la confianza depositada en la institución y por elegir al CECATI 170 como un espacio para continuar aprendiendo y preparándose.<br><br>Con estas acciones, el <strong>CECATI 170</strong> refrenda su compromiso de ofrecer alternativas de capacitación que respondan a los desafíos actuales y contribuyan al crecimiento personal y profesional de la comunidad.<br><br><strong>CECATI 170: me capacita.</strong>",
+        imagen: "imagenes/noticias/noticia55.webp",
+        imagenesAdicionales: [
+            "imagenes/noticias/noticia55-1.webp",
+            "imagenes/noticias/noticia55-2.webp",
+            "imagenes/noticias/noticia55-3.webp",
+            "imagenes/noticias/noticia55-4.webp",
+            "imagenes/noticias/noticia55-5.webp",
+            "imagenes/noticias/noticia55-6.webp",
+        ],
+        fecha: "21-11-2026",
+        mes: "Noviembre",
+        anio: "2026"
+    },
+    {
         id: 54,
         titulo: "CECATI No. 42 realiza la EXPO CECATI 2026 para impulsar la formación técnica e industrial en Veracruz",
         textoPrevio: "La jornada reunió a ciudadanos y autoridades en un espacio de encuentro que permitió dar a conocer la oferta educativa y las diferentes áreas de capacitación del centro de estudios, con el propósito de impulsar el desarrollo de habilidades y acercar nuevas oportunidades de formación y crecimiento laboral a la población.",
