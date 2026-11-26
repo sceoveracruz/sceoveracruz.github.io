@@ -417,7 +417,7 @@ const infoPlanteles = {
                         email: 'ver.vinc@dgcft.sems.gob.mx'
                     },
                     administrativo: {
-                        titular: 'VACANTEz',
+                        titular: 'VACANTE',
                         email: 'ver.admvo@dgcft.sems.gob.mx'
                     }
                 },
