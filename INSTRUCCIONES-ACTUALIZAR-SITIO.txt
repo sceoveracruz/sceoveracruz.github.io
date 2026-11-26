@@ -5,16 +5,14 @@ Guía en lenguaje sencillo para hacer 3 tipos de cambios:
 
   1. Agregar una noticia/boletín nuevo
   2. Cambiar imágenes (banner principal y fotos de noticias)
-  3. Cambiar los menús compartidos: OFERTA EDUCATIVA, PLANTELES
-     y CONTACTO
+  3. Cambiar los menús compartidos: OFERTA EDUCATIVA, PLANTELES y CONTACTO
 
 Solo sigue los pasos y respeta el formato exacto (comas, comillas, etc.) de los ejemplos.
 
 Recuerda: todos los cambios se suben a través de la página web de GitHub (Add file > Upload files), reemplazando el archivo existente con el mismo nombre.
 
 Repositorio: https://github.com/arma0220/sceo2
-Usuario:ver.pa2@dgcft.sems.gob.mx
-Contraseña:Armandit0
+Acceso: pide el usuario y la contraseña de GitHub al responsable (no se escriben aquí).
 
 
 
@@ -22,58 +20,79 @@ Contraseña:Armandit0
 1. AGREGAR UNA NOTICIA / BOLETÍN NUEVO
 ===========================================================
 
-Archivo a editar: js/boletines.js
+Las noticias están organizadas POR MES, un archivo por mes:
 
-Dentro de ese archivo hay un bloque que empieza con:
-    const noticias = [
+    js/noticias/2026-11.js   (noviembre 2026)
+    js/noticias/2026-10.js   (octubre 2026)
+    ...
+    js/noticias/config.js    (lista de los meses que existen)
 
-Ahí adentro encontrarás un EJEMPLO comentado (con // al inicio de cada línea) que dice "EJEMPLO PARA AGREGAR NOTAS". Cópialo, quítale las // y rellena los datos de tu noticia nueva.
+Ya NO se edita js/boletines.js para agregar noticias.
 
-PASO 1 - Elige un número de "id" que no se haya usado.
-Mira la noticia más reciente (la que está primero en la lista) y suma 1 a su id. Ejemplo: si la última noticia tiene id: 16, tu noticia nueva será id: 17.
+--- 1.1 Agregar una noticia en el mes actual ---
 
-PASO 2 - Copia este bloque y pégalo justo DESPUÉS de "const noticias = [" (es decir, al principio de la lista, para que aparezca primero / más reciente):
+PASO 1 - Abre el archivo del mes en curso (ej. js/noticias/2026-11.js).
+
+PASO 2 - Elige un "id" nuevo: el id más alto que exista + 1 (si la última
+noticia es la 55, la nueva es la 56). El id nunca se repite, ni entre meses.
+
+PASO 3 - Pega este bloque AL PRINCIPIO de la lista (justo debajo de la línea
+"window.NOTICIAS_POR_MES['2026-11'] = ["), para que salga como la más reciente:
 
     {
-        id: 17,
+        id: 56,
         titulo: "Título de tu noticia aquí",
         textoPrevio: "Resumen corto que aparece en la tarjeta de la lista.",
-        textoCompleto: "Texto completo de la noticia. Para hacer un salto de línea usa <br><br> entre párrafos.",
-        imagen: "imagenes/noticias/noticia17.jpg",
+        textoCompleto: "Texto completo. Para separar párrafos usa <br><br>.",
+        imagen: "imagenes/noticias/2026/11/n56.webp",
         imagenesAdicionales: [
-            "imagenes/noticias/noticia17-1.jpg",
-            "imagenes/noticias/noticia17-2.jpg"
+            "imagenes/noticias/2026/11/n56-1.webp",
+            "imagenes/noticias/2026/11/n56-2.webp"
         ],
-        fecha: "24-06-2026",
-        mes: "Junio",
+        fecha: "27-11-2026",
+        mes: "Noviembre",
         anio: "2026"
     },
 
-   IMPORTANTE: deja la coma "," al final del bloque (después de la última llave "}"), porque le sigue otra noticia.
+   - El bloque termina con coma "," (también el último de la lista).
+   - fecha en formato DD-MM-AAAA; mes con mayúscula inicial y SIN errores:
+     el mes y el año deben coincidir con la fecha.
+   - Si no hay fotos adicionales: imagenesAdicionales: [],
+   - Video (dentro de imagenesAdicionales):
+       {
+         tipo: "video",
+         miniatura: "imagenes/noticias/2026/11/n56-video.jpg",
+         enlace: "https://www.facebook.com/reel/1493867121950721"
+       },
 
-PASO 3 - Reemplaza estos valores con los de tu noticia real:
-   - id            -> número siguiente (ver Paso 1)
-   - titulo        -> el título de la noticia
-   - textoPrevio   -> 1-2 líneas de resumen (se ve en la tarjeta)
-   - textoCompleto -> el cuerpo completo de la noticia
-   - imagen        -> ruta de la imagen principal (ver sección 2)
-   - imagenesAdicionales -> lista de fotos extra (puede ir vacía: [])
-   - fecha         -> formato DD-MM-AAAA
-   - mes           -> nombre del mes en español, con mayúscula inicial
-   - año           -> el año, como texto, ej. "2026"
+PASO 4 - Sube el archivo del mes a GitHub (carpeta js/noticias/), reemplazando
+el que existe, y sube las imágenes (ver sección 2).
 
-PASO 4 - Si tu noticia NO tiene fotos adicionales, déjalo así:
-        imagenesAdicionales: [],
+--- 1.2 Cuando empieza un MES NUEVO (ej. diciembre 2026) ---
 
-PASO 5 - Revisa que no falte ninguna coma. Cada propiedad (titulo, textoPrevio, etc.) termina en coma "," EXCEPTO la última antes del cierre "}" (anio no lleva coma).
+   1. Copia el archivo del mes anterior (js/noticias/2026-11.js), cámbiale el
+      nombre a 2026-12.js y borra las noticias, dejando solo esto:
 
-PASO 6 - Sube el archivo js/boletines.js actualizado a GitHub, reemplazando el que ya existe en la carpeta /js.
+          window.NOTICIAS_POR_MES = window.NOTICIAS_POR_MES || {};
+          window.NOTICIAS_POR_MES['2026-12'] = [
 
-PASO 7 - Sube también las imágenes nuevas (ver sección 2 abajo).
+              (aquí va tu primera noticia de diciembre)
 
-NOTA: No necesitas tocar nada en boletines.html ni en historico.html. Ambas páginas leen automáticamente la lista de noticias.js y muestran la más reciente primero.
+          ];
 
+      (cambia el '2026-11' por el '2026-12' en la segunda línea).
+   2. Abre js/noticias/config.js y agrega '2026-12', AL PRINCIPIO de la lista:
 
+          window.MESES_NOTICIAS = [
+              '2026-12',
+              '2026-11',
+              ...
+
+   3. Sube los dos archivos (2026-12.js y config.js) a js/noticias/.
+
+NOTA: no hay que tocar boletines.html, historico.html ni index.html. El inicio
+carga solo el mes más reciente, Boletines carga los meses necesarios para
+mostrar 9 notas, y el Histórico carga todos al abrirse.
 
 ===========================================================
 2. CAMBIAR O AGREGAR IMÁGENES
@@ -81,12 +100,17 @@ NOTA: No necesitas tocar nada en boletines.html ni en historico.html. Ambas pág
 
 --- 2.1 Fotos de una noticia ---
 
-Carpeta: imagenes/noticias/
+Carpeta: imagenes/noticias/AAAA/MM/   (una subcarpeta por año y mes)
+   Ejemplo: imagenes/noticias/2026/11/
 
-Nombres de archivo recomendados (para que coincidan con lo que
-pones en boletines.js):
-   - Imagen principal:        noticia17.jpg
-   - Imágenes adicionales:    noticia17-1.jpg, noticia17-2.jpg, etc.
+Las noticias anteriores pueden seguir en imagenes/noticias/ (cada nota
+guarda su propia ruta); solo las nuevas van en subcarpetas.
+
+Nombres de archivo recomendados (deben coincidir con lo que pones en
+js/noticias/AAAA-MM.js), todo en minúsculas y sin espacios ni acentos:
+   - Imagen principal:        n56.webp
+   - Imágenes adicionales:    n56-1.webp, n56-2.webp, etc.
+   - Formato .webp de unos 1200 px de ancho y 150-250 KB
 
 Pasos:
    1. Recorta/ajusta la foto si es necesario (no hay tamaño
@@ -97,6 +121,7 @@ Pasos:
       EXACTAMENTE igual al que escribiste en el campo "imagen"
       o "imagenesAdicionales" de boletines.js (mayúsculas,
       espacios y extensión .jpg/.png deben coincidir).
+
 
 --- 2.2 Banner rotativo (carrusel de la página de inicio) ---
 
